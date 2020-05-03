@@ -1,21 +1,31 @@
 [tool.poetry]
 name = "src"
 version = "0.1.0"
-description = ""
+description = "Accidents on the highways are inevitable. However, it should not be an automatic death sentence. We want to mitigate the mortality rates by developing a smart report/response system on the go. HElp is On the Way!"
 authors = [
-    "Authors Here"
+    "Franklyn Ogbonna",
+    "Aikomo Fisayo",
+    "Abuafeez Abolarinwa",
+    "Ayorinde Timilehin Emmanuel",
+    "Okoroafor Kene"
 ]
 
 [tool.poetry.dependencies]
 python = "^3.7"
+django = "^3.0.5"
+djangorestframework = "^3.11.0"
+django-cors-headers = "^3.2.1"
+django-allauth = "^0.41.0"
+django-rest-auth = {extras = ["with_social"], version = "^0.9.5"}
+drf_yasg = "^1.17.1"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
 flake8 = "^3.7.9"
 
+[tool.poetry.scripts]
+app = 'src.app:run'
 [build-system]
 requires = ["poetry>=0.12"]
 build-backend = "poetry.masonry.api"
 
-[tool.poetry.scripts]
-app = 'src.app:run'
