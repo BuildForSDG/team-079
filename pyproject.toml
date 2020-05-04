@@ -22,6 +22,7 @@ drf_yasg = "^1.17.1"
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
 flake8 = "^3.7.9"
+pep257 = "^0.7.0"
 
 [tool.poetry.scripts]
 app = 'src.app:run'
