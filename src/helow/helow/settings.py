@@ -76,6 +76,12 @@ INSTALLED_APPS = [
 
     # drf_yasg for api documentation
     'drf_yasg',
+
+    # local apps
+    'api.apps.ApiConfig',
+    'presenter.apps.PresenterConfig',
+    'reporter.apps.ReporterConfig',
+    'responder.apps.ResponderConfig',
 ]
 
 MIDDLEWARE = [
