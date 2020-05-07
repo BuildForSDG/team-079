@@ -69,5 +69,5 @@ urlpatterns = [
     path('docs/', include_docs_urls(title=TITLE, description=DESCRIPTION)),
 
     # model apis
-    path('api/v1/', include('api.urls')),
+    path('api/v1/', include('reporter.urls')),
 ]
