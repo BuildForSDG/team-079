@@ -1,5 +1,6 @@
 """Model classes for the presenter app."""
 from django.db import models
+from django.contrib.auth import get_user_model
 
 
 # Create your models here.
@@ -25,10 +26,11 @@ class IncidentReport(models.Model):
     """Model class to handle incident reports."""
     title = models.CharField(max_length=50, null=False)
     description = models.CharField(max_length=200, null=False)
-    location = models.OneToOneField(Location, on_delete=models.CASCADE)
-    reported_at = models.DateTimeField(null=False)
-    reported_by = models.CharField(max_length=100)
+    location = models.ForeignKey(Location, on_delete=models.CASCADE)
+    reported_at = models.DateTimeField()
+    reported_by = models.ForeignKey(get_user_model(), on_delete=models.CASCADE, default=2)
     incident_type = models.ForeignKey(IncidentType, on_delete=models.CASCADE, default=1)
+    is_status_open = models.BooleanField(default=True)
 
     def __str__(self):
         return self.title
