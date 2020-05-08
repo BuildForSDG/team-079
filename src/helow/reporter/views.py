@@ -1,6 +1,6 @@
 """View classes for reporter app."""
-from rest_framework import generics, viewsets
-from reporter.models import IncidentReport, IncidentLocation
+from rest_framework import generics
+from reporter.models import IncidentReport
 from reporter import serializers
 
 

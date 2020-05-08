@@ -8,4 +8,5 @@ class Responder(models.Model):
     industry = models.CharField(max_length=50)
 
     def __str__(self):
+        """Returns the string representation of the `Responder` object."""
         return self.name

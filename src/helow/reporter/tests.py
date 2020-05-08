@@ -3,6 +3,12 @@ from django.test import TestCase
 from reporter.models import IncidentReport, IncidentLocation, IncidentType
 from datetime import datetime
 from django.contrib.auth.models import User
+from django.utils.crypto import get_random_string
+
+
+def generate_password():
+    chars = 'abcdefghijklmnopqrstuvwxyz0123456789!@#$%^&amp;*(-_=+)'
+    return get_random_string(12, chars)
 
 
 # Create your tests here.
@@ -16,7 +22,7 @@ class UrlTest(TestCase):
 
 
 class IncidentReportTest(TestCase):
-    """Tests if a new incident report is created successfully."""
+    """Tests class for incident report."""
 
     @classmethod
     def setUpTestData(cls):
@@ -31,7 +37,7 @@ class IncidentReportTest(TestCase):
 
         # create user
         # create a new user
-        user = User(username='techie', email='techie@gmail.com', password='Password12')
+        user = User(username='techie', email='techie@gmail.com', password=generate_password())
         user.save()
 
         # create an incident

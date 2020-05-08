@@ -4,6 +4,8 @@ from .models import Responder
 
 
 class ResponderSerializer(serializers.ModelSerializer):
+    """`Responder` serializer class."""
+
     class Meta:
         model = Responder
         fields = ('id', 'name', 'industry')

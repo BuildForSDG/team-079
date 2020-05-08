@@ -6,6 +6,8 @@ from responder.serializers import ResponderSerializer
 
 
 class UserSerializer(serializers.Serializer):
+    """User serializer class."""
+
     id = serializers.IntegerField()
     username = serializers.CharField(required=False)
     email = serializers.CharField(required=False)
@@ -20,7 +22,8 @@ class IncidentLocationSerializer(serializers.ModelSerializer):
 
 
 class IncidentTypeSerializer(serializers.Serializer):
-    """IncidentType Serializer"""
+    """IncidentType Serializer."""
+
     id = serializers.IntegerField()
     label = serializers.CharField(required=False)
     frequency = serializers.IntegerField(required=False)
@@ -38,6 +41,7 @@ class IncidentTypeSerializer(serializers.Serializer):
 
 class CreateIncidentReportSerializer(serializers.Serializer):
     """Model serializer for `IncidentReport`."""
+
     id = serializers.PrimaryKeyRelatedField(queryset=IncidentReport.objects.all(), required=False)
     title = serializers.CharField(max_length=50)
     description = serializers.CharField(max_length=200)
