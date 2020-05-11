@@ -67,4 +67,7 @@ urlpatterns = [
     path('api/v1/swagger/', drf_schema_view.with_ui('swagger', cache_timeout=0), name='schema-swagger-ui'),
     path('api/v1/redoc/', drf_schema_view.with_ui('redoc', cache_timeout=0), name='schema-redoc'),
     path('docs/', include_docs_urls(title=TITLE, description=DESCRIPTION)),
+
+    # model apis
+    path('api/v1/', include('reporter.urls')),
 ]
