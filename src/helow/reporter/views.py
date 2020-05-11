@@ -1,6 +1,6 @@
 """View classes for reporter app."""
-from rest_framework import generics
-from reporter.models import IncidentReport
+from rest_framework import generics, viewsets
+from reporter.models import IncidentReport, IncidentType
 from reporter import serializers
 
 
@@ -13,3 +13,8 @@ class CreateIncidentReportView(generics.ListCreateAPIView):
 class DetailIncidentReportView(generics.RetrieveUpdateAPIView):
     queryset = IncidentReport.objects.all()
     serializer_class = serializers.CreateIncidentReportSerializer
+
+
+class IncidentTypesViewset(viewsets.ModelViewSet):
+    queryset = IncidentType.objects.all()
+    serializer_class = serializers.IncidentTypeSerializer
