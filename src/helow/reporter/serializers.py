@@ -74,3 +74,23 @@ class CreateIncidentReportSerializer(serializers.Serializer):
         return IncidentReport.objects.create(location=location, **validated_data)
 
 
+class LocationSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = IncidentLocation
+        fields = ['name', 'latitude', 'longitude']
+
+
+class IncidentSerializer(serializers.ModelSerializer):
+    id = serializers.PrimaryKeyRelatedField(queryset=IncidentReport.objects.all(), required=False)
+    locations = LocationSerializer()
+
+    class Meta:
+        model = IncidentReport
+        fields = '__all__'
+
+    def create(self, validated_data):
+        location = validated_data.pop('locations')
+        incident = IncidentReport.objects.create(**validated_data)
+        IncidentLocation.objects.create(incident=incident, **location)
+        validated_data['locations'] = location
+        return validated_data
