@@ -4,6 +4,7 @@ from reporter.models import IncidentReport, IncidentLocation, IncidentType
 from datetime import datetime
 from django.contrib.auth.models import User
 from django.utils.crypto import get_random_string
+from rest_framework.test import APIClient, APITestCase
 
 
 def generate_password():
@@ -73,3 +74,16 @@ class IncidentReportTest(TestCase):
         incident = IncidentReport.objects.get(id=1)
         location = IncidentLocation.objects.get(id=1)
         self.assertEquals(incident.location, location)
+
+
+class IncidentTypesTest(APITestCase):
+    def setUp(self):
+        self.client = APIClient()
+
+    def test_incident_types_list(self):
+        response = self.client.get('http://127.0.0.1:8000/api/v1/incident/types/')
+        self.assertEquals(response.status_code, 200, f"Expected response code 200, got {response.status_code}")
+
+    def test_incident_type_detail(self):
+        response = self.client.get('http://127.0.0.1:8000/api/v1/incident/types/3/')
+        self.assertEquals(response.status_code, 200, f"Expected response code 200, got {response.status_code}")

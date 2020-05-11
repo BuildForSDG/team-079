@@ -1,9 +1,9 @@
 """Module that exposes all the backed APIs of the HELOW."""
 from django.urls import path
-from rest_framework.routers import SimpleRouter
+from rest_framework.routers import DefaultRouter
 from reporter import views
 
-router = SimpleRouter()
+router = DefaultRouter()
 router.register('incident/types', views.IncidentTypesViewset, basename='incident_types')
 
 urlpatterns = [

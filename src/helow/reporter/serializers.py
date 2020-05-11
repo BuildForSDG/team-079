@@ -24,7 +24,7 @@ class IncidentLocationSerializer(serializers.ModelSerializer):
 class IncidentTypeSerializer(serializers.Serializer):
     """IncidentType Serializer."""
 
-    id = serializers.IntegerField()
+    id = serializers.IntegerField(read_only=True)
     label = serializers.CharField(required=False)
     frequency = serializers.IntegerField(required=False)
 
@@ -32,7 +32,6 @@ class IncidentTypeSerializer(serializers.Serializer):
         return IncidentType.objects.create(**validated_data)
 
     def update(self, instance, validated_data):
-        instance.name = validated_data.get('name', instance.name)
         instance.label = validated_data.get('label', instance.label)
         instance.frequency = validated_data.get('frequency', instance.frequency)
         instance.save()
