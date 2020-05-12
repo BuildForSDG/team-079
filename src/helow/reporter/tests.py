@@ -75,15 +75,25 @@ class IncidentReportTest(TestCase):
         location = IncidentLocation.objects.get(id=1)
         self.assertEquals(incident.location, location)
 
+    def test_incident_type_frequency_incremented(self):
+        """Returns true if the frequency of this incident's type was incremented."""
+        incident_type = IncidentType.objects.get(id=1)
+        self.assertEquals(incident_type.frequency, 1)
+
 
 class IncidentTypesTest(APITestCase):
     def setUp(self):
         self.client = APIClient()
 
+        # create an incident type to be used for testing
+        self.incident_type = IncidentType.objects.create(id=1, label='test', frequency=0)
+
     def test_incident_types_list(self):
+        """Returns status code 200 if get incident type list url is functional."""
         response = self.client.get('http://127.0.0.1:8000/api/v1/incident/types/')
         self.assertEquals(response.status_code, 200, f"Expected response code 200, got {response.status_code}")
 
     def test_incident_type_detail(self):
-        response = self.client.get('http://127.0.0.1:8000/api/v1/incident/types/3/')
+        """Returns status code 200 if get incident type detail url is functional."""
+        response = self.client.get(f'http://127.0.0.1:8000/api/v1/incident/types/{self.incident_type.id}/')
         self.assertEquals(response.status_code, 200, f"Expected response code 200, got {response.status_code}")
