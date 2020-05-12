@@ -18,13 +18,13 @@ class IncidentLocationSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = IncidentLocation
-        fields = ('id', 'name', 'latitude', 'longitude')
+        fields = '__all__'
 
 
 class IncidentTypeSerializer(serializers.Serializer):
     """IncidentType Serializer."""
 
-    id = serializers.IntegerField(read_only=True)
+    id = serializers.IntegerField()
     label = serializers.CharField(required=False)
     frequency = serializers.IntegerField(required=False)
 
@@ -32,6 +32,7 @@ class IncidentTypeSerializer(serializers.Serializer):
         return IncidentType.objects.create(**validated_data)
 
     def update(self, instance, validated_data):
+        instance.id = validated_data.get('id', instance.id)
         instance.label = validated_data.get('label', instance.label)
         instance.frequency = validated_data.get('frequency', instance.frequency)
         instance.save()
@@ -56,13 +57,15 @@ class CreateIncidentReportSerializer(serializers.Serializer):
         # get user object if user is not anonymous
         user_data = validated_data.get('reported_by')
         if user_data:
-            user = get_user_model().objects.get(**user_data)[0]
+            user = get_user_model().objects.get(**user_data)
             validated_data['reported_by'] = user
 
         # get the incident type object with the provided id
         incident_type_data = validated_data.get('incident_type')
+        print('Incident type:', incident_type_data)
         if incident_type_data:
             incident_type = IncidentType.objects.get(id=incident_type_data.get('id'))
+
             validated_data['incident_type'] = incident_type
 
         # create a location for this incident
