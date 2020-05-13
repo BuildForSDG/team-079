@@ -5,6 +5,8 @@ from reporter import views
 
 router = DefaultRouter()
 router.register('incident/types', views.IncidentTypesViewset, basename='incident_types')
+router.register('users', views.UserViewset, basename='users')
+
 
 urlpatterns = [
     path('incident/report/', views.CreateIncidentReportView.as_view(), name='report_incident'),

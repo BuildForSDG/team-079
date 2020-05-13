@@ -28,7 +28,6 @@ from drf_yasg.views import get_schema_view as drf
 from drf_yasg import openapi
 from rest_framework.documentation import include_docs_urls
 from rest_framework.schemas import get_schema_view
-
 from webapp.views import home
 
 # for building documentation
@@ -61,6 +60,7 @@ urlpatterns = [
     path('api/v1/rest-auth/', include('rest_auth.urls')),
     path('api/v1/rest-auth/registration/',
          include('rest_auth.registration.urls')),
+
 
     # api documentation
     path('api/v1/swagger-json', drf_schema_view.without_ui(cache_timeout=0), name='schema-json'),
