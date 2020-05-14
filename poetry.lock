@@ -208,7 +208,7 @@ pycodestyle = ">=2.5.0,<2.6.0"
 pyflakes = ">=2.1.0,<2.2.0"
 
 [[package]]
-category = "dev"
+category = "main"
 description = "WSGI HTTP Server for UNIX"
 name = "gunicorn"
 optional = false
@@ -546,7 +546,7 @@ docs = ["sphinx", "jaraco.packaging (>=3.2)", "rst.linker (>=1.9)"]
 testing = ["jaraco.itertools", "func-timeout"]
 
 [metadata]
-content-hash = "b28379fb6a6f5b287c264b2fb23a4801535b1fa781783429f6bdf937eab107d0"
+content-hash = "bd9374c2762a5ec405bb49e455457df369241e1a12c520caa07fa8b0890b6304"
 python-versions = "^3.7"
 
 [metadata.files]
