@@ -1,10 +1,9 @@
 """View classes for reporter app."""
-from rest_framework import generics
-from reporter.models import IncidentReport
+from rest_framework import generics, viewsets
+from reporter.models import IncidentReport, IncidentType
 from reporter import serializers
 from rest_framework.pagination import PageNumberPagination
-# from rest_framework.generics import ListAPIView
-from rest_framework.filters import SearchFilter, OrderingFilter
+from django.contrib.auth import get_user_model
 
 
 # Create your views here.
@@ -21,7 +20,6 @@ class DetailIncidentReportView(generics.RetrieveUpdateAPIView):
 class IncidentListView(generics.ListAPIView):
     serializer_class = serializers.CreateIncidentReportSerializer
     pagination_class = PageNumberPagination
-
     def get_queryset(self):
         queryset = IncidentReport.objects.all()
         location = self.request.query_params.get('location')
@@ -38,5 +36,14 @@ class IncidentListView(generics.ListAPIView):
             queryset = queryset.filter(reported_at=reported_date)
         elif incident_type:
             queryset = queryset.filter(incident_type__label=incident_type)
-        return queryset.order_by('-reported_at')
+        return queryset.order_by('reported_at')
     
+    
+class IncidentTypesViewset(viewsets.ModelViewSet):
+    queryset = IncidentType.objects.all()
+    serializer_class = serializers.IncidentTypeSerializer
+
+
+class UserViewset(viewsets.ModelViewSet):
+    queryset = get_user_model().objects.all()
+    serializer_class = serializers.UserSerializer

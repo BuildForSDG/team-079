@@ -4,7 +4,7 @@ from reporter.models import IncidentReport, IncidentLocation, IncidentType
 from datetime import datetime
 from django.contrib.auth.models import User
 from django.utils.crypto import get_random_string
-from populate_first_app import populate
+from rest_framework.test import APIClient, APITestCase
 
 
 def generate_password():
@@ -75,16 +75,35 @@ class IncidentReportTest(TestCase):
         location = IncidentLocation.objects.get(id=1)
         self.assertEquals(incident.location, location)
 
-#pagination and filter test case
-class FilterByIncidentTypesAndOthers(TestCase):
-    """Test class for reporter urls."""
+    def test_incident_type_frequency_incremented(self):
+        """Returns true if the frequency of this incident's type was incremented."""
+        incident_type = IncidentType.objects.get(id=1)
+        self.assertEquals(incident_type.frequency, 1)
+
+
+class IncidentTypesTest(APITestCase):
+    def setUp(self):
+        self.client = APIClient()
+
+        # create an incident type to be used for testing
+        self.incident_type = IncidentType.objects.create(id=1, label='test', frequency=0)
+
+    def test_incident_types_list(self):
+        """Returns status code 200 if get incident type list url is functional."""
+        response = self.client.get('http://127.0.0.1:8000/api/v1/incident/types/')
+        self.assertEquals(response.status_code, 200, f"Expected response code 200, got {response.status_code}")
+
+    def test_incident_type_detail(self):
+        """Returns status code 200 if get incident type detail url is functional."""
+        response = self.client.get(f'http://127.0.0.1:8000/api/v1/incident/types/{self.incident_type.id}/')
+        self.assertEquals(response.status_code, 200, f"Expected response code 200, got {response.status_code}")
+
+
+# testing the filter endpoints.
+class IncidentReportFilterTest(TestCase):
+    """Test class for filter and pagination urls."""
 
     def test_report_incident_filter_successful(self):
         """Returns 200 if path is valid."""
         create_report = self.client.get('/api/v1/incident/report/filter')
         self.assertEquals(create_report.status_code, 200)
-    
-    def test_report_incident_results_data_is_ten(self):
-        incident = IncidentReport.objects.all()
-       
-        # self.assertEquals(len(incident.results), 10)

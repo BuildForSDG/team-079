@@ -1,6 +1,9 @@
 """Model classes for the presenter app."""
 from django.db import models
 from django.contrib.auth import get_user_model
+from django.db.models.signals import post_save
+from django.dispatch import receiver
+
 from responder.models import Responder
 
 
@@ -44,3 +47,11 @@ class IncidentReport(models.Model):
         """Returns the string representation of the `IncidentReport` object."""
         return self.title
 
+
+@receiver(post_save, sender=IncidentReport)
+def increment_incident_type_frequency(sender, instance=None, created=False, **kwargs):
+    if created:
+        # get the incident type object and increment its type
+        incident_type = instance.incident_type
+        incident_type.frequency = incident_type.frequency + 1
+        incident_type.save()
