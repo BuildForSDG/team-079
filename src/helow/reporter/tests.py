@@ -4,6 +4,7 @@ from reporter.models import IncidentReport, IncidentLocation, IncidentType
 from datetime import datetime
 from django.contrib.auth.models import User
 from django.utils.crypto import get_random_string
+from populate_first_app import populate
 
 
 def generate_password():
@@ -73,3 +74,17 @@ class IncidentReportTest(TestCase):
         incident = IncidentReport.objects.get(id=1)
         location = IncidentLocation.objects.get(id=1)
         self.assertEquals(incident.location, location)
+
+#pagination and filter test case
+class FilterByIncidentTypesAndOthers(TestCase):
+    """Test class for reporter urls."""
+
+    def test_report_incident_filter_successful(self):
+        """Returns 200 if path is valid."""
+        create_report = self.client.get('/api/v1/incident/report/filter')
+        self.assertEquals(create_report.status_code, 200)
+    
+    def test_report_incident_results_data_is_ten(self):
+        incident = IncidentReport.objects.all()
+       
+        # self.assertEquals(len(incident.results), 10)
