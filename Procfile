@@ -1,1 +1,1 @@
-web: gunicorn src.helow.wsgi --log-file -
+web: gunicorn src.helow.helow.wsgi --log-file -
