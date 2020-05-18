@@ -5,7 +5,9 @@ from .models import Responder
 
 class ResponderSerializer(serializers.ModelSerializer):
     """`Responder` serializer class."""
+    import reporter.serializers as se
+    location = se.IncidentLocationSerializer()
 
     class Meta:
         model = Responder
-        fields = ('id', 'name', 'industry')
+        fields = '__all__'

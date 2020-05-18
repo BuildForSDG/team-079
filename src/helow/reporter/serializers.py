@@ -2,7 +2,6 @@
 from rest_framework import serializers
 from reporter.models import IncidentReport, IncidentLocation, IncidentType
 from django.contrib.auth import get_user_model
-from responder.serializers import ResponderSerializer
 
 
 class UserSerializer(serializers.Serializer):
@@ -42,13 +41,14 @@ class IncidentTypeSerializer(serializers.Serializer):
 class CreateIncidentReportSerializer(serializers.Serializer):
     """Model serializer for `IncidentReport`."""
 
+    import responder.serializers as se
     id = serializers.PrimaryKeyRelatedField(queryset=IncidentReport.objects.all(), required=False)
     title = serializers.CharField(max_length=50)
     description = serializers.CharField(max_length=200)
     reported_by = UserSerializer(required=False)
     reported_at = serializers.DateTimeField()
     incident_type = IncidentTypeSerializer()
-    responder = ResponderSerializer(required=False)
+    responder = se.ResponderSerializer(required=False)
     is_status_open = serializers.BooleanField(required=False)
     location = IncidentLocationSerializer()
 
@@ -62,7 +62,6 @@ class CreateIncidentReportSerializer(serializers.Serializer):
 
         # get the incident type object with the provided id
         incident_type_data = validated_data.get('incident_type')
-        print('Incident type:', incident_type_data)
         if incident_type_data:
             incident_type = IncidentType.objects.get(id=incident_type_data.get('id'))
 

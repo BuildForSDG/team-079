@@ -1,3 +1,9 @@
-# from django.shortcuts import render
+"""Views for responder."""
+from rest_framework import viewsets
+from .models import Responder
+from .serializers import ResponderSerializer
 
-# Create your views here.
+
+class ResponderViewset(viewsets.ModelViewSet):
+    queryset = Responder.objects.all()
+    serializer_class = ResponderSerializer
