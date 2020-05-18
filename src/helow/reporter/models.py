@@ -20,13 +20,15 @@ class IncidentType(models.Model):
 class IncidentLocation(models.Model):
     """Model class to handle all incident's location."""
 
-    name = models.CharField(max_length=100, null=False)
+    map_name = models.CharField(max_length=100, null=False)
+    known_name = models.CharField(max_length=100, null=True)
     latitude = models.FloatField(null=False)
     longitude = models.FloatField(null=False)
 
     def __str__(self):
         """Returns the string representation of the `IncidentLocation` object."""
-        return f" name: {self.name}, latitude: {self.latitude}, longitude: {self.longitude}"
+        name = self.known_name if self.map_name is None else self.map_name
+        return f" name: {name}, latitude: {self.latitude}, longitude: {self.longitude}"
 
 
 class IncidentReport(models.Model):

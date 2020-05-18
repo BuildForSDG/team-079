@@ -20,6 +20,7 @@ class DetailIncidentReportView(generics.RetrieveUpdateAPIView):
 class IncidentListView(generics.ListAPIView):
     serializer_class = serializers.CreateIncidentReportSerializer
     pagination_class = PageNumberPagination
+
     def get_queryset(self):
         queryset = IncidentReport.objects.all()
         location = self.request.query_params.get('location')
@@ -37,7 +38,8 @@ class IncidentListView(generics.ListAPIView):
         elif incident_type:
             queryset = queryset.filter(incident_type__label=incident_type)
         return queryset.order_by('-reported_at')
-      
+
+
 class IncidentTypesViewset(viewsets.ModelViewSet):
     queryset = IncidentType.objects.all()
     serializer_class = serializers.IncidentTypeSerializer
