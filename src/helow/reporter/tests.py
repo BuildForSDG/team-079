@@ -97,3 +97,13 @@ class IncidentTypesTest(APITestCase):
         """Returns status code 200 if get incident type detail url is functional."""
         response = self.client.get(f'http://127.0.0.1:8000/api/v1/incident/types/{self.incident_type.id}/')
         self.assertEquals(response.status_code, 200, f"Expected response code 200, got {response.status_code}")
+
+
+# testing the filter endpoints.
+class IncidentReportFilterTest(TestCase):
+    """Test class for filter and pagination urls."""
+
+    def test_report_incident_filter_successful(self):
+        """Returns 200 if path is valid."""
+        create_report = self.client.get('/api/v1/incident/report/filter')
+        self.assertEquals(create_report.status_code, 200)
