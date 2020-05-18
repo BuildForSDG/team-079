@@ -37,8 +37,7 @@ class IncidentListView(generics.ListAPIView):
         elif incident_type:
             queryset = queryset.filter(incident_type__label=incident_type)
         return queryset.order_by('-reported_at')
-    
-    
+      
 class IncidentTypesViewset(viewsets.ModelViewSet):
     queryset = IncidentType.objects.all()
     serializer_class = serializers.IncidentTypeSerializer
