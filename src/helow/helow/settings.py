@@ -78,8 +78,8 @@ INSTALLED_APPS = [
     'drf_yasg',
 
     # local apps
-    'presenter.apps.PresenterConfig',
     'reporter.apps.ReporterConfig',
+    'presenter.apps.PresenterConfig',
     'responder.apps.ResponderConfig',
 ]
 
@@ -117,7 +117,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'helow.wsgi.application'
+WSGI_APPLICATION = 'src.helow.helow.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases

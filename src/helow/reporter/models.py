@@ -4,8 +4,6 @@ from django.contrib.auth import get_user_model
 from django.db.models.signals import post_save
 from django.dispatch import receiver
 
-from responder.models import Responder
-
 
 # Create your models here.
 class IncidentType(models.Model):
@@ -40,7 +38,7 @@ class IncidentReport(models.Model):
     reported_at = models.DateTimeField()
     reported_by = models.ForeignKey(get_user_model(), on_delete=models.CASCADE, default=2)
     incident_type = models.ForeignKey(IncidentType, on_delete=models.CASCADE, default=1)
-    responder = models.ForeignKey(Responder, on_delete=models.CASCADE, null=True)
+    responder = models.ForeignKey('responder.Responder', on_delete=models.CASCADE, null=True)
     is_status_open = models.BooleanField(default=True)
 
     def __str__(self):
