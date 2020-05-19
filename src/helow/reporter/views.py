@@ -8,8 +8,12 @@ from django.contrib.auth import get_user_model
 
 # Create your views here.
 class CreateIncidentReportView(generics.ListCreateAPIView):
-    queryset = IncidentReport.objects.all()
     serializer_class = serializers.CreateIncidentReportSerializer
+
+    # return incidents in descending order
+    def get_queryset(self):
+        queryset = IncidentReport.objects.all()
+        return queryset.order_by('-id')
 
 
 class DetailIncidentReportView(generics.RetrieveUpdateAPIView):

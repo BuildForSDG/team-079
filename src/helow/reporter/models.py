@@ -34,7 +34,7 @@ class IncidentLocation(models.Model):
     def __str__(self):
         """Returns the string representation of the `IncidentLocation` object."""
         name = self.known_name if self.map_name is None else self.map_name
-        return f" name: {name}, latitude: {self.latitude}, longitude: {self.longitude}"
+        return f" location: {name}, latitude: {self.location_lat}, longitude: {self.location_lng}"
 
 
 class IncidentReport(models.Model):
@@ -62,9 +62,3 @@ def increment_incident_type_frequency(sender, instance=None, created=False, **kw
         incident_type.frequency = incident_type.frequency + 1
         incident_type.save()
 
-
-class Photo(models.Model):
-    height = models.IntegerField()
-    width = models.IntegerField()
-    reference = models.CharField(max_length=500)
-    location = models.ForeignKey(IncidentLocation, on_delete=models.CASCADE, related_name='photos')

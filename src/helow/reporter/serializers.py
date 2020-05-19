@@ -73,5 +73,3 @@ class CreateIncidentReportSerializer(serializers.Serializer):
 
         # create this incident
         return IncidentReport.objects.create(location=location, **validated_data)
-
-
