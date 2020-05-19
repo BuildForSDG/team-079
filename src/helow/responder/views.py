@@ -36,8 +36,8 @@ def find_responder(request):
     incident_id = request.GET.get('incident')
 
     incident = get_object_or_404(IncidentReport, pk=incident_id)
-    latitude = incident.location.latitude
-    longitude = incident.location.longitude
+    latitude = incident.location.location_lat
+    longitude = incident.location.location_lng
     location = f'{str(latitude)},{str(longitude)}'
     place_type = process_incident_type(incident.incident_type.label)
 

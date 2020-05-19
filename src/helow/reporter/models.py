@@ -22,8 +22,14 @@ class IncidentLocation(models.Model):
 
     map_name = models.CharField(max_length=100, null=False)
     known_name = models.CharField(max_length=100, null=True)
-    latitude = models.FloatField(null=False)
-    longitude = models.FloatField(null=False)
+    location_lat = models.FloatField(null=False)
+    location_lng = models.FloatField(null=False)
+    viewport_ne_lat = models.FloatField(null=True)
+    viewport_ne_lng = models.FloatField(null=True)
+    viewport_sw_lat = models.FloatField(null=True)
+    viewport_sw_lng = models.FloatField(null=True)
+    rating = models.FloatField(null=True)
+    vicinity = models.CharField(max_length=200, null=True)
 
     def __str__(self):
         """Returns the string representation of the `IncidentLocation` object."""
@@ -55,3 +61,10 @@ def increment_incident_type_frequency(sender, instance=None, created=False, **kw
         incident_type = instance.incident_type
         incident_type.frequency = incident_type.frequency + 1
         incident_type.save()
+
+
+class Photo(models.Model):
+    height = models.IntegerField()
+    width = models.IntegerField()
+    reference = models.CharField(max_length=500)
+    location = models.ForeignKey(IncidentLocation, on_delete=models.CASCADE, related_name='photos')
