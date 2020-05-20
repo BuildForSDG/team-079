@@ -43,10 +43,10 @@ def find_or_create_secret_key():
 SECRET_KEY = find_or_create_secret_key()
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = [
-    'helow.herokuapp.com',
+
 ]
 
 # Application definition
