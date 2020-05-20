@@ -8,8 +8,13 @@ from django.contrib.auth import get_user_model
 
 # Create your views here.
 class CreateIncidentReportView(generics.ListCreateAPIView):
-    queryset = IncidentReport.objects.all()
     serializer_class = serializers.CreateIncidentReportSerializer
+
+    # return incidents in descending order
+    def get_queryset(self):
+        queryset = IncidentReport.objects.all()
+        queryset = queryset.filter(is_status_open=True)
+        return queryset.order_by('-id')
 
 
 class DetailIncidentReportView(generics.RetrieveUpdateAPIView):
@@ -20,6 +25,7 @@ class DetailIncidentReportView(generics.RetrieveUpdateAPIView):
 class IncidentListView(generics.ListAPIView):
     serializer_class = serializers.CreateIncidentReportSerializer
     pagination_class = PageNumberPagination
+
     def get_queryset(self):
         queryset = IncidentReport.objects.all()
         location = self.request.query_params.get('location')
@@ -37,7 +43,8 @@ class IncidentListView(generics.ListAPIView):
         elif incident_type:
             queryset = queryset.filter(incident_type__label=incident_type)
         return queryset.order_by('-reported_at')
-      
+
+
 class IncidentTypesViewset(viewsets.ModelViewSet):
     queryset = IncidentType.objects.all()
     serializer_class = serializers.IncidentTypeSerializer

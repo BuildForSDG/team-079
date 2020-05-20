@@ -70,4 +70,5 @@ urlpatterns = [
 
     # model apis
     path('api/v1/', include('reporter.urls')),
+    path('api/v1/', include('responder.urls')),
 ]
