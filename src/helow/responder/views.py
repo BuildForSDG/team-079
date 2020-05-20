@@ -7,7 +7,7 @@ from django.shortcuts import get_object_or_404
 from django.core import serializers
 from .models import Responder
 from .serializers import ResponderSerializer
-from reporter.models import IncidentReport, IncidentLocation
+from reporter.models import IncidentReport, Place
 from reporter.serializers import IncidentLocationSerializer
 
 
@@ -17,7 +17,7 @@ class ResponderViewset(viewsets.ModelViewSet):
 
 
 class LocationView(generics.ListAPIView):
-    queryset = IncidentLocation.objects.all()
+    queryset = Place.objects.all()
     serializer_class = IncidentLocationSerializer
 
 
@@ -63,7 +63,7 @@ def assign_responder(request, pk):
     # pass json payload
     data = json.loads(request.body)
     name = data['map_name']
-    location = IncidentLocation.objects.create(**data)
+    location = Place.objects.create(**data)
 
     # construct responder data
     responder_data = {

@@ -1,6 +1,6 @@
 """Test module for all reporter app entities."""
 from django.test import TestCase
-from reporter.models import IncidentReport, IncidentLocation, IncidentType
+from reporter.models import IncidentReport, Place, IncidentType
 from datetime import datetime
 from django.contrib.auth.models import User
 from django.utils.crypto import get_random_string
@@ -33,7 +33,7 @@ class IncidentReportTest(TestCase):
         incident_type.save()
 
         # create an incident location
-        incident_location = IncidentLocation(name='Aguda', latitude=43.9, longitude=-45.2)
+        incident_location = Place(name='Aguda', latitude=43.9, longitude=-45.2)
         incident_location.save()
 
         # create user
@@ -56,7 +56,7 @@ class IncidentReportTest(TestCase):
 
     def test_incident_location_created(self):
         """Returns true if incident location created successfully."""
-        incident_location = IncidentLocation.objects.get(id=1)
+        incident_location = Place.objects.get(id=1)
         self.assertEquals(incident_location.name, 'Aguda')
 
     def test_user_created(self):
@@ -72,7 +72,7 @@ class IncidentReportTest(TestCase):
     def test_incident_location_valid(self):
         """Returns true if incident has a valid location."""
         incident = IncidentReport.objects.get(id=1)
-        location = IncidentLocation.objects.get(id=1)
+        location = Place.objects.get(id=1)
         self.assertEquals(incident.location, location)
 
     def test_incident_type_frequency_incremented(self):
