@@ -1,6 +1,5 @@
 """Views for responder."""
 from rest_framework import viewsets, generics
-from rest_framework.decorators import api_view
 from django.http import JsonResponse
 import json, requests
 from django.shortcuts import get_object_or_404
