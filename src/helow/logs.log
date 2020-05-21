@@ -1,0 +1,1113 @@
+INFO 2020-05-21 15:32:08,212: Call to https://maps.googleapis.com/maps/api/place/details/json with parameters: {'place_id': '19', 'key': 'AIzaSyBr427Ow25KCsgHcHQe_J1V1L39nTouIfk'}
+DEBUG 2020-05-21 15:32:08,275: Starting new HTTPS connection (1): maps.googleapis.com:443
+DEBUG 2020-05-21 15:32:08,868: https://maps.googleapis.com:443 "GET /maps/api/place/details/json?place_id=19&key=AIzaSyBr427Ow25KCsgHcHQe_J1V1L39nTouIfk HTTP/1.1" 200 78
+ERROR 2020-05-21 15:32:08,872: Exception caught: KeyError
+ERROR 2020-05-21 15:32:08,991: Internal Server Error: /api/v1/responder/find/
+Traceback (most recent call last):
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py", line 51, in find_responders
+    location, place_type = get_location_data(incident_id)
+  File "/Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py", line 146, in get_location_data
+    location['map_name'] = response['name']
+KeyError: 'name'
+INFO 2020-05-21 15:33:46,537: /Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py changed, reloading.
+DEBUG 2020-05-21 15:33:46,543: Using selector: KqueueSelector
+INFO 2020-05-21 15:33:53,091: Call to https://maps.googleapis.com/maps/api/place/details/json with parameters: {'place_id': '19', 'key': 'AIzaSyBr427Ow25KCsgHcHQe_J1V1L39nTouIfk'}
+DEBUG 2020-05-21 15:33:53,114: Starting new HTTPS connection (1): maps.googleapis.com:443
+DEBUG 2020-05-21 15:33:53,850: https://maps.googleapis.com:443 "GET /maps/api/place/details/json?place_id=19&key=AIzaSyBr427Ow25KCsgHcHQe_J1V1L39nTouIfk HTTP/1.1" 200 78
+ERROR 2020-05-21 15:33:53,853: Exception caught: KeyError
+INFO 2020-05-21 15:33:53,853: Parse response: {'html_attributions': [], 'status': 'INVALID_REQUEST'}
+ERROR 2020-05-21 15:33:53,904: Internal Server Error: /api/v1/responder/find/
+Traceback (most recent call last):
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py", line 51, in find_responders
+    location, place_type = get_location_data(incident_id)
+  File "/Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py", line 148, in get_location_data
+    location['map_name'] = response['name']
+KeyError: 'name'
+INFO 2020-05-21 15:39:55,927: /Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py changed, reloading.
+DEBUG 2020-05-21 15:39:55,928: Using selector: KqueueSelector
+INFO 2020-05-21 15:40:06,450: Call to https://maps.googleapis.com/maps/api/place/details/json with parameters: {'place_id': '19', 'key': 'AIzaSyBr427Ow25KCsgHcHQe_J1V1L39nTouIfk'}
+DEBUG 2020-05-21 15:40:06,538: Starting new HTTPS connection (1): maps.googleapis.com:443
+DEBUG 2020-05-21 15:40:07,072: https://maps.googleapis.com:443 "GET /maps/api/place/details/json?place_id=19&key=AIzaSyBr427Ow25KCsgHcHQe_J1V1L39nTouIfk HTTP/1.1" 200 78
+ERROR 2020-05-21 15:40:07,159: Internal Server Error: /api/v1/responder/find/
+Traceback (most recent call last):
+  File "/Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py", line 141, in get_location_data
+    response = response['result']
+KeyError: 'result'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py", line 51, in find_responders
+    location, place_type = get_location_data(incident_id)
+  File "/Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py", line 143, in get_location_data
+    logger.error(f"Exception caught: {ex.__class__.__name__}, message: {ex.message}")
+AttributeError: 'KeyError' object has no attribute 'message'
+INFO 2020-05-21 15:44:06,936: /Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py changed, reloading.
+DEBUG 2020-05-21 15:44:06,939: Using selector: KqueueSelector
+INFO 2020-05-21 15:44:12,590: Call to https://maps.googleapis.com/maps/api/place/details/json with parameters: {'place_id': '19', 'key': 'AIzaSyBr427Ow25KCsgHcHQe_J1V1L39nTouIfk'}
+DEBUG 2020-05-21 15:44:12,653: Starting new HTTPS connection (1): maps.googleapis.com:443
+DEBUG 2020-05-21 15:44:13,670: https://maps.googleapis.com:443 "GET /maps/api/place/details/json?place_id=19&key=AIzaSyBr427Ow25KCsgHcHQe_J1V1L39nTouIfk HTTP/1.1" 200 78
+ERROR 2020-05-21 15:44:13,752: Internal Server Error: /api/v1/responder/find/
+Traceback (most recent call last):
+  File "/Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py", line 141, in get_location_data
+    response = response['result']
+KeyError: 'result'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py", line 51, in find_responders
+    location, place_type = get_location_data(incident_id)
+  File "/Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py", line 143, in get_location_data
+    logger.error(f"Exception caught: {ex.__class__.__name__}, message: {ex.message}")
+AttributeError: 'KeyError' object has no attribute 'message'
+INFO 2020-05-21 15:45:20,835: /Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py changed, reloading.
+DEBUG 2020-05-21 15:45:20,835: Using selector: KqueueSelector
+INFO 2020-05-21 15:45:28,718: Call to https://maps.googleapis.com/maps/api/place/details/json with parameters: {'place_id': '19', 'key': 'AIzaSyBr427Ow25KCsgHcHQe_J1V1L39nTouIfk'}
+DEBUG 2020-05-21 15:45:28,736: Starting new HTTPS connection (1): maps.googleapis.com:443
+DEBUG 2020-05-21 15:45:29,190: https://maps.googleapis.com:443 "GET /maps/api/place/details/json?place_id=19&key=AIzaSyBr427Ow25KCsgHcHQe_J1V1L39nTouIfk HTTP/1.1" 200 78
+ERROR 2020-05-21 15:45:29,192: Exception caught: KeyError, message: 'result'
+ERROR 2020-05-21 15:45:29,242: Internal Server Error: /api/v1/responder/find/
+Traceback (most recent call last):
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py", line 51, in find_responders
+    location, place_type = get_location_data(incident_id)
+  File "/Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py", line 145, in get_location_data
+    if len(response.get('result')) is not 0:
+TypeError: object of type 'NoneType' has no len()
+INFO 2020-05-21 16:00:19,557: /Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py changed, reloading.
+DEBUG 2020-05-21 16:00:19,558: Using selector: KqueueSelector
+INFO 2020-05-21 16:00:25,332: Call to https://maps.googleapis.com/maps/api/place/details/json with parameters: {'place_id': '19', 'key': 'AIzaSyBr427Ow25KCsgHcHQe_J1V1L39nTouIfk'}
+DEBUG 2020-05-21 16:00:25,441: Starting new HTTPS connection (1): maps.googleapis.com:443
+DEBUG 2020-05-21 16:00:26,072: https://maps.googleapis.com:443 "GET /maps/api/place/details/json?place_id=19&key=AIzaSyBr427Ow25KCsgHcHQe_J1V1L39nTouIfk HTTP/1.1" 200 78
+ERROR 2020-05-21 16:00:26,078: Exception caught: KeyError, message: 'result'
+INFO 2020-05-21 16:00:26,078: Parse response: {'html_attributions': [], 'status': 'INVALID_REQUEST'}
+ERROR 2020-05-21 16:00:26,306: Internal Server Error: /api/v1/responder/find/
+Traceback (most recent call last):
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py", line 51, in find_responders
+    location, place_type = get_location_data(incident_id)
+  File "/Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py", line 148, in get_location_data
+    location['map_name'] = response['name']
+KeyError: 'name'
+INFO 2020-05-21 16:05:17,277: /Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py changed, reloading.
+DEBUG 2020-05-21 16:05:17,282: Using selector: KqueueSelector
+INFO 2020-05-21 16:05:46,750: Call to https://maps.googleapis.com/maps/api/place/details/json with parameters: {'place_id': '19', 'key': 'AIzaSyBr427Ow25KCsgHcHQe_J1V1L39nTouIfk'}
+DEBUG 2020-05-21 16:05:46,887: Starting new HTTPS connection (1): maps.googleapis.com:443
+DEBUG 2020-05-21 16:05:47,436: https://maps.googleapis.com:443 "GET /maps/api/place/details/json?place_id=19&key=AIzaSyBr427Ow25KCsgHcHQe_J1V1L39nTouIfk HTTP/1.1" 200 78
+DEBUG 2020-05-21 16:05:47,439: Raw response: {'html_attributions': [], 'status': 'INVALID_REQUEST'}
+ERROR 2020-05-21 16:05:47,439: Exception caught: KeyError, message: 'result'
+INFO 2020-05-21 16:05:47,439: Parse response: {'html_attributions': [], 'status': 'INVALID_REQUEST'}
+ERROR 2020-05-21 16:05:47,497: Internal Server Error: /api/v1/responder/find/
+Traceback (most recent call last):
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py", line 51, in find_responders
+    location, place_type = get_location_data(incident_id)
+  File "/Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py", line 149, in get_location_data
+    location['map_name'] = response['name']
+KeyError: 'name'
+INFO 2020-05-21 16:07:36,952: /Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py changed, reloading.
+DEBUG 2020-05-21 16:07:36,953: Using selector: KqueueSelector
+INFO 2020-05-21 16:07:42,792: Call to https://maps.googleapis.com/maps/api/place/details/json with parameters: {'place_id': '19', 'key': 'AIzaSyBr427Ow25KCsgHcHQe_J1V1L39nTouIfk'}
+DEBUG 2020-05-21 16:07:42,809: Starting new HTTPS connection (1): maps.googleapis.com:443
+DEBUG 2020-05-21 16:07:43,426: https://maps.googleapis.com:443 "GET /maps/api/place/details/json?place_id=19&key=AIzaSyBr427Ow25KCsgHcHQe_J1V1L39nTouIfk HTTP/1.1" 200 78
+DEBUG 2020-05-21 16:07:43,428: Raw response: {'html_attributions': [], 'status': 'INVALID_REQUEST'}
+ERROR 2020-05-21 16:07:43,428: Exception caught: KeyError, message: 'result'
+INFO 2020-05-21 16:07:43,428: Parse response: {'html_attributions': [], 'status': 'INVALID_REQUEST'}
+ERROR 2020-05-21 16:07:43,511: Internal Server Error: /api/v1/responder/find/
+Traceback (most recent call last):
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py", line 51, in find_responders
+    location, place_type = get_location_data(incident_id)
+  File "/Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py", line 149, in get_location_data
+    location['map_name'] = response['name']
+KeyError: 'name'
+INFO 2020-05-21 16:08:15,541: /Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py changed, reloading.
+DEBUG 2020-05-21 16:08:15,541: Using selector: KqueueSelector
+INFO 2020-05-21 16:08:20,401: Call to https://maps.googleapis.com/maps/api/place/details/json with parameters: {'place_id': '19', 'key': 'AIzaSyBr427Ow25KCsgHcHQe_J1V1L39nTouIfk'}
+DEBUG 2020-05-21 16:08:20,415: Starting new HTTPS connection (1): maps.googleapis.com:443
+DEBUG 2020-05-21 16:08:20,891: https://maps.googleapis.com:443 "GET /maps/api/place/details/json?place_id=19&key=AIzaSyBr427Ow25KCsgHcHQe_J1V1L39nTouIfk HTTP/1.1" 200 78
+DEBUG 2020-05-21 16:08:20,895: Raw response: {'html_attributions': [], 'status': 'INVALID_REQUEST'}
+ERROR 2020-05-21 16:08:20,895: Exception caught: KeyError, message: 'result'
+INFO 2020-05-21 16:08:20,895: Parse response: {'html_attributions': [], 'status': 'INVALID_REQUEST'}
+ERROR 2020-05-21 16:08:20,950: Internal Server Error: /api/v1/responder/find/
+Traceback (most recent call last):
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py", line 51, in find_responders
+    location, place_type = get_location_data(incident_id)
+  File "/Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py", line 149, in get_location_data
+    location['map_name'] = response['name']
+KeyError: 'name'
+INFO 2020-05-21 16:12:26,420: /Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py changed, reloading.
+DEBUG 2020-05-21 16:12:26,421: Using selector: KqueueSelector
+INFO 2020-05-21 16:12:35,641: Call to https://maps.googleapis.com/maps/api/place/details/json with parameters: {'placeid': '19', 'key': 'AIzaSyBr427Ow25KCsgHcHQe_J1V1L39nTouIfk'}
+DEBUG 2020-05-21 16:12:35,655: Starting new HTTPS connection (1): maps.googleapis.com:443
+DEBUG 2020-05-21 16:12:36,175: https://maps.googleapis.com:443 "GET /maps/api/place/details/json?placeid=19&key=AIzaSyBr427Ow25KCsgHcHQe_J1V1L39nTouIfk HTTP/1.1" 200 78
+DEBUG 2020-05-21 16:12:36,178: Raw response: {'html_attributions': [], 'status': 'INVALID_REQUEST'}
+ERROR 2020-05-21 16:12:36,178: Exception caught: KeyError, message: 'result'
+INFO 2020-05-21 16:12:36,178: Parse response: {'html_attributions': [], 'status': 'INVALID_REQUEST'}
+ERROR 2020-05-21 16:12:36,235: Internal Server Error: /api/v1/responder/find/
+Traceback (most recent call last):
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py", line 51, in find_responders
+    location, place_type = get_location_data(incident_id)
+  File "/Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py", line 149, in get_location_data
+    location['map_name'] = response['name']
+KeyError: 'name'
+INFO 2020-05-21 16:13:46,099: /Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py changed, reloading.
+DEBUG 2020-05-21 16:13:46,099: Using selector: KqueueSelector
+INFO 2020-05-21 16:24:05,930: /Users/franklynogbonna/Documents/SDG/Team-079-Product/config.py changed, reloading.
+DEBUG 2020-05-21 16:24:05,933: Using selector: KqueueSelector
+INFO 2020-05-21 16:24:35,121: Call to https://maps.googleapis.com/maps/api/place/details/json with parameters: {'placeid': '20', 'key': 'IzaSyCSp-f-_FWHw8jfNFF9yd7mgUxaX-DZo8g'}
+DEBUG 2020-05-21 16:24:35,198: Starting new HTTPS connection (1): maps.googleapis.com:443
+DEBUG 2020-05-21 16:24:35,564: https://maps.googleapis.com:443 "GET /maps/api/place/details/json?placeid=20&key=IzaSyCSp-f-_FWHw8jfNFF9yd7mgUxaX-DZo8g HTTP/1.1" 200 None
+DEBUG 2020-05-21 16:24:35,569: Raw response: {'error_message': 'The provided API key is invalid.', 'html_attributions': [], 'status': 'REQUEST_DENIED'}
+ERROR 2020-05-21 16:24:35,570: Exception caught: KeyError, message: 'result'
+INFO 2020-05-21 16:24:35,571: Parse response: {'error_message': 'The provided API key is invalid.', 'html_attributions': [], 'status': 'REQUEST_DENIED'}
+ERROR 2020-05-21 16:24:35,637: Internal Server Error: /api/v1/responder/find/
+Traceback (most recent call last):
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py", line 52, in find_responders
+    location, place_type = get_location_data(incident_id)
+  File "/Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py", line 150, in get_location_data
+    location['map_name'] = response['name']
+KeyError: 'name'
+INFO 2020-05-21 16:25:14,006: Call to https://maps.googleapis.com/maps/api/place/details/json with parameters: {'placeid': 'ChIJC1O_WBhawokR3Q7yIbn6G5g', 'key': 'IzaSyCSp-f-_FWHw8jfNFF9yd7mgUxaX-DZo8g'}
+DEBUG 2020-05-21 16:25:14,017: Starting new HTTPS connection (1): maps.googleapis.com:443
+DEBUG 2020-05-21 16:25:14,516: https://maps.googleapis.com:443 "GET /maps/api/place/details/json?placeid=ChIJC1O_WBhawokR3Q7yIbn6G5g&key=IzaSyCSp-f-_FWHw8jfNFF9yd7mgUxaX-DZo8g HTTP/1.1" 200 None
+DEBUG 2020-05-21 16:25:14,519: Raw response: {'error_message': 'The provided API key is invalid.', 'html_attributions': [], 'status': 'REQUEST_DENIED'}
+ERROR 2020-05-21 16:25:14,519: Exception caught: KeyError, message: 'result'
+INFO 2020-05-21 16:25:14,519: Parse response: {'error_message': 'The provided API key is invalid.', 'html_attributions': [], 'status': 'REQUEST_DENIED'}
+ERROR 2020-05-21 16:25:14,571: Internal Server Error: /api/v1/responder/assign/19
+Traceback (most recent call last):
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py", line 86, in assign_responder
+    place_data = get_location_data(place_id)  # get the responder data
+  File "/Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py", line 150, in get_location_data
+    location['map_name'] = response['name']
+KeyError: 'name'
+DEBUG 2020-05-21 16:25:54,865: Using selector: KqueueSelector
+INFO 2020-05-21 16:28:04,563: Call to https://maps.googleapis.com/maps/api/place/details/json with parameters: {'placeid': 'ChIJYcHoGyRawokR9rSZ9FTdFMk', 'key': 'IzaSyCSp-f-_FWHw8jfNFF9yd7mgUxaX-DZo8g'}
+DEBUG 2020-05-21 16:28:04,634: Starting new HTTPS connection (1): maps.googleapis.com:443
+DEBUG 2020-05-21 16:28:05,113: https://maps.googleapis.com:443 "GET /maps/api/place/details/json?placeid=ChIJYcHoGyRawokR9rSZ9FTdFMk&key=IzaSyCSp-f-_FWHw8jfNFF9yd7mgUxaX-DZo8g HTTP/1.1" 200 None
+DEBUG 2020-05-21 16:28:05,116: Raw response: {'error_message': 'The provided API key is invalid.', 'html_attributions': [], 'status': 'REQUEST_DENIED'}
+ERROR 2020-05-21 16:28:05,116: Exception caught: KeyError, message: 'result'
+INFO 2020-05-21 16:28:05,116: Parse response: {'error_message': 'The provided API key is invalid.', 'html_attributions': [], 'status': 'REQUEST_DENIED'}
+ERROR 2020-05-21 16:28:05,123: Internal Server Error: /api/v1/responder/assign/1
+Traceback (most recent call last):
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py", line 86, in assign_responder
+    place_data = get_location_data(place_id)  # get the responder data
+  File "/Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py", line 150, in get_location_data
+    location['map_name'] = response['name']
+KeyError: 'name'
+INFO 2020-05-21 16:28:05,167: Call to https://maps.googleapis.com/maps/api/place/details/json with parameters: {'placeid': '1', 'key': 'IzaSyCSp-f-_FWHw8jfNFF9yd7mgUxaX-DZo8g'}
+DEBUG 2020-05-21 16:28:05,169: Starting new HTTPS connection (1): maps.googleapis.com:443
+DEBUG 2020-05-21 16:28:05,527: https://maps.googleapis.com:443 "GET /maps/api/place/details/json?placeid=1&key=IzaSyCSp-f-_FWHw8jfNFF9yd7mgUxaX-DZo8g HTTP/1.1" 200 None
+DEBUG 2020-05-21 16:28:05,530: Raw response: {'error_message': 'The provided API key is invalid.', 'html_attributions': [], 'status': 'REQUEST_DENIED'}
+ERROR 2020-05-21 16:28:05,530: Exception caught: KeyError, message: 'result'
+INFO 2020-05-21 16:28:05,530: Parse response: {'error_message': 'The provided API key is invalid.', 'html_attributions': [], 'status': 'REQUEST_DENIED'}
+ERROR 2020-05-21 16:28:05,531: Internal Server Error: /api/v1/responder/find/
+Traceback (most recent call last):
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py", line 52, in find_responders
+    location, place_type = get_location_data(incident_id)
+  File "/Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py", line 150, in get_location_data
+    location['map_name'] = response['name']
+KeyError: 'name'
+INFO 2020-05-21 16:30:34,346: Call to https://maps.googleapis.com/maps/api/place/details/json with parameters: {'placeid': '20', 'key': 'IzaSyCSp-f-_FWHw8jfNFF9yd7mgUxaX-DZo8g'}
+DEBUG 2020-05-21 16:30:34,367: Starting new HTTPS connection (1): maps.googleapis.com:443
+DEBUG 2020-05-21 16:30:34,950: https://maps.googleapis.com:443 "GET /maps/api/place/details/json?placeid=20&key=IzaSyCSp-f-_FWHw8jfNFF9yd7mgUxaX-DZo8g HTTP/1.1" 200 None
+DEBUG 2020-05-21 16:30:34,953: Raw response: {'error_message': 'The provided API key is invalid.', 'html_attributions': [], 'status': 'REQUEST_DENIED'}
+ERROR 2020-05-21 16:30:34,954: Exception caught: KeyError, message: 'result'
+INFO 2020-05-21 16:30:34,954: Parse response: {'error_message': 'The provided API key is invalid.', 'html_attributions': [], 'status': 'REQUEST_DENIED'}
+ERROR 2020-05-21 16:30:35,032: Internal Server Error: /api/v1/responder/find/
+Traceback (most recent call last):
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py", line 52, in find_responders
+    location, place_type = get_location_data(incident_id)
+  File "/Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py", line 150, in get_location_data
+    location['map_name'] = response['name']
+KeyError: 'name'
+INFO 2020-05-21 16:31:03,543: /Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/helow/settings.py changed, reloading.
+DEBUG 2020-05-21 16:31:03,544: Using selector: KqueueSelector
+INFO 2020-05-21 16:31:09,807: Call to https://maps.googleapis.com/maps/api/place/details/json with parameters: {'placeid': '20', 'key': 'IzaSyCSp-f-_FWHw8jfNFF9yd7mgUxaX-DZo8g'}
+DEBUG 2020-05-21 16:31:09,821: Starting new HTTPS connection (1): maps.googleapis.com:443
+DEBUG 2020-05-21 16:31:10,160: https://maps.googleapis.com:443 "GET /maps/api/place/details/json?placeid=20&key=IzaSyCSp-f-_FWHw8jfNFF9yd7mgUxaX-DZo8g HTTP/1.1" 200 None
+DEBUG 2020-05-21 16:31:10,163: Raw response: {'error_message': 'The provided API key is invalid.', 'html_attributions': [], 'status': 'REQUEST_DENIED'}
+ERROR 2020-05-21 16:31:10,163: Exception caught: KeyError, message: 'result'
+INFO 2020-05-21 16:31:10,163: Parse response: {'error_message': 'The provided API key is invalid.', 'html_attributions': [], 'status': 'REQUEST_DENIED'}
+ERROR 2020-05-21 16:31:10,221: Internal Server Error: /api/v1/responder/find/
+Traceback (most recent call last):
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py", line 52, in find_responders
+    location, place_type = get_location_data(incident_id)
+  File "/Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py", line 150, in get_location_data
+    location['map_name'] = response['name']
+KeyError: 'name'
+INFO 2020-05-21 16:32:00,273: /Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/helow/settings.py changed, reloading.
+DEBUG 2020-05-21 16:32:00,275: Using selector: KqueueSelector
+INFO 2020-05-21 16:38:58,078: /Users/franklynogbonna/Documents/SDG/Team-079-Product/config.py changed, reloading.
+DEBUG 2020-05-21 16:38:58,080: Using selector: KqueueSelector
+INFO 2020-05-21 16:39:05,187: Looking up responders for incident with id: 20
+INFO 2020-05-21 16:39:05,194: Returning place type: hospital for incident of type: Pedestrian Knock Down
+INFO 2020-05-21 16:39:05,194: Call https://maps.googleapis.com/maps/api/place/nearbysearch/json with parameters: {'location': '40.7117496,-74.00866669999999', 'radius': 500, 'types': 'hospital', 'key': 'IzaSyCSp-f-_FWHw8jfNFF9yd7mgUxaX-DZo8g'}
+DEBUG 2020-05-21 16:39:05,285: Starting new HTTPS connection (1): maps.googleapis.com:443
+DEBUG 2020-05-21 16:39:05,743: https://maps.googleapis.com:443 "GET /maps/api/place/nearbysearch/json?location=40.7117496%2C-74.00866669999999&radius=500&types=hospital&key=IzaSyCSp-f-_FWHw8jfNFF9yd7mgUxaX-DZo8g HTTP/1.1" 200 None
+INFO 2020-05-21 16:39:13,828: Looking up responders for incident with id: 19
+INFO 2020-05-21 16:39:13,837: Returning place type: hospital for incident of type: Pedestrian Knock Down
+INFO 2020-05-21 16:39:13,837: Call https://maps.googleapis.com/maps/api/place/nearbysearch/json with parameters: {'location': '40.7117496,-74.00866669999999', 'radius': 500, 'types': 'hospital', 'key': 'IzaSyCSp-f-_FWHw8jfNFF9yd7mgUxaX-DZo8g'}
+DEBUG 2020-05-21 16:39:13,847: Starting new HTTPS connection (1): maps.googleapis.com:443
+DEBUG 2020-05-21 16:39:14,219: https://maps.googleapis.com:443 "GET /maps/api/place/nearbysearch/json?location=40.7117496%2C-74.00866669999999&radius=500&types=hospital&key=IzaSyCSp-f-_FWHw8jfNFF9yd7mgUxaX-DZo8g HTTP/1.1" 200 None
+INFO 2020-05-21 16:41:42,259: /Users/franklynogbonna/Documents/SDG/Team-079-Product/config.py changed, reloading.
+DEBUG 2020-05-21 16:41:42,259: Using selector: KqueueSelector
+INFO 2020-05-21 16:41:53,351: Looking up responders for incident with id: 19
+INFO 2020-05-21 16:41:53,358: Returning place type: hospital for incident of type: Pedestrian Knock Down
+INFO 2020-05-21 16:41:53,358: Call https://maps.googleapis.com/maps/api/place/nearbysearch/json with parameters: {'location': '40.7117496,-74.00866669999999', 'radius': 500, 'types': 'hospital', 'key': 'AIzaSyCSp-f-_FWHw8jfNFF9yd7mgUxaX-DZo8g'}
+DEBUG 2020-05-21 16:41:53,374: Starting new HTTPS connection (1): maps.googleapis.com:443
+DEBUG 2020-05-21 16:41:54,522: https://maps.googleapis.com:443 "GET /maps/api/place/nearbysearch/json?location=40.7117496%2C-74.00866669999999&radius=500&types=hospital&key=AIzaSyCSp-f-_FWHw8jfNFF9yd7mgUxaX-DZo8g HTTP/1.1" 200 5701
+INFO 2020-05-21 16:44:46,911: Call to https://maps.googleapis.com/maps/api/place/details/json with parameters: {'placeid': 'ChIJ9ZopkSJawokRHz7091rcaZM', 'key': 'AIzaSyCSp-f-_FWHw8jfNFF9yd7mgUxaX-DZo8g'}
+DEBUG 2020-05-21 16:44:46,954: Starting new HTTPS connection (1): maps.googleapis.com:443
+DEBUG 2020-05-21 16:44:47,760: https://maps.googleapis.com:443 "GET /maps/api/place/details/json?placeid=ChIJ9ZopkSJawokRHz7091rcaZM&key=AIzaSyCSp-f-_FWHw8jfNFF9yd7mgUxaX-DZo8g HTTP/1.1" 200 1636
+DEBUG 2020-05-21 16:44:47,762: Raw response: {'html_attributions': [], 'result': {'address_components': [{'long_name': '170', 'short_name': '170', 'types': ['street_number']}, {'long_name': 'William Street', 'short_name': 'William St', 'types': ['route']}, {'long_name': 'Manhattan', 'short_name': 'Manhattan', 'types': ['sublocality_level_1', 'sublocality', 'political']}, {'long_name': 'New York', 'short_name': 'New York', 'types': ['locality', 'political']}, {'long_name': 'New York County', 'short_name': 'New York County', 'types': ['administrative_area_level_2', 'political']}, {'long_name': 'New York', 'short_name': 'NY', 'types': ['administrative_area_level_1', 'political']}, {'long_name': 'United States', 'short_name': 'US', 'types': ['country', 'political']}, {'long_name': '10038', 'short_name': '10038', 'types': ['postal_code']}], 'adr_address': '<span class="street-address">170 William St</span>, <span class="locality">New York</span>, <span class="region">NY</span> <span class="postal-code">10038</span>, <span class="country-name">USA</span>', 'business_status': 'OPERATIONAL', 'formatted_address': '170 William St, New York, NY 10038, USA', 'formatted_phone_number': '(646) 962-2000', 'geometry': {'location': {'lat': 40.7102911, 'lng': -74.0049623}, 'viewport': {'northeast': {'lat': 40.71154603029149, 'lng': -74.00377171970848}, 'southwest': {'lat': 40.70884806970849, 'lng': -74.0064696802915}}}, 'icon': 'https://maps.gstatic.com/mapfiles/place_api/icons/doctor-71.png', 'id': 'bf5f9545e2d517824db15d32dc52eb74e20edb91', 'international_phone_number': '+1 646-962-2000', 'name': 'Weill Cornell Physicians', 'place_id': 'ChIJ9ZopkSJawokRHz7091rcaZM', 'plus_code': {'compound_code': 'PX6W+42 New York, United States', 'global_code': '87G7PX6W+42'}, 'rating': 3.8, 'reference': 'ChIJ9ZopkSJawokRHz7091rcaZM', 'reviews': [{'author_name': 'Wiznelly Suazo', 'author_url': 'https://www.google.com/maps/contrib/104116490047709566635/reviews', 'language': 'en', 'profile_photo_url': 'https://lh4.ggpht.com/-j9K9JrlkrIY/AAAAAAAAAAI/AAAAAAAAAAA/rIc0Fhutjvs/s128-c0x00000000-cc-rp-mo/photo.jpg', 'rating': 1, 'relative_time_description': 'a year ago', 'text': 'Nurses are rude , the majority don’t care of making you the priority, you need to remind them more than once for what you need. They are racist and heard nurses gossiping about me. Not caring for my pain and needs, not fair the treatment that I have received after surgery. Will not come back, would prefer to go home with all my pain than to stay another day here.', 'time': 1548509405}, {'author_name': 'Galina Feinstein', 'author_url': 'https://www.google.com/maps/contrib/115501876225472545661/reviews', 'profile_photo_url': 'https://lh4.ggpht.com/-ldvFWwBd8qc/AAAAAAAAAAI/AAAAAAAAAAA/2Fm377NvHv4/s128-c0x00000000-cc-rp-mo/photo.jpg', 'rating': 4, 'relative_time_description': '4 years ago', 'text': '', 'time': 1447720469}, {'author_name': 'Zoe Frida', 'author_url': 'https://www.google.com/maps/contrib/114497909953980418802/reviews', 'profile_photo_url': 'https://lh3.ggpht.com/-rZd22fJncSo/AAAAAAAAAAI/AAAAAAAAAAA/xTnFnABD6dY/s128-c0x00000000-cc-rp-mo/photo.jpg', 'rating': 5, 'relative_time_description': '2 years ago', 'text': '', 'time': 1501787595}, {'author_name': 'Vanessa Lewis', 'author_url': 'https://www.google.com/maps/contrib/103678509641460495421/reviews', 'profile_photo_url': 'https://lh6.ggpht.com/-NEV-Qc2LB4A/AAAAAAAAAAI/AAAAAAAAAAA/a-EAmGvRIq0/s128-c0x00000000-cc-rp-mo/photo.jpg', 'rating': 5, 'relative_time_description': '3 years ago', 'text': '', 'time': 1480167543}], 'scope': 'GOOGLE', 'types': ['hospital', 'health', 'point_of_interest', 'establishment'], 'url': 'https://maps.google.com/?cid=10622263479395171871', 'user_ratings_total': 4, 'utc_offset': -240, 'vicinity': '170 William Street, New York', 'website': 'http://weillcornell.org/'}, 'status': 'OK'}
+ERROR 2020-05-21 16:44:47,819: Internal Server Error: /api/v1/responder/assign/19
+Traceback (most recent call last):
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py", line 86, in assign_responder
+    place_data = get_location_data(place_id)  # get the responder data
+  File "/Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py", line 147, in get_location_data
+    if response['status'] is not 'INVALID_REQUEST':
+KeyError: 'status'
+INFO 2020-05-21 16:46:00,224: /Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py changed, reloading.
+DEBUG 2020-05-21 16:46:00,226: Using selector: KqueueSelector
+INFO 2020-05-21 16:46:07,015: Call to https://maps.googleapis.com/maps/api/place/details/json with parameters: {'placeid': 'ChIJ9ZopkSJawokRHz7091rcaZM', 'key': 'AIzaSyCSp-f-_FWHw8jfNFF9yd7mgUxaX-DZo8g'}
+DEBUG 2020-05-21 16:46:07,084: Starting new HTTPS connection (1): maps.googleapis.com:443
+DEBUG 2020-05-21 16:46:07,692: https://maps.googleapis.com:443 "GET /maps/api/place/details/json?placeid=ChIJ9ZopkSJawokRHz7091rcaZM&key=AIzaSyCSp-f-_FWHw8jfNFF9yd7mgUxaX-DZo8g HTTP/1.1" 200 1636
+DEBUG 2020-05-21 16:46:07,694: Raw response: {'html_attributions': [], 'result': {'address_components': [{'long_name': '170', 'short_name': '170', 'types': ['street_number']}, {'long_name': 'William Street', 'short_name': 'William St', 'types': ['route']}, {'long_name': 'Manhattan', 'short_name': 'Manhattan', 'types': ['sublocality_level_1', 'sublocality', 'political']}, {'long_name': 'New York', 'short_name': 'New York', 'types': ['locality', 'political']}, {'long_name': 'New York County', 'short_name': 'New York County', 'types': ['administrative_area_level_2', 'political']}, {'long_name': 'New York', 'short_name': 'NY', 'types': ['administrative_area_level_1', 'political']}, {'long_name': 'United States', 'short_name': 'US', 'types': ['country', 'political']}, {'long_name': '10038', 'short_name': '10038', 'types': ['postal_code']}], 'adr_address': '<span class="street-address">170 William St</span>, <span class="locality">New York</span>, <span class="region">NY</span> <span class="postal-code">10038</span>, <span class="country-name">USA</span>', 'business_status': 'OPERATIONAL', 'formatted_address': '170 William St, New York, NY 10038, USA', 'formatted_phone_number': '(646) 962-2000', 'geometry': {'location': {'lat': 40.7102911, 'lng': -74.0049623}, 'viewport': {'northeast': {'lat': 40.71154603029149, 'lng': -74.00377171970848}, 'southwest': {'lat': 40.70884806970849, 'lng': -74.0064696802915}}}, 'icon': 'https://maps.gstatic.com/mapfiles/place_api/icons/doctor-71.png', 'id': 'bf5f9545e2d517824db15d32dc52eb74e20edb91', 'international_phone_number': '+1 646-962-2000', 'name': 'Weill Cornell Physicians', 'place_id': 'ChIJ9ZopkSJawokRHz7091rcaZM', 'plus_code': {'compound_code': 'PX6W+42 New York, United States', 'global_code': '87G7PX6W+42'}, 'rating': 3.8, 'reference': 'ChIJ9ZopkSJawokRHz7091rcaZM', 'reviews': [{'author_name': 'Wiznelly Suazo', 'author_url': 'https://www.google.com/maps/contrib/104116490047709566635/reviews', 'language': 'en', 'profile_photo_url': 'https://lh4.ggpht.com/-j9K9JrlkrIY/AAAAAAAAAAI/AAAAAAAAAAA/rIc0Fhutjvs/s128-c0x00000000-cc-rp-mo/photo.jpg', 'rating': 1, 'relative_time_description': 'a year ago', 'text': 'Nurses are rude , the majority don’t care of making you the priority, you need to remind them more than once for what you need. They are racist and heard nurses gossiping about me. Not caring for my pain and needs, not fair the treatment that I have received after surgery. Will not come back, would prefer to go home with all my pain than to stay another day here.', 'time': 1548509405}, {'author_name': 'Galina Feinstein', 'author_url': 'https://www.google.com/maps/contrib/115501876225472545661/reviews', 'profile_photo_url': 'https://lh4.ggpht.com/-ldvFWwBd8qc/AAAAAAAAAAI/AAAAAAAAAAA/2Fm377NvHv4/s128-c0x00000000-cc-rp-mo/photo.jpg', 'rating': 4, 'relative_time_description': '4 years ago', 'text': '', 'time': 1447720469}, {'author_name': 'Zoe Frida', 'author_url': 'https://www.google.com/maps/contrib/114497909953980418802/reviews', 'profile_photo_url': 'https://lh3.ggpht.com/-rZd22fJncSo/AAAAAAAAAAI/AAAAAAAAAAA/xTnFnABD6dY/s128-c0x00000000-cc-rp-mo/photo.jpg', 'rating': 5, 'relative_time_description': '2 years ago', 'text': '', 'time': 1501787595}, {'author_name': 'Vanessa Lewis', 'author_url': 'https://www.google.com/maps/contrib/103678509641460495421/reviews', 'profile_photo_url': 'https://lh6.ggpht.com/-NEV-Qc2LB4A/AAAAAAAAAAI/AAAAAAAAAAA/a-EAmGvRIq0/s128-c0x00000000-cc-rp-mo/photo.jpg', 'rating': 5, 'relative_time_description': '3 years ago', 'text': '', 'time': 1480167543}], 'scope': 'GOOGLE', 'types': ['hospital', 'health', 'point_of_interest', 'establishment'], 'url': 'https://maps.google.com/?cid=10622263479395171871', 'user_ratings_total': 4, 'utc_offset': -240, 'vicinity': '170 William Street, New York', 'website': 'http://weillcornell.org/'}, 'status': 'OK'}
+INFO 2020-05-21 16:46:07,695: Parse response: {'address_components': [{'long_name': '170', 'short_name': '170', 'types': ['street_number']}, {'long_name': 'William Street', 'short_name': 'William St', 'types': ['route']}, {'long_name': 'Manhattan', 'short_name': 'Manhattan', 'types': ['sublocality_level_1', 'sublocality', 'political']}, {'long_name': 'New York', 'short_name': 'New York', 'types': ['locality', 'political']}, {'long_name': 'New York County', 'short_name': 'New York County', 'types': ['administrative_area_level_2', 'political']}, {'long_name': 'New York', 'short_name': 'NY', 'types': ['administrative_area_level_1', 'political']}, {'long_name': 'United States', 'short_name': 'US', 'types': ['country', 'political']}, {'long_name': '10038', 'short_name': '10038', 'types': ['postal_code']}], 'adr_address': '<span class="street-address">170 William St</span>, <span class="locality">New York</span>, <span class="region">NY</span> <span class="postal-code">10038</span>, <span class="country-name">USA</span>', 'business_status': 'OPERATIONAL', 'formatted_address': '170 William St, New York, NY 10038, USA', 'formatted_phone_number': '(646) 962-2000', 'geometry': {'location': {'lat': 40.7102911, 'lng': -74.0049623}, 'viewport': {'northeast': {'lat': 40.71154603029149, 'lng': -74.00377171970848}, 'southwest': {'lat': 40.70884806970849, 'lng': -74.0064696802915}}}, 'icon': 'https://maps.gstatic.com/mapfiles/place_api/icons/doctor-71.png', 'id': 'bf5f9545e2d517824db15d32dc52eb74e20edb91', 'international_phone_number': '+1 646-962-2000', 'name': 'Weill Cornell Physicians', 'place_id': 'ChIJ9ZopkSJawokRHz7091rcaZM', 'plus_code': {'compound_code': 'PX6W+42 New York, United States', 'global_code': '87G7PX6W+42'}, 'rating': 3.8, 'reference': 'ChIJ9ZopkSJawokRHz7091rcaZM', 'reviews': [{'author_name': 'Wiznelly Suazo', 'author_url': 'https://www.google.com/maps/contrib/104116490047709566635/reviews', 'language': 'en', 'profile_photo_url': 'https://lh4.ggpht.com/-j9K9JrlkrIY/AAAAAAAAAAI/AAAAAAAAAAA/rIc0Fhutjvs/s128-c0x00000000-cc-rp-mo/photo.jpg', 'rating': 1, 'relative_time_description': 'a year ago', 'text': 'Nurses are rude , the majority don’t care of making you the priority, you need to remind them more than once for what you need. They are racist and heard nurses gossiping about me. Not caring for my pain and needs, not fair the treatment that I have received after surgery. Will not come back, would prefer to go home with all my pain than to stay another day here.', 'time': 1548509405}, {'author_name': 'Galina Feinstein', 'author_url': 'https://www.google.com/maps/contrib/115501876225472545661/reviews', 'profile_photo_url': 'https://lh4.ggpht.com/-ldvFWwBd8qc/AAAAAAAAAAI/AAAAAAAAAAA/2Fm377NvHv4/s128-c0x00000000-cc-rp-mo/photo.jpg', 'rating': 4, 'relative_time_description': '4 years ago', 'text': '', 'time': 1447720469}, {'author_name': 'Zoe Frida', 'author_url': 'https://www.google.com/maps/contrib/114497909953980418802/reviews', 'profile_photo_url': 'https://lh3.ggpht.com/-rZd22fJncSo/AAAAAAAAAAI/AAAAAAAAAAA/xTnFnABD6dY/s128-c0x00000000-cc-rp-mo/photo.jpg', 'rating': 5, 'relative_time_description': '2 years ago', 'text': '', 'time': 1501787595}, {'author_name': 'Vanessa Lewis', 'author_url': 'https://www.google.com/maps/contrib/103678509641460495421/reviews', 'profile_photo_url': 'https://lh6.ggpht.com/-NEV-Qc2LB4A/AAAAAAAAAAI/AAAAAAAAAAA/a-EAmGvRIq0/s128-c0x00000000-cc-rp-mo/photo.jpg', 'rating': 5, 'relative_time_description': '3 years ago', 'text': '', 'time': 1480167543}], 'scope': 'GOOGLE', 'types': ['hospital', 'health', 'point_of_interest', 'establishment'], 'url': 'https://maps.google.com/?cid=10622263479395171871', 'user_ratings_total': 4, 'utc_offset': -240, 'vicinity': '170 William Street, New York', 'website': 'http://weillcornell.org/'}
+DEBUG 2020-05-21 16:46:07,695: No data found for place with id: ChIJ9ZopkSJawokRHz7091rcaZM
+INFO 2020-05-21 16:46:19,946: Call to https://maps.googleapis.com/maps/api/place/details/json with parameters: {'placeid': 'ChIJ9ZopkSJawokRHz7091rcaZM123', 'key': 'AIzaSyCSp-f-_FWHw8jfNFF9yd7mgUxaX-DZo8g'}
+DEBUG 2020-05-21 16:46:19,968: Starting new HTTPS connection (1): maps.googleapis.com:443
+DEBUG 2020-05-21 16:46:20,433: https://maps.googleapis.com:443 "GET /maps/api/place/details/json?placeid=ChIJ9ZopkSJawokRHz7091rcaZM123&key=AIzaSyCSp-f-_FWHw8jfNFF9yd7mgUxaX-DZo8g HTTP/1.1" 200 78
+DEBUG 2020-05-21 16:46:20,436: Raw response: {'html_attributions': [], 'status': 'INVALID_REQUEST'}
+ERROR 2020-05-21 16:46:20,436: Exception caught: KeyError, message: 'result'
+INFO 2020-05-21 16:46:20,436: Parse response: {'html_attributions': [], 'status': 'INVALID_REQUEST'}
+ERROR 2020-05-21 16:46:20,493: Internal Server Error: /api/v1/responder/assign/19
+Traceback (most recent call last):
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py", line 86, in assign_responder
+    place_data = get_location_data(place_id)  # get the responder data
+  File "/Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py", line 150, in get_location_data
+    location['map_name'] = response['name']
+KeyError: 'name'
+INFO 2020-05-21 16:50:35,872: /Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py changed, reloading.
+DEBUG 2020-05-21 16:50:35,873: Using selector: KqueueSelector
+INFO 2020-05-21 16:53:01,205: /Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py changed, reloading.
+DEBUG 2020-05-21 16:53:01,207: Using selector: KqueueSelector
+INFO 2020-05-21 16:53:10,121: Call to https://maps.googleapis.com/maps/api/place/details/json with parameters: {'placeid': 'ChIJ9ZopkSJawokRHz7091rcaZM123', 'key': 'AIzaSyCSp-f-_FWHw8jfNFF9yd7mgUxaX-DZo8g'}
+DEBUG 2020-05-21 16:53:10,187: Starting new HTTPS connection (1): maps.googleapis.com:443
+DEBUG 2020-05-21 16:53:10,772: https://maps.googleapis.com:443 "GET /maps/api/place/details/json?placeid=ChIJ9ZopkSJawokRHz7091rcaZM123&key=AIzaSyCSp-f-_FWHw8jfNFF9yd7mgUxaX-DZo8g HTTP/1.1" 200 78
+DEBUG 2020-05-21 16:53:10,776: Raw response: {'html_attributions': [], 'status': 'INVALID_REQUEST'}
+INFO 2020-05-21 16:53:10,776: Parse response: {'html_attributions': [], 'status': 'INVALID_REQUEST'}
+ERROR 2020-05-21 16:53:10,841: Internal Server Error: /api/v1/responder/assign/19
+Traceback (most recent call last):
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py", line 86, in assign_responder
+    place_data = get_location_data(place_id)  # get the responder data
+  File "/Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py", line 150, in get_location_data
+    location['map_name'] = response['name']
+KeyError: 'name'
+INFO 2020-05-21 16:53:32,668: /Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py changed, reloading.
+DEBUG 2020-05-21 16:53:32,670: Using selector: KqueueSelector
+INFO 2020-05-21 16:53:36,766: Call to https://maps.googleapis.com/maps/api/place/details/json with parameters: {'placeid': 'ChIJ9ZopkSJawokRHz7091rcaZM123', 'key': 'AIzaSyCSp-f-_FWHw8jfNFF9yd7mgUxaX-DZo8g'}
+DEBUG 2020-05-21 16:53:36,780: Starting new HTTPS connection (1): maps.googleapis.com:443
+DEBUG 2020-05-21 16:53:37,183: https://maps.googleapis.com:443 "GET /maps/api/place/details/json?placeid=ChIJ9ZopkSJawokRHz7091rcaZM123&key=AIzaSyCSp-f-_FWHw8jfNFF9yd7mgUxaX-DZo8g HTTP/1.1" 200 None
+DEBUG 2020-05-21 16:53:37,185: Raw response: {'error_message': 'You have exceeded your daily request quota for this API. If you did not set a custom daily request quota, verify your project has an active billing account: http://g.co/dev/maps-no-account', 'html_attributions': [], 'status': 'OVER_QUERY_LIMIT'}
+INFO 2020-05-21 16:53:37,185: Parse response: {'error_message': 'You have exceeded your daily request quota for this API. If you did not set a custom daily request quota, verify your project has an active billing account: http://g.co/dev/maps-no-account', 'html_attributions': [], 'status': 'OVER_QUERY_LIMIT'}
+ERROR 2020-05-21 16:53:37,226: Internal Server Error: /api/v1/responder/assign/19
+Traceback (most recent call last):
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py", line 86, in assign_responder
+    place_data = get_location_data(place_id)  # get the responder data
+  File "/Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py", line 150, in get_location_data
+    location['map_name'] = response['name']
+KeyError: 'name'
+INFO 2020-05-21 17:03:26,685: /Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py changed, reloading.
+DEBUG 2020-05-21 17:03:26,687: Using selector: KqueueSelector
+INFO 2020-05-21 17:03:37,872: Looking up responders for incident with id: 19
+INFO 2020-05-21 17:03:37,880: Returning place type: hospital for incident of type: Pedestrian Knock Down
+INFO 2020-05-21 17:03:37,880: Call https://maps.googleapis.com/maps/api/place/nearbysearch/json with parameters: {'location': '40.7117496,-74.00866669999999', 'radius': 500, 'types': 'hospital', 'key': 'AIzaSyCSp-f-_FWHw8jfNFF9yd7mgUxaX-DZo8g'}
+DEBUG 2020-05-21 17:03:37,934: Starting new HTTPS connection (1): maps.googleapis.com:443
+DEBUG 2020-05-21 17:03:38,875: https://maps.googleapis.com:443 "GET /maps/api/place/nearbysearch/json?location=40.7117496%2C-74.00866669999999&radius=500&types=hospital&key=AIzaSyCSp-f-_FWHw8jfNFF9yd7mgUxaX-DZo8g HTTP/1.1" 200 5696
+INFO 2020-05-21 17:03:52,794: Call to https://maps.googleapis.com/maps/api/place/details/json with parameters: {'placeid': 'ChIJ9ZopkSJawokRHz7091rcaZM123', 'key': 'AIzaSyCSp-f-_FWHw8jfNFF9yd7mgUxaX-DZo8g'}
+DEBUG 2020-05-21 17:03:52,800: Starting new HTTPS connection (1): maps.googleapis.com:443
+DEBUG 2020-05-21 17:03:53,327: https://maps.googleapis.com:443 "GET /maps/api/place/details/json?placeid=ChIJ9ZopkSJawokRHz7091rcaZM123&key=AIzaSyCSp-f-_FWHw8jfNFF9yd7mgUxaX-DZo8g HTTP/1.1" 200 78
+DEBUG 2020-05-21 17:03:53,331: Raw response: {'html_attributions': [], 'status': 'INVALID_REQUEST'}
+DEBUG 2020-05-21 17:03:53,331: No data found for place with id: ChIJ9ZopkSJawokRHz7091rcaZM123
+ERROR 2020-05-21 17:03:53,415: Internal Server Error: /api/v1/responder/assign/19
+Traceback (most recent call last):
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/backends/utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/backends/sqlite3/base.py", line 396, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.IntegrityError: NOT NULL constraint failed: reporter_place.location_lat
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py", line 88, in assign_responder
+    location = Place.objects.create(**place_data)  # add location entry for this responder
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/query.py", line 433, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/base.py", line 746, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/base.py", line 784, in save_base
+    force_update, using, update_fields,
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/base.py", line 887, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/base.py", line 926, in _do_insert
+    using=using, raw=raw,
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/query.py", line 1204, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/sql/compiler.py", line 1391, in execute_sql
+    cursor.execute(sql, params)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/backends/utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/backends/utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/backends/utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/backends/utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/backends/utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/backends/sqlite3/base.py", line 396, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.IntegrityError: NOT NULL constraint failed: reporter_place.location_lat
+INFO 2020-05-21 17:05:35,026: /Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py changed, reloading.
+DEBUG 2020-05-21 17:05:35,027: Using selector: KqueueSelector
+INFO 2020-05-21 17:05:39,441: Call to https://maps.googleapis.com/maps/api/place/details/json with parameters: {'placeid': 'ChIJ9ZopkSJawokRHz7091rcaZM123', 'key': 'AIzaSyCSp-f-_FWHw8jfNFF9yd7mgUxaX-DZo8g'}
+DEBUG 2020-05-21 17:05:39,457: Starting new HTTPS connection (1): maps.googleapis.com:443
+DEBUG 2020-05-21 17:05:40,014: https://maps.googleapis.com:443 "GET /maps/api/place/details/json?placeid=ChIJ9ZopkSJawokRHz7091rcaZM123&key=AIzaSyCSp-f-_FWHw8jfNFF9yd7mgUxaX-DZo8g HTTP/1.1" 200 78
+DEBUG 2020-05-21 17:05:40,017: Raw response: {'html_attributions': [], 'status': 'INVALID_REQUEST'}
+DEBUG 2020-05-21 17:05:40,018: No data found for place with id: ChIJ9ZopkSJawokRHz7091rcaZM123
+INFO 2020-05-21 17:06:09,209: Call to https://maps.googleapis.com/maps/api/place/details/json with parameters: {'placeid': 'ChIJ9ZopkSJawokRHz7091rcaZM', 'key': 'AIzaSyCSp-f-_FWHw8jfNFF9yd7mgUxaX-DZo8g'}
+DEBUG 2020-05-21 17:06:09,213: Starting new HTTPS connection (1): maps.googleapis.com:443
+DEBUG 2020-05-21 17:06:09,546: https://maps.googleapis.com:443 "GET /maps/api/place/details/json?placeid=ChIJ9ZopkSJawokRHz7091rcaZM&key=AIzaSyCSp-f-_FWHw8jfNFF9yd7mgUxaX-DZo8g HTTP/1.1" 200 None
+DEBUG 2020-05-21 17:06:09,549: Raw response: {'error_message': 'You have exceeded your daily request quota for this API. If you did not set a custom daily request quota, verify your project has an active billing account: http://g.co/dev/maps-no-account', 'html_attributions': [], 'status': 'OVER_QUERY_LIMIT'}
+DEBUG 2020-05-21 17:06:09,549: No data found for place with id: ChIJ9ZopkSJawokRHz7091rcaZM
+INFO 2020-05-21 17:06:39,750: Call to https://maps.googleapis.com/maps/api/place/details/json with parameters: {'placeid': 'ChIJC1O_WBhawokR3Q7yIbn6G5g', 'key': 'AIzaSyCSp-f-_FWHw8jfNFF9yd7mgUxaX-DZo8g'}
+DEBUG 2020-05-21 17:06:39,755: Starting new HTTPS connection (1): maps.googleapis.com:443
+DEBUG 2020-05-21 17:06:40,424: https://maps.googleapis.com:443 "GET /maps/api/place/details/json?placeid=ChIJC1O_WBhawokR3Q7yIbn6G5g&key=AIzaSyCSp-f-_FWHw8jfNFF9yd7mgUxaX-DZo8g HTTP/1.1" 200 4428
+DEBUG 2020-05-21 17:06:40,427: Raw response: {'html_attributions': [], 'result': {'address_components': [{'long_name': '# 1605', 'short_name': '# 1605', 'types': ['subpremise']}, {'long_name': '225', 'short_name': '225', 'types': ['street_number']}, {'long_name': 'Broadway', 'short_name': 'Broadway', 'types': ['route']}, {'long_name': 'Manhattan', 'short_name': 'Manhattan', 'types': ['sublocality_level_1', 'sublocality', 'political']}, {'long_name': 'New York', 'short_name': 'New York', 'types': ['locality', 'political']}, {'long_name': 'New York County', 'short_name': 'New York County', 'types': ['administrative_area_level_2', 'political']}, {'long_name': 'New York', 'short_name': 'NY', 'types': ['administrative_area_level_1', 'political']}, {'long_name': 'United States', 'short_name': 'US', 'types': ['country', 'political']}, {'long_name': '10007', 'short_name': '10007', 'types': ['postal_code']}], 'adr_address': '<span class="street-address">225 Broadway # 1605</span>, <span class="locality">New York</span>, <span class="region">NY</span> <span class="postal-code">10007</span>, <span class="country-name">USA</span>', 'business_status': 'OPERATIONAL', 'formatted_address': '225 Broadway # 1605, New York, NY 10007, USA', 'formatted_phone_number': '(212) 693-4010', 'geometry': {'location': {'lat': 40.7117496, 'lng': -74.00866669999999}, 'viewport': {'northeast': {'lat': 40.71304103029149, 'lng': -74.00719931970849}, 'southwest': {'lat': 40.7103430697085, 'lng': -74.0098972802915}}}, 'icon': 'https://maps.gstatic.com/mapfiles/place_api/icons/doctor-71.png', 'id': 'd77a0e756ff31416f6e2238133adfc649c07dd8e', 'international_phone_number': '+1 212-693-4010', 'name': 'DOWNTOWN MANHATTAN PSYCHIATRIC GROUP', 'opening_hours': {'open_now': True, 'periods': [{'close': {'day': 0, 'time': '1500'}, 'open': {'day': 0, 'time': '1000'}}, {'close': {'day': 1, 'time': '2000'}, 'open': {'day': 1, 'time': '0800'}}, {'close': {'day': 2, 'time': '2000'}, 'open': {'day': 2, 'time': '0800'}}, {'close': {'day': 3, 'time': '2000'}, 'open': {'day': 3, 'time': '0800'}}, {'close': {'day': 4, 'time': '2000'}, 'open': {'day': 4, 'time': '0800'}}, {'close': {'day': 5, 'time': '2000'}, 'open': {'day': 5, 'time': '0800'}}, {'close': {'day': 6, 'time': '1600'}, 'open': {'day': 6, 'time': '0900'}}], 'weekday_text': ['Monday: 8:00 AM – 8:00 PM', 'Tuesday: 8:00 AM – 8:00 PM', 'Wednesday: 8:00 AM – 8:00 PM', 'Thursday: 8:00 AM – 8:00 PM', 'Friday: 8:00 AM – 8:00 PM', 'Saturday: 9:00 AM – 4:00 PM', 'Sunday: 10:00 AM – 3:00 PM']}, 'photos': [{'height': 576, 'html_attributions': ['<a href="https://maps.google.com/maps/contrib/109582459660429394811">DOWNTOWN MANHATTAN PSYCHIATRIC GROUP</a>'], 'photo_reference': 'CmRaAAAAxJXEcWhtc43rVx4ksdTWTzHy5LJvS0EggdP19IEic4ymOnyeoFEUo9C6RhU25UZH7VUqPYW0iTBsgcsjm00yyU8qvljW7c-odYr6FnNe1vURyVCD9Nnezmv__CcNm8kdEhCk6lPx_gP7kTwkmiXSK6N0GhTe_lR4B12tx9K3nL5gmM4R_wnhEg', 'width': 1024}, {'height': 2848, 'html_attributions': ['<a href="https://maps.google.com/maps/contrib/109582459660429394811">DOWNTOWN MANHATTAN PSYCHIATRIC GROUP</a>'], 'photo_reference': 'CmRaAAAAWxeS0fELzA6sRlYnDeRk40jvI03mGLDr0NTa0GLKElA3cA7l8NTmKjqc8vaOiHS-3R6Mhrywy3H5HAPSoVa7bpem2E3ESeNwRDyTBQqakcmPjSOau1CP5D7tLWEKlNvpEhAtXCbWPs_hdkHQIJ3paLfkGhRCWkyiK3ccaRAnhTKuw_UtiL7rXQ', 'width': 4272}, {'height': 2672, 'html_attributions': ['<a href="https://maps.google.com/maps/contrib/109582459660429394811">DOWNTOWN MANHATTAN PSYCHIATRIC GROUP</a>'], 'photo_reference': 'CmRaAAAAcs5QjIphGyDv3IsinwUhhGeixuGT5ngJsLGVM7LbHZ29gy4IuayBIsAUDIdBCdgxCttqumwjJlfNODuUQEvQ5V_Nr65Knfr_Spnj7kaTbfB--c__-U_v9XPuUJgBsNfOEhD2BSneN2J3az9zscMpLCBaGhRY0eNOXNhJw22JZTCLlzM1NXo_SA', 'width': 4000}, {'height': 1623, 'html_attributions': ['<a href="https://maps.google.com/maps/contrib/109582459660429394811">DOWNTOWN MANHATTAN PSYCHIATRIC GROUP</a>'], 'photo_reference': 'CmRaAAAAQtGWsQKTsLHBkzprNxfviF43mqEcLVlK10MVLFB8epZAzdfsvmXHUyMQ8ghjhmZB2JfuOJ3LtLxXSw6TIflXqJc87AZgK3EgvGy2CmMwomNLCckqJ4z8DZDaPlWJvd5lEhBR3lfiD35xgoDjuKXU4fhIGhS-dL5oI9RQrFXiVm2YhVoA-cV3zw', 'width': 1176}, {'height': 2848, 'html_attributions': ['<a href="https://maps.google.com/maps/contrib/109582459660429394811">DOWNTOWN MANHATTAN PSYCHIATRIC GROUP</a>'], 'photo_reference': 'CmRaAAAAsOzwrcRFrc7jF8yeUn0eVgrhhbamkfciih79LDZjfyy2CraQpq6dacR0JUTPruYGr2rUkcf4VDaXwuXdFUG2a4io5RrFHXAMWyumEqah4jopuWkHaoFu5En-8r1CuWf2EhDn3-poWv2k8VpIE4e8F3X5GhRwjHdQ4NyGkDQ__p3pPVzq1oEcLw', 'width': 4272}, {'height': 2848, 'html_attributions': ['<a href="https://maps.google.com/maps/contrib/109582459660429394811">DOWNTOWN MANHATTAN PSYCHIATRIC GROUP</a>'], 'photo_reference': 'CmRaAAAAsS5wSGx1dIMpdv6Bkcof8R4MTpu8E-38orAE0spg7ElDQTZaAqvAOcRhF1X82mm_M-ObbDsnWo-8IjX1F-NNtZ6zmZEpDfypM64pvRLTwKgNGoZWSDhW4AXpGfkacTg4EhBi08olak5BQrkz9RtbIEErGhRcbH_cZ0jRkg7ikQZAgqUezt0Iww', 'width': 4272}, {'height': 2848, 'html_attributions': ['<a href="https://maps.google.com/maps/contrib/109582459660429394811">DOWNTOWN MANHATTAN PSYCHIATRIC GROUP</a>'], 'photo_reference': 'CmRaAAAAoC5rbfa8uQ_jxh2LCtPj1VlgsSOjFffQD1FDUb6yBvoJqR3Ig1Eh6pJcaZe-qcl6NYSjPb3YfM0I3LRy9q1w-Y2ARaSsL1_ijvqOo8NMbwz7usAubeRqbSxtnXRLFsXvEhBytRk3esc8ZV9ORmvwI54qGhQCjTSnYQTPMv3eigAYrIQhy7x7rA', 'width': 4272}, {'height': 1202, 'html_attributions': ['<a href="https://maps.google.com/maps/contrib/109582459660429394811">DOWNTOWN MANHATTAN PSYCHIATRIC GROUP</a>'], 'photo_reference': 'CmRaAAAAlTydDJLJLnoBdKUKV9olDrrvL0u6iEjFT2LPguZpxBa7BMMXNBLclDHhA654kLYHC6atBJvv4SgnGEYP8d1F8gpBb5zmt2sDTv1HOxbU9AiZI8ZKl1WqSPYIv1-adLk_EhC6JT8l-KmZXKnq39A1kOSEGhTfnA09GXWOq2hnnVZGx17mdXu0nw', 'width': 1141}, {'height': 4272, 'html_attributions': ['<a href="https://maps.google.com/maps/contrib/109582459660429394811">DOWNTOWN MANHATTAN PSYCHIATRIC GROUP</a>'], 'photo_reference': 'CmRaAAAAzm7UN74X4HYdlsCrU7OYjsDB7JnX6MnVRJhemSEaF3_INgMUr4tXUMTTnT4yLwC8qjgwtwd96R6qFa6emErUFIoEB4BIueOMO3YHlkq-mpxK8cpe0iY48jyO-vwua_4tEhDlsih58MoxoK5skV43EJxPGhR5t2uld2WodfXs64EBdLl5fgvSkA', 'width': 2848}, {'height': 4000, 'html_attributions': ['<a href="https://maps.google.com/maps/contrib/109582459660429394811">DOWNTOWN MANHATTAN PSYCHIATRIC GROUP</a>'], 'photo_reference': 'CmRaAAAAhnOPJJX75xIT3A48pAs5CySAumP2VDpPLKjELNG9VRrfQHScN_x94UkeQV42F-h3xc7Ma9f4XbDj3obUmHKDbm5BO-W8rpcBUYxVib1CjbJAUt9TqE11pkN7jdjdIbmOEhASUDFLAQ3fYn1wJmYR7H3XGhTBe0Ra8_hhM9ZDrEKqxNwlYQtEuA', 'width': 2672}], 'place_id': 'ChIJC1O_WBhawokR3Q7yIbn6G5g', 'plus_code': {'compound_code': 'PX6R+MG New York, United States', 'global_code': '87G7PX6R+MG'}, 'rating': 2.3, 'reference': 'ChIJC1O_WBhawokR3Q7yIbn6G5g', 'reviews': [{'author_name': 'robert lah', 'author_url': 'https://www.google.com/maps/contrib/115726552210499996107/reviews', 'language': 'en', 'profile_photo_url': 'https://lh5.ggpht.com/-I-3RaTZ1MR8/AAAAAAAAAAI/AAAAAAAAAAA/pU2OaMY58nA/s128-c0x00000000-cc-rp-mo/photo.jpg', 'rating': 3, 'relative_time_description': '2 months ago', 'text': "The doctors are good, but expect massive waits.  I work a few minutes away, so I usually call before going over to see if they're running on time (and not go if not) and often the hold time is 45 minutes or more to even ask that question.  If you value time over money, not for you.  But if you don't mind hanging out in a waiting room for an hour or so, it's fine.", 'time': 1584036572}, {'author_name': 'Dave Ramber', 'author_url': 'https://www.google.com/maps/contrib/114640532970432984525/reviews', 'language': 'en', 'profile_photo_url': 'https://lh5.ggpht.com/-1UOlFh2DV6o/AAAAAAAAAAI/AAAAAAAAAAA/aQwPMjuwapQ/s128-c0x00000000-cc-rp-mo/photo.jpg', 'rating': 5, 'relative_time_description': '3 months ago', 'text': "I've been the patient of this practice over 7 years now. I like the fact that doctors listen to you instead of rushing you out just to get the insurance payment. Sometimes the office is a bit crowded, but this makes sense, as people prefer quality. They're flexible with insurance and will fight for you to get the insurance cover the medications that you need.", 'time': 1581337820}, {'author_name': 'Alexander Buckley', 'author_url': 'https://www.google.com/maps/contrib/114499810917791197479/reviews', 'language': 'en', 'profile_photo_url': 'https://lh3.ggpht.com/-57H8qW5i0_c/AAAAAAAAAAI/AAAAAAAAAAA/eSqEUQysQOU/s128-c0x00000000-cc-rp-mo/photo.jpg', 'rating': 1, 'relative_time_description': '4 months ago', 'text': 'I have seen 3 different providers at this practice. The reviews below are accurate. They over schedule patients to over bill insurance companies. I’ve submitted a complaint to the BBB. They are open to hearing other patient complaints. If the practice is reading this, please schedule your client’s better. People can’t always choose to go to another practice if their insurance won’t pay for it. Unfair and unethical business practice.', 'time': 1578691067}, {'author_name': 'Michael Kaiser', 'author_url': 'https://www.google.com/maps/contrib/116197803999252849071/reviews', 'language': 'en', 'profile_photo_url': 'https://lh6.ggpht.com/-xviNFfaxJpA/AAAAAAAAAAI/AAAAAAAAAAA/r_F5YCssRqk/s128-c0x00000000-cc-rp-mo/photo.jpg', 'rating': 5, 'relative_time_description': '3 months ago', 'text': "There are several advantages - they're low cost, professional, many doctors in one practice so you can choose who works best for you, accept insurance and will work with them to get you processed quickly. Saved me bunch of time", 'time': 1582237747}, {'author_name': 'Christi Reid', 'author_url': 'https://www.google.com/maps/contrib/105070489915059899785/reviews', 'language': 'en', 'profile_photo_url': 'https://lh3.ggpht.com/-814ufdrQabs/AAAAAAAAAAI/AAAAAAAAAAA/7fSxoFkkzQA/s128-c0x00000000-cc-rp-mo/photo.jpg', 'rating': 5, 'relative_time_description': '6 months ago', 'text': "Psychiatrist Linda Grove is by far the best I have ever seen. She genuinely listens and works with you to come up with a plan to tackle your biggest problems. I truly appreciate how much she listens and takes what I have to say into consideration. I can't say I've met another doctor like her. I recommend her to anyone in need of a psychiatrist.", 'time': 1573408139}], 'scope': 'GOOGLE', 'types': ['hospital', 'health', 'point_of_interest', 'establishment'], 'url': 'https://maps.google.com/?cid=10960629791181639389', 'user_ratings_total': 112, 'utc_offset': -240, 'vicinity': '225 Broadway # 1605, New York', 'website': 'http://www.downtownpsychiatricgroup.com/'}, 'status': 'OK'}
+INFO 2020-05-21 17:06:40,428: Parse response: {'address_components': [{'long_name': '# 1605', 'short_name': '# 1605', 'types': ['subpremise']}, {'long_name': '225', 'short_name': '225', 'types': ['street_number']}, {'long_name': 'Broadway', 'short_name': 'Broadway', 'types': ['route']}, {'long_name': 'Manhattan', 'short_name': 'Manhattan', 'types': ['sublocality_level_1', 'sublocality', 'political']}, {'long_name': 'New York', 'short_name': 'New York', 'types': ['locality', 'political']}, {'long_name': 'New York County', 'short_name': 'New York County', 'types': ['administrative_area_level_2', 'political']}, {'long_name': 'New York', 'short_name': 'NY', 'types': ['administrative_area_level_1', 'political']}, {'long_name': 'United States', 'short_name': 'US', 'types': ['country', 'political']}, {'long_name': '10007', 'short_name': '10007', 'types': ['postal_code']}], 'adr_address': '<span class="street-address">225 Broadway # 1605</span>, <span class="locality">New York</span>, <span class="region">NY</span> <span class="postal-code">10007</span>, <span class="country-name">USA</span>', 'business_status': 'OPERATIONAL', 'formatted_address': '225 Broadway # 1605, New York, NY 10007, USA', 'formatted_phone_number': '(212) 693-4010', 'geometry': {'location': {'lat': 40.7117496, 'lng': -74.00866669999999}, 'viewport': {'northeast': {'lat': 40.71304103029149, 'lng': -74.00719931970849}, 'southwest': {'lat': 40.7103430697085, 'lng': -74.0098972802915}}}, 'icon': 'https://maps.gstatic.com/mapfiles/place_api/icons/doctor-71.png', 'id': 'd77a0e756ff31416f6e2238133adfc649c07dd8e', 'international_phone_number': '+1 212-693-4010', 'name': 'DOWNTOWN MANHATTAN PSYCHIATRIC GROUP', 'opening_hours': {'open_now': True, 'periods': [{'close': {'day': 0, 'time': '1500'}, 'open': {'day': 0, 'time': '1000'}}, {'close': {'day': 1, 'time': '2000'}, 'open': {'day': 1, 'time': '0800'}}, {'close': {'day': 2, 'time': '2000'}, 'open': {'day': 2, 'time': '0800'}}, {'close': {'day': 3, 'time': '2000'}, 'open': {'day': 3, 'time': '0800'}}, {'close': {'day': 4, 'time': '2000'}, 'open': {'day': 4, 'time': '0800'}}, {'close': {'day': 5, 'time': '2000'}, 'open': {'day': 5, 'time': '0800'}}, {'close': {'day': 6, 'time': '1600'}, 'open': {'day': 6, 'time': '0900'}}], 'weekday_text': ['Monday: 8:00 AM – 8:00 PM', 'Tuesday: 8:00 AM – 8:00 PM', 'Wednesday: 8:00 AM – 8:00 PM', 'Thursday: 8:00 AM – 8:00 PM', 'Friday: 8:00 AM – 8:00 PM', 'Saturday: 9:00 AM – 4:00 PM', 'Sunday: 10:00 AM – 3:00 PM']}, 'photos': [{'height': 576, 'html_attributions': ['<a href="https://maps.google.com/maps/contrib/109582459660429394811">DOWNTOWN MANHATTAN PSYCHIATRIC GROUP</a>'], 'photo_reference': 'CmRaAAAAxJXEcWhtc43rVx4ksdTWTzHy5LJvS0EggdP19IEic4ymOnyeoFEUo9C6RhU25UZH7VUqPYW0iTBsgcsjm00yyU8qvljW7c-odYr6FnNe1vURyVCD9Nnezmv__CcNm8kdEhCk6lPx_gP7kTwkmiXSK6N0GhTe_lR4B12tx9K3nL5gmM4R_wnhEg', 'width': 1024}, {'height': 2848, 'html_attributions': ['<a href="https://maps.google.com/maps/contrib/109582459660429394811">DOWNTOWN MANHATTAN PSYCHIATRIC GROUP</a>'], 'photo_reference': 'CmRaAAAAWxeS0fELzA6sRlYnDeRk40jvI03mGLDr0NTa0GLKElA3cA7l8NTmKjqc8vaOiHS-3R6Mhrywy3H5HAPSoVa7bpem2E3ESeNwRDyTBQqakcmPjSOau1CP5D7tLWEKlNvpEhAtXCbWPs_hdkHQIJ3paLfkGhRCWkyiK3ccaRAnhTKuw_UtiL7rXQ', 'width': 4272}, {'height': 2672, 'html_attributions': ['<a href="https://maps.google.com/maps/contrib/109582459660429394811">DOWNTOWN MANHATTAN PSYCHIATRIC GROUP</a>'], 'photo_reference': 'CmRaAAAAcs5QjIphGyDv3IsinwUhhGeixuGT5ngJsLGVM7LbHZ29gy4IuayBIsAUDIdBCdgxCttqumwjJlfNODuUQEvQ5V_Nr65Knfr_Spnj7kaTbfB--c__-U_v9XPuUJgBsNfOEhD2BSneN2J3az9zscMpLCBaGhRY0eNOXNhJw22JZTCLlzM1NXo_SA', 'width': 4000}, {'height': 1623, 'html_attributions': ['<a href="https://maps.google.com/maps/contrib/109582459660429394811">DOWNTOWN MANHATTAN PSYCHIATRIC GROUP</a>'], 'photo_reference': 'CmRaAAAAQtGWsQKTsLHBkzprNxfviF43mqEcLVlK10MVLFB8epZAzdfsvmXHUyMQ8ghjhmZB2JfuOJ3LtLxXSw6TIflXqJc87AZgK3EgvGy2CmMwomNLCckqJ4z8DZDaPlWJvd5lEhBR3lfiD35xgoDjuKXU4fhIGhS-dL5oI9RQrFXiVm2YhVoA-cV3zw', 'width': 1176}, {'height': 2848, 'html_attributions': ['<a href="https://maps.google.com/maps/contrib/109582459660429394811">DOWNTOWN MANHATTAN PSYCHIATRIC GROUP</a>'], 'photo_reference': 'CmRaAAAAsOzwrcRFrc7jF8yeUn0eVgrhhbamkfciih79LDZjfyy2CraQpq6dacR0JUTPruYGr2rUkcf4VDaXwuXdFUG2a4io5RrFHXAMWyumEqah4jopuWkHaoFu5En-8r1CuWf2EhDn3-poWv2k8VpIE4e8F3X5GhRwjHdQ4NyGkDQ__p3pPVzq1oEcLw', 'width': 4272}, {'height': 2848, 'html_attributions': ['<a href="https://maps.google.com/maps/contrib/109582459660429394811">DOWNTOWN MANHATTAN PSYCHIATRIC GROUP</a>'], 'photo_reference': 'CmRaAAAAsS5wSGx1dIMpdv6Bkcof8R4MTpu8E-38orAE0spg7ElDQTZaAqvAOcRhF1X82mm_M-ObbDsnWo-8IjX1F-NNtZ6zmZEpDfypM64pvRLTwKgNGoZWSDhW4AXpGfkacTg4EhBi08olak5BQrkz9RtbIEErGhRcbH_cZ0jRkg7ikQZAgqUezt0Iww', 'width': 4272}, {'height': 2848, 'html_attributions': ['<a href="https://maps.google.com/maps/contrib/109582459660429394811">DOWNTOWN MANHATTAN PSYCHIATRIC GROUP</a>'], 'photo_reference': 'CmRaAAAAoC5rbfa8uQ_jxh2LCtPj1VlgsSOjFffQD1FDUb6yBvoJqR3Ig1Eh6pJcaZe-qcl6NYSjPb3YfM0I3LRy9q1w-Y2ARaSsL1_ijvqOo8NMbwz7usAubeRqbSxtnXRLFsXvEhBytRk3esc8ZV9ORmvwI54qGhQCjTSnYQTPMv3eigAYrIQhy7x7rA', 'width': 4272}, {'height': 1202, 'html_attributions': ['<a href="https://maps.google.com/maps/contrib/109582459660429394811">DOWNTOWN MANHATTAN PSYCHIATRIC GROUP</a>'], 'photo_reference': 'CmRaAAAAlTydDJLJLnoBdKUKV9olDrrvL0u6iEjFT2LPguZpxBa7BMMXNBLclDHhA654kLYHC6atBJvv4SgnGEYP8d1F8gpBb5zmt2sDTv1HOxbU9AiZI8ZKl1WqSPYIv1-adLk_EhC6JT8l-KmZXKnq39A1kOSEGhTfnA09GXWOq2hnnVZGx17mdXu0nw', 'width': 1141}, {'height': 4272, 'html_attributions': ['<a href="https://maps.google.com/maps/contrib/109582459660429394811">DOWNTOWN MANHATTAN PSYCHIATRIC GROUP</a>'], 'photo_reference': 'CmRaAAAAzm7UN74X4HYdlsCrU7OYjsDB7JnX6MnVRJhemSEaF3_INgMUr4tXUMTTnT4yLwC8qjgwtwd96R6qFa6emErUFIoEB4BIueOMO3YHlkq-mpxK8cpe0iY48jyO-vwua_4tEhDlsih58MoxoK5skV43EJxPGhR5t2uld2WodfXs64EBdLl5fgvSkA', 'width': 2848}, {'height': 4000, 'html_attributions': ['<a href="https://maps.google.com/maps/contrib/109582459660429394811">DOWNTOWN MANHATTAN PSYCHIATRIC GROUP</a>'], 'photo_reference': 'CmRaAAAAhnOPJJX75xIT3A48pAs5CySAumP2VDpPLKjELNG9VRrfQHScN_x94UkeQV42F-h3xc7Ma9f4XbDj3obUmHKDbm5BO-W8rpcBUYxVib1CjbJAUt9TqE11pkN7jdjdIbmOEhASUDFLAQ3fYn1wJmYR7H3XGhTBe0Ra8_hhM9ZDrEKqxNwlYQtEuA', 'width': 2672}], 'place_id': 'ChIJC1O_WBhawokR3Q7yIbn6G5g', 'plus_code': {'compound_code': 'PX6R+MG New York, United States', 'global_code': '87G7PX6R+MG'}, 'rating': 2.3, 'reference': 'ChIJC1O_WBhawokR3Q7yIbn6G5g', 'reviews': [{'author_name': 'robert lah', 'author_url': 'https://www.google.com/maps/contrib/115726552210499996107/reviews', 'language': 'en', 'profile_photo_url': 'https://lh5.ggpht.com/-I-3RaTZ1MR8/AAAAAAAAAAI/AAAAAAAAAAA/pU2OaMY58nA/s128-c0x00000000-cc-rp-mo/photo.jpg', 'rating': 3, 'relative_time_description': '2 months ago', 'text': "The doctors are good, but expect massive waits.  I work a few minutes away, so I usually call before going over to see if they're running on time (and not go if not) and often the hold time is 45 minutes or more to even ask that question.  If you value time over money, not for you.  But if you don't mind hanging out in a waiting room for an hour or so, it's fine.", 'time': 1584036572}, {'author_name': 'Dave Ramber', 'author_url': 'https://www.google.com/maps/contrib/114640532970432984525/reviews', 'language': 'en', 'profile_photo_url': 'https://lh5.ggpht.com/-1UOlFh2DV6o/AAAAAAAAAAI/AAAAAAAAAAA/aQwPMjuwapQ/s128-c0x00000000-cc-rp-mo/photo.jpg', 'rating': 5, 'relative_time_description': '3 months ago', 'text': "I've been the patient of this practice over 7 years now. I like the fact that doctors listen to you instead of rushing you out just to get the insurance payment. Sometimes the office is a bit crowded, but this makes sense, as people prefer quality. They're flexible with insurance and will fight for you to get the insurance cover the medications that you need.", 'time': 1581337820}, {'author_name': 'Alexander Buckley', 'author_url': 'https://www.google.com/maps/contrib/114499810917791197479/reviews', 'language': 'en', 'profile_photo_url': 'https://lh3.ggpht.com/-57H8qW5i0_c/AAAAAAAAAAI/AAAAAAAAAAA/eSqEUQysQOU/s128-c0x00000000-cc-rp-mo/photo.jpg', 'rating': 1, 'relative_time_description': '4 months ago', 'text': 'I have seen 3 different providers at this practice. The reviews below are accurate. They over schedule patients to over bill insurance companies. I’ve submitted a complaint to the BBB. They are open to hearing other patient complaints. If the practice is reading this, please schedule your client’s better. People can’t always choose to go to another practice if their insurance won’t pay for it. Unfair and unethical business practice.', 'time': 1578691067}, {'author_name': 'Michael Kaiser', 'author_url': 'https://www.google.com/maps/contrib/116197803999252849071/reviews', 'language': 'en', 'profile_photo_url': 'https://lh6.ggpht.com/-xviNFfaxJpA/AAAAAAAAAAI/AAAAAAAAAAA/r_F5YCssRqk/s128-c0x00000000-cc-rp-mo/photo.jpg', 'rating': 5, 'relative_time_description': '3 months ago', 'text': "There are several advantages - they're low cost, professional, many doctors in one practice so you can choose who works best for you, accept insurance and will work with them to get you processed quickly. Saved me bunch of time", 'time': 1582237747}, {'author_name': 'Christi Reid', 'author_url': 'https://www.google.com/maps/contrib/105070489915059899785/reviews', 'language': 'en', 'profile_photo_url': 'https://lh3.ggpht.com/-814ufdrQabs/AAAAAAAAAAI/AAAAAAAAAAA/7fSxoFkkzQA/s128-c0x00000000-cc-rp-mo/photo.jpg', 'rating': 5, 'relative_time_description': '6 months ago', 'text': "Psychiatrist Linda Grove is by far the best I have ever seen. She genuinely listens and works with you to come up with a plan to tackle your biggest problems. I truly appreciate how much she listens and takes what I have to say into consideration. I can't say I've met another doctor like her. I recommend her to anyone in need of a psychiatrist.", 'time': 1573408139}], 'scope': 'GOOGLE', 'types': ['hospital', 'health', 'point_of_interest', 'establishment'], 'url': 'https://maps.google.com/?cid=10960629791181639389', 'user_ratings_total': 112, 'utc_offset': -240, 'vicinity': '225 Broadway # 1605, New York', 'website': 'http://www.downtownpsychiatricgroup.com/'}
+DEBUG 2020-05-21 17:06:40,428: No data found for place with id: ChIJC1O_WBhawokR3Q7yIbn6G5g
+INFO 2020-05-21 17:07:14,644: Looking up responders for incident with id: 0
+WARNING 2020-05-21 17:07:14,661: Not Found: /api/v1/responder/find/
+INFO 2020-05-21 17:18:31,520: /Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py changed, reloading.
+DEBUG 2020-05-21 17:18:31,521: Using selector: KqueueSelector
+INFO 2020-05-21 17:18:39,716: Looking up responders for incident with id: 0
+WARNING 2020-05-21 17:18:39,748: Not Found: /api/v1/responder/find/
+INFO 2020-05-21 17:18:43,192: Looking up responders for incident with id: 0
+WARNING 2020-05-21 17:18:43,201: Not Found: /api/v1/responder/find/
+INFO 2020-05-21 17:20:19,671: /Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py changed, reloading.
+DEBUG 2020-05-21 17:20:19,672: Using selector: KqueueSelector
+INFO 2020-05-21 17:20:28,583: Looking up responders for incident with id: 0
+ERROR 2020-05-21 17:20:28,649: Internal Server Error: /api/v1/responder/find/
+Traceback (most recent call last):
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py", line 54, in find_responders
+    location, place_type = get_incident_data(incident_id)
+  File "/Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py", line 40, in get_incident_data
+    incident = IncidentReport.objects.get(pk=incident_id)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/query.py", line 417, in get
+    self.model._meta.object_name
+reporter.models.IncidentReport.DoesNotExist: IncidentReport matching query does not exist.
+INFO 2020-05-21 17:21:17,558: /Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py changed, reloading.
+DEBUG 2020-05-21 17:21:17,559: Using selector: KqueueSelector
+INFO 2020-05-21 17:21:23,008: Looking up responders for incident with id: 0
+ERROR 2020-05-21 17:21:23,080: Internal Server Error: /api/v1/responder/find/
+Traceback (most recent call last):
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py", line 54, in find_responders
+    location, place_type = get_incident_data(incident_id)
+  File "/Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py", line 40, in get_incident_data
+    incident = IncidentReport.objects.get(incident_id)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/query.py", line 404, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/query.py", line 904, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/query.py", line 923, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1350, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1381, in _add_q
+    check_filterable=check_filterable,
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1247, in build_filter
+    arg, value = filter_expr
+ValueError: not enough values to unpack (expected 2, got 1)
+INFO 2020-05-21 17:22:58,751: /Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py changed, reloading.
+DEBUG 2020-05-21 17:22:58,751: Using selector: KqueueSelector
+INFO 2020-05-21 17:23:04,564: Looking up responders for incident with id: 0
+ERROR 2020-05-21 17:23:04,675: Internal Server Error: /api/v1/responder/find/
+Traceback (most recent call last):
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py", line 54, in find_responders
+    print('Right here', get_incident_data(incident_id))
+  File "/Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py", line 40, in get_incident_data
+    incident = IncidentReport.objects.get(incident_id)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/query.py", line 404, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/query.py", line 904, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/query.py", line 923, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1350, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1381, in _add_q
+    check_filterable=check_filterable,
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1247, in build_filter
+    arg, value = filter_expr
+ValueError: not enough values to unpack (expected 2, got 1)
+INFO 2020-05-21 17:26:15,004: /Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py changed, reloading.
+DEBUG 2020-05-21 17:26:15,007: Using selector: KqueueSelector
+INFO 2020-05-21 17:26:19,672: Looking up responders for incident with id: 0
+ERROR 2020-05-21 17:26:19,753: Internal Server Error: /api/v1/responder/find/
+Traceback (most recent call last):
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py", line 54, in find_responders
+    print('Right here', get_incident_data(incident_id))
+  File "/Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py", line 40, in get_incident_data
+    incident = IncidentReport.objects.get(incident_id)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/query.py", line 404, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/query.py", line 904, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/query.py", line 923, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1350, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1381, in _add_q
+    check_filterable=check_filterable,
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1247, in build_filter
+    arg, value = filter_expr
+ValueError: not enough values to unpack (expected 2, got 1)
+INFO 2020-05-21 17:29:23,758: /Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py changed, reloading.
+DEBUG 2020-05-21 17:29:23,759: Using selector: KqueueSelector
+INFO 2020-05-21 17:29:28,652: Looking up responders for incident with id: 0
+ERROR 2020-05-21 17:29:28,866: Internal Server Error: /api/v1/responder/find/
+Traceback (most recent call last):
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py", line 54, in find_responders
+    print('Right here', get_incident_data(incident_id))
+  File "/Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py", line 40, in get_incident_data
+    incident = IncidentReport.objects.get(incident_id)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/query.py", line 404, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/query.py", line 904, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/query.py", line 923, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1350, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1381, in _add_q
+    check_filterable=check_filterable,
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1247, in build_filter
+    arg, value = filter_expr
+ValueError: not enough values to unpack (expected 2, got 1)
+INFO 2020-05-21 17:30:47,701: /Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py changed, reloading.
+DEBUG 2020-05-21 17:30:47,702: Using selector: KqueueSelector
+INFO 2020-05-21 17:30:54,218: Looking up responders for incident with id: 0
+ERROR 2020-05-21 17:30:54,304: Internal Server Error: /api/v1/responder/find/
+Traceback (most recent call last):
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py", line 54, in find_responders
+    location, place_type = get_incident_data(incident_id)
+  File "/Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py", line 40, in get_incident_data
+    incident = IncidentReport.objects.get(incident_id)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/query.py", line 404, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/query.py", line 904, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/query.py", line 923, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1350, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1381, in _add_q
+    check_filterable=check_filterable,
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1247, in build_filter
+    arg, value = filter_expr
+ValueError: not enough values to unpack (expected 2, got 1)
+INFO 2020-05-21 17:31:54,299: /Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py changed, reloading.
+DEBUG 2020-05-21 17:31:54,301: Using selector: KqueueSelector
+INFO 2020-05-21 17:31:58,857: Looking up responders for incident with id: 0
+ERROR 2020-05-21 17:31:58,962: Internal Server Error: /api/v1/responder/find/
+Traceback (most recent call last):
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py", line 54, in find_responders
+    location, place_type = get_incident_data(incident_id)
+  File "/Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py", line 40, in get_incident_data
+    incident = IncidentReport.objects.get(incident_id)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/query.py", line 404, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/query.py", line 904, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/query.py", line 923, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1350, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1381, in _add_q
+    check_filterable=check_filterable,
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1247, in build_filter
+    arg, value = filter_expr
+ValueError: not enough values to unpack (expected 2, got 1)
+INFO 2020-05-21 17:34:25,049: /Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py changed, reloading.
+DEBUG 2020-05-21 17:34:25,050: Using selector: KqueueSelector
+INFO 2020-05-21 17:34:29,834: Looking up responders for incident with id: 0
+ERROR 2020-05-21 17:34:29,894: Internal Server Error: /api/v1/responder/find/
+Traceback (most recent call last):
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py", line 54, in find_responders
+    location, place_type = get_incident_data(incident_id)
+  File "/Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py", line 40, in get_incident_data
+    incident = IncidentReport.objects.get(pk=incident_id)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/query.py", line 417, in get
+    self.model._meta.object_name
+reporter.models.IncidentReport.DoesNotExist: IncidentReport matching query does not exist.
+INFO 2020-05-21 17:35:04,305: /Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py changed, reloading.
+DEBUG 2020-05-21 17:35:04,306: Using selector: KqueueSelector
+INFO 2020-05-21 17:35:08,636: Looking up responders for incident with id: 0
+ERROR 2020-05-21 17:35:08,692: Internal Server Error: /api/v1/responder/find/
+Traceback (most recent call last):
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py", line 54, in find_responders
+    location, place_type = get_incident_data(incident_id)
+  File "/Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py", line 40, in get_incident_data
+    incident = IncidentReport.objects.get(id=incident_id)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/query.py", line 417, in get
+    self.model._meta.object_name
+reporter.models.IncidentReport.DoesNotExist: IncidentReport matching query does not exist.
+INFO 2020-05-21 17:35:42,884: /Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py changed, reloading.
+DEBUG 2020-05-21 17:35:42,884: Using selector: KqueueSelector
+INFO 2020-05-21 17:35:48,052: Looking up responders for incident with id: 0
+ERROR 2020-05-21 17:35:48,141: Internal Server Error: /api/v1/responder/find/
+Traceback (most recent call last):
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py", line 55, in find_responders
+    location, place_type = get_incident_data(incident_id)
+  File "/Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py", line 40, in get_incident_data
+    incident, unknown = IncidentReport.objects.get(incident_id)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/query.py", line 404, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/query.py", line 904, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/query.py", line 923, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1350, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1381, in _add_q
+    check_filterable=check_filterable,
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1247, in build_filter
+    arg, value = filter_expr
+ValueError: not enough values to unpack (expected 2, got 1)
+INFO 2020-05-21 17:37:36,936: /Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py changed, reloading.
+DEBUG 2020-05-21 17:37:36,937: Using selector: KqueueSelector
+INFO 2020-05-21 17:37:41,217: Looking up responders for incident with id: 0
+ERROR 2020-05-21 17:37:41,294: Internal Server Error: /api/v1/responder/find/
+Traceback (most recent call last):
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py", line 55, in find_responders
+    location, place_type = get_incident_data(incident_id)
+  File "/Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py", line 40, in get_incident_data
+    logger.debug(IncidentReport.objects.get(incident_id))
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/query.py", line 404, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/query.py", line 904, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/query.py", line 923, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1350, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1381, in _add_q
+    check_filterable=check_filterable,
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1247, in build_filter
+    arg, value = filter_expr
+ValueError: not enough values to unpack (expected 2, got 1)
+INFO 2020-05-21 17:38:26,618: /Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py changed, reloading.
+DEBUG 2020-05-21 17:38:26,620: Using selector: KqueueSelector
+INFO 2020-05-21 17:38:30,589: Looking up responders for incident with id: 0
+INFO 2020-05-21 17:40:19,517: /Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py changed, reloading.
+DEBUG 2020-05-21 17:40:19,518: Using selector: KqueueSelector
+INFO 2020-05-21 17:40:25,484: Looking up responders for incident with id: 0
+DEBUG 2020-05-21 17:40:25,484: <QuerySet []>
+INFO 2020-05-21 17:41:25,601: /Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py changed, reloading.
+DEBUG 2020-05-21 17:41:25,602: Using selector: KqueueSelector
+INFO 2020-05-21 17:41:29,804: Looking up responders for incident with id: 0
+INFO 2020-05-21 17:41:32,197: Looking up responders for incident with id: 0
+INFO 2020-05-21 17:41:44,299: Looking up responders for incident with id: d
+ERROR 2020-05-21 17:41:44,386: Internal Server Error: /api/v1/responder/find/
+Traceback (most recent call last):
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/fields/__init__.py", line 1772, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: 'd'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py", line 55, in find_responders
+    location, place_type = get_incident_data(incident_id)
+  File "/Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py", line 40, in get_incident_data
+    incident = IncidentReport.objects.filter(id=incident_id)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/query.py", line 904, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/query.py", line 923, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1350, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1381, in _add_q
+    check_filterable=check_filterable,
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1311, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1165, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/lookups.py", line 22, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/lookups.py", line 72, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/fields/__init__.py", line 1776, in get_prep_value
+    ) from e
+ValueError: Field 'id' expected a number but got 'd'.
+INFO 2020-05-21 17:43:30,043: Looking up responders for incident with id: 9k
+ERROR 2020-05-21 17:43:30,110: Internal Server Error: /api/v1/responder/find/
+Traceback (most recent call last):
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/fields/__init__.py", line 1772, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: '9k'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py", line 55, in find_responders
+    location, place_type = get_incident_data(incident_id)
+  File "/Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py", line 40, in get_incident_data
+    incident = IncidentReport.objects.filter(id=incident_id)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/query.py", line 904, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/query.py", line 923, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1350, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1381, in _add_q
+    check_filterable=check_filterable,
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1311, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1165, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/lookups.py", line 22, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/lookups.py", line 72, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/fields/__init__.py", line 1776, in get_prep_value
+    ) from e
+ValueError: Field 'id' expected a number but got '9k'.
+INFO 2020-05-21 17:45:54,501: /Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py changed, reloading.
+DEBUG 2020-05-21 17:45:54,503: Using selector: KqueueSelector
+INFO 2020-05-21 17:45:59,799: Looking up responders for incident with id: 9k
+ERROR 2020-05-21 17:45:59,799: An integer variable expect but got 9k
+INFO 2020-05-21 17:46:22,463: Looking up responders for incident with id: 9
+ERROR 2020-05-21 17:46:22,576: Internal Server Error: /api/v1/responder/find/
+Traceback (most recent call last):
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py", line 61, in find_responders
+    location, place_type = get_incident_data(incident_id)
+  File "/Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py", line 50, in get_incident_data
+    latitude = incident.location.location_lat
+AttributeError: 'QuerySet' object has no attribute 'location'
+INFO 2020-05-21 17:49:42,891: /Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py changed, reloading.
+DEBUG 2020-05-21 17:49:42,891: Using selector: KqueueSelector
+INFO 2020-05-21 17:49:48,176: Looking up responders for incident with id: 9
+ERROR 2020-05-21 17:49:48,182: <QuerySet [<IncidentReport: A fuel tanker Acident>]> with id 9 does not have attributes for all fields
+INFO 2020-05-21 17:50:30,676: Looking up responders for incident with id: 19
+ERROR 2020-05-21 17:50:30,679: <QuerySet [<IncidentReport: New Incident>]> with id 19 does not have attributes for all fields
+INFO 2020-05-21 17:50:34,718: Looking up responders for incident with id: 19
+ERROR 2020-05-21 17:50:34,720: <QuerySet [<IncidentReport: New Incident>]> with id 19 does not have attributes for all fields
+INFO 2020-05-21 17:52:56,476: /Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py changed, reloading.
+DEBUG 2020-05-21 17:52:56,476: Using selector: KqueueSelector
+INFO 2020-05-21 17:53:01,216: Looking up responders for incident with id: 19
+ERROR 2020-05-21 17:53:01,219: <QuerySet [<IncidentReport: New Incident>]> with id 19 does not have attributes for all fields
+INFO 2020-05-21 17:53:49,725: /Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py changed, reloading.
+DEBUG 2020-05-21 17:53:49,725: Using selector: KqueueSelector
+INFO 2020-05-21 17:53:54,356: Looking up responders for incident with id: 19
+ERROR 2020-05-21 17:53:54,359: <QuerySet [<IncidentReport: New Incident>]> with id 19 does not have attributes for all fields
+INFO 2020-05-21 17:55:49,002: Looking up responders for incident with id: 22
+ERROR 2020-05-21 17:55:49,007: <QuerySet [<IncidentReport: Latest Deployment of Helow4>]> with id 22 does not have attributes for all fields
+INFO 2020-05-21 17:55:50,547: Looking up responders for incident with id: 22
+ERROR 2020-05-21 17:55:50,550: <QuerySet [<IncidentReport: Latest Deployment of Helow4>]> with id 22 does not have attributes for all fields
+INFO 2020-05-21 17:57:09,855: /Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py changed, reloading.
+DEBUG 2020-05-21 17:57:09,856: Using selector: KqueueSelector
+INFO 2020-05-21 17:57:15,682: Looking up responders for incident with id: 22
+ERROR 2020-05-21 17:57:15,738: Internal Server Error: /api/v1/responder/find/
+Traceback (most recent call last):
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py", line 68, in find_responders
+    location, place_type = get_incident_data(incident_id)
+  File "/Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py", line 44, in get_incident_data
+    incident = get_object_or_404(pk=incident_id)
+TypeError: get_object_or_404() missing 1 required positional argument: 'klass'
+INFO 2020-05-21 17:57:32,711: /Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py changed, reloading.
+DEBUG 2020-05-21 17:57:32,711: Using selector: KqueueSelector
+INFO 2020-05-21 17:57:37,015: Looking up responders for incident with id: 22
+INFO 2020-05-21 17:57:37,022: Returning place type: hospital for incident of type: Uncategorized
+INFO 2020-05-21 17:57:37,022: Call https://maps.googleapis.com/maps/api/place/nearbysearch/json with parameters: {'location': '36.77782295,-76.2315181468951', 'radius': 500, 'types': 'hospital', 'key': 'AIzaSyCSp-f-_FWHw8jfNFF9yd7mgUxaX-DZo8g'}
+DEBUG 2020-05-21 17:57:37,122: Starting new HTTPS connection (1): maps.googleapis.com:443
+DEBUG 2020-05-21 17:57:37,880: https://maps.googleapis.com:443 "GET /maps/api/place/nearbysearch/json?location=36.77782295%2C-76.2315181468951&radius=500&types=hospital&key=AIzaSyCSp-f-_FWHw8jfNFF9yd7mgUxaX-DZo8g HTTP/1.1" 200 83
+INFO 2020-05-21 17:57:59,396: Looking up responders for incident with id: 0
+WARNING 2020-05-21 17:57:59,406: Not Found: /api/v1/responder/find/
+INFO 2020-05-21 17:58:23,941: Looking up responders for incident with id: 19
+INFO 2020-05-21 17:58:23,946: Returning place type: hospital for incident of type: Pedestrian Knock Down
+INFO 2020-05-21 17:58:23,947: Call https://maps.googleapis.com/maps/api/place/nearbysearch/json with parameters: {'location': '40.7117496,-74.00866669999999', 'radius': 500, 'types': 'hospital', 'key': 'AIzaSyCSp-f-_FWHw8jfNFF9yd7mgUxaX-DZo8g'}
+DEBUG 2020-05-21 17:58:23,951: Starting new HTTPS connection (1): maps.googleapis.com:443
+DEBUG 2020-05-21 17:58:24,884: https://maps.googleapis.com:443 "GET /maps/api/place/nearbysearch/json?location=40.7117496%2C-74.00866669999999&radius=500&types=hospital&key=AIzaSyCSp-f-_FWHw8jfNFF9yd7mgUxaX-DZo8g HTTP/1.1" 200 5687
+INFO 2020-05-21 17:58:36,313: Looking up responders for incident with id: 19
+INFO 2020-05-21 17:58:36,317: Returning place type: hospital for incident of type: Pedestrian Knock Down
+INFO 2020-05-21 17:58:36,318: Call https://maps.googleapis.com/maps/api/place/nearbysearch/json with parameters: {'location': '40.7117496,-74.00866669999999', 'radius': 500, 'types': 'hospital', 'key': 'AIzaSyCSp-f-_FWHw8jfNFF9yd7mgUxaX-DZo8g'}
+DEBUG 2020-05-21 17:58:36,339: Starting new HTTPS connection (1): maps.googleapis.com:443
+DEBUG 2020-05-21 17:58:39,116: https://maps.googleapis.com:443 "GET /maps/api/place/nearbysearch/json?location=40.7117496%2C-74.00866669999999&radius=500&types=hospital&key=AIzaSyCSp-f-_FWHw8jfNFF9yd7mgUxaX-DZo8g HTTP/1.1" 200 5691
+INFO 2020-05-21 17:59:55,467: /Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py changed, reloading.
+DEBUG 2020-05-21 17:59:55,468: Using selector: KqueueSelector
+INFO 2020-05-21 17:59:57,485: Looking up responders for incident with id: 19
+ERROR 2020-05-21 17:59:57,582: Internal Server Error: /api/v1/responder/find/
+Traceback (most recent call last):
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py", line 68, in find_responders
+    location, place_type = get_incident_data(incident_id)
+  File "/Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py", line 45, in get_incident_data
+    incident = IncidentReport.objects.get(incident_id)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/query.py", line 404, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/query.py", line 904, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/query.py", line 923, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1350, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1381, in _add_q
+    check_filterable=check_filterable,
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1250, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1087, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1483, in names_to_path
+    "Choices are: %s" % (name, ", ".join(available)))
+django.core.exceptions.FieldError: Cannot resolve keyword '1' into field. Choices are: description, id, incident_type, incident_type_id, is_status_open, location, location_id, reported_at, reported_by, reported_by_id, responder, responder_id, title
+INFO 2020-05-21 18:01:43,435: /Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py changed, reloading.
+DEBUG 2020-05-21 18:01:43,435: Using selector: KqueueSelector
+INFO 2020-05-21 18:01:48,826: Looking up responders for incident with id: 19
+INFO 2020-05-21 18:01:48,835: Returning place type: hospital for incident of type: Pedestrian Knock Down
+INFO 2020-05-21 18:01:48,836: Call https://maps.googleapis.com/maps/api/place/nearbysearch/json with parameters: {'location': '40.7117496,-74.00866669999999', 'radius': 500, 'types': 'hospital', 'key': 'AIzaSyCSp-f-_FWHw8jfNFF9yd7mgUxaX-DZo8g'}
+DEBUG 2020-05-21 18:01:48,855: Starting new HTTPS connection (1): maps.googleapis.com:443
+DEBUG 2020-05-21 18:01:49,989: https://maps.googleapis.com:443 "GET /maps/api/place/nearbysearch/json?location=40.7117496%2C-74.00866669999999&radius=500&types=hospital&key=AIzaSyCSp-f-_FWHw8jfNFF9yd7mgUxaX-DZo8g HTTP/1.1" 200 5692
+INFO 2020-05-21 18:02:05,882: /Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py changed, reloading.
+DEBUG 2020-05-21 18:02:05,882: Using selector: KqueueSelector
+INFO 2020-05-21 18:02:10,303: Looking up responders for incident with id: 1
+ERROR 2020-05-21 18:02:10,374: Internal Server Error: /api/v1/responder/find/
+Traceback (most recent call last):
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py", line 67, in find_responders
+    location, place_type = get_incident_data(incident_id)
+  File "/Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py", line 44, in get_incident_data
+    incident = IncidentReport.objects.get(id=incident_id)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/query.py", line 417, in get
+    self.model._meta.object_name
+reporter.models.IncidentReport.DoesNotExist: IncidentReport matching query does not exist.
+INFO 2020-05-21 18:03:33,608: /Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py changed, reloading.
+DEBUG 2020-05-21 18:03:33,609: Using selector: KqueueSelector
+INFO 2020-05-21 18:03:35,079: Looking up responders for incident with id: 1
+ERROR 2020-05-21 18:03:35,197: Internal Server Error: /api/v1/responder/find/
+Traceback (most recent call last):
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py", line 65, in find_responders
+    location, place_type = get_incident_data(incident_id)
+  File "/Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py", line 42, in get_incident_data
+    incident = IncidentReport.objects.get(id=incident_id)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/query.py", line 417, in get
+    self.model._meta.object_name
+reporter.models.IncidentReport.DoesNotExist: IncidentReport matching query does not exist.
+INFO 2020-05-21 18:03:38,433: Looking up responders for incident with id: 1
+ERROR 2020-05-21 18:03:38,488: Internal Server Error: /api/v1/responder/find/
+Traceback (most recent call last):
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py", line 65, in find_responders
+    location, place_type = get_incident_data(incident_id)
+  File "/Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py", line 42, in get_incident_data
+    incident = IncidentReport.objects.get(id=incident_id)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/query.py", line 417, in get
+    self.model._meta.object_name
+reporter.models.IncidentReport.DoesNotExist: IncidentReport matching query does not exist.
+INFO 2020-05-21 18:03:48,844: Looking up responders for incident with id: 19
+INFO 2020-05-21 18:03:48,849: Returning place type: hospital for incident of type: Pedestrian Knock Down
+INFO 2020-05-21 18:03:48,849: Call https://maps.googleapis.com/maps/api/place/nearbysearch/json with parameters: {'location': '40.7117496,-74.00866669999999', 'radius': 500, 'types': 'hospital', 'key': 'AIzaSyCSp-f-_FWHw8jfNFF9yd7mgUxaX-DZo8g'}
+DEBUG 2020-05-21 18:03:49,060: Starting new HTTPS connection (1): maps.googleapis.com:443
+DEBUG 2020-05-21 18:03:50,104: https://maps.googleapis.com:443 "GET /maps/api/place/nearbysearch/json?location=40.7117496%2C-74.00866669999999&radius=500&types=hospital&key=AIzaSyCSp-f-_FWHw8jfNFF9yd7mgUxaX-DZo8g HTTP/1.1" 200 5692
+INFO 2020-05-21 18:04:05,381: Looking up responders for incident with id: 19
+INFO 2020-05-21 18:04:05,385: Returning place type: hospital for incident of type: Pedestrian Knock Down
+INFO 2020-05-21 18:04:05,385: Call https://maps.googleapis.com/maps/api/place/nearbysearch/json with parameters: {'location': '40.7117496,-74.00866669999999', 'radius': 500, 'types': 'hospital', 'key': 'AIzaSyCSp-f-_FWHw8jfNFF9yd7mgUxaX-DZo8g'}
+DEBUG 2020-05-21 18:04:05,453: Starting new HTTPS connection (1): maps.googleapis.com:443
+DEBUG 2020-05-21 18:04:05,873: https://maps.googleapis.com:443 "GET /maps/api/place/nearbysearch/json?location=40.7117496%2C-74.00866669999999&radius=500&types=hospital&key=AIzaSyCSp-f-_FWHw8jfNFF9yd7mgUxaX-DZo8g HTTP/1.1" 200 None
+DEBUG 2020-05-21 18:06:32,857: Using selector: KqueueSelector
+INFO 2020-05-21 18:06:51,575: Looking up responders for incident with id: 19
+INFO 2020-05-21 18:06:51,593: Returning place type: hospital for incident of type: Pedestrian Knock Down
+INFO 2020-05-21 18:06:51,593: Call https://maps.googleapis.com/maps/api/place/nearbysearch/json with parameters: {'location': '40.7117496,-74.00866669999999', 'radius': 500, 'types': 'hospital', 'key': 'AIzaSyCSp-f-_FWHw8jfNFF9yd7mgUxaX-DZo8g'}
+DEBUG 2020-05-21 18:06:51,620: Starting new HTTPS connection (1): maps.googleapis.com:443
+DEBUG 2020-05-21 18:06:53,236: https://maps.googleapis.com:443 "GET /maps/api/place/nearbysearch/json?location=40.7117496%2C-74.00866669999999&radius=500&types=hospital&key=AIzaSyCSp-f-_FWHw8jfNFF9yd7mgUxaX-DZo8g HTTP/1.1" 200 5692
+INFO 2020-05-21 18:07:24,409: Looking up responders for incident with id: 19p
+ERROR 2020-05-21 18:07:24,410: An integer variable expect but got 19p
+INFO 2020-05-21 18:08:14,803: /Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py changed, reloading.
+DEBUG 2020-05-21 18:08:14,806: Using selector: KqueueSelector
