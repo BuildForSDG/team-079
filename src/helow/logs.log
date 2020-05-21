@@ -1111,3 +1111,24 @@ INFO 2020-05-21 18:07:24,409: Looking up responders for incident with id: 19p
 ERROR 2020-05-21 18:07:24,410: An integer variable expect but got 19p
 INFO 2020-05-21 18:08:14,803: /Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py changed, reloading.
 DEBUG 2020-05-21 18:08:14,806: Using selector: KqueueSelector
+INFO 2020-05-21 18:21:01,242: /Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py changed, reloading.
+DEBUG 2020-05-21 18:21:01,244: Using selector: KqueueSelector
+INFO 2020-05-21 18:22:00,649: /Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py changed, reloading.
+DEBUG 2020-05-21 18:22:00,652: Using selector: KqueueSelector
+INFO 2020-05-21 18:23:10,724: /Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py changed, reloading.
+DEBUG 2020-05-21 18:23:10,726: Using selector: KqueueSelector
+INFO 2020-05-21 18:24:10,549: Looking up responders for incident with id: 19
+INFO 2020-05-21 18:24:10,558: Returning place type: hospital for incident of type: Pedestrian Knock Down
+INFO 2020-05-21 18:24:10,558: Call https://maps.googleapis.com/maps/api/place/nearbysearch/json with parameters: {'location': '40.7117496,-74.00866669999999', 'radius': 500, 'types': 'hospital', 'key': 'AIzaSyBr427Ow25KCsgHcHQe_J1V1L39nTouIfk'}
+DEBUG 2020-05-21 18:24:10,633: Starting new HTTPS connection (1): maps.googleapis.com:443
+DEBUG 2020-05-21 18:24:11,855: https://maps.googleapis.com:443 "GET /maps/api/place/nearbysearch/json?location=40.7117496%2C-74.00866669999999&radius=500&types=hospital&key=AIzaSyBr427Ow25KCsgHcHQe_J1V1L39nTouIfk HTTP/1.1" 200 5431
+DEBUG 2020-05-21 18:24:11,858: Get the first 5 results
+INFO 2020-05-21 18:24:53,025: /Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py changed, reloading.
+DEBUG 2020-05-21 18:24:53,027: Using selector: KqueueSelector
+INFO 2020-05-21 18:25:00,290: Looking up responders for incident with id: 19
+INFO 2020-05-21 18:25:00,296: Returning place type: hospital for incident of type: Pedestrian Knock Down
+INFO 2020-05-21 18:25:00,296: Call https://maps.googleapis.com/maps/api/place/nearbysearch/json with parameters: {'location': '40.7117496,-74.00866669999999', 'radius': 500, 'types': 'hospital', 'key': 'AIzaSyBr427Ow25KCsgHcHQe_J1V1L39nTouIfk'}
+DEBUG 2020-05-21 18:25:00,310: Starting new HTTPS connection (1): maps.googleapis.com:443
+DEBUG 2020-05-21 18:25:01,226: https://maps.googleapis.com:443 "GET /maps/api/place/nearbysearch/json?location=40.7117496%2C-74.00866669999999&radius=500&types=hospital&key=AIzaSyBr427Ow25KCsgHcHQe_J1V1L39nTouIfk HTTP/1.1" 200 5438
+DEBUG 2020-05-21 18:25:01,242: Get the first 5 results
+DEBUG 2020-05-21 18:25:25,822: Using selector: KqueueSelector

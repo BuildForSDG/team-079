@@ -83,6 +83,7 @@ def find_responders(request):
             if 'results' in rsp and len(rsp.get('results')) > 0:
                 # get the first MAX_PLACES results
                 rsp = rsp['results'][:Config.MAX_PLACES]
+                logger.debug(f'Get the first {Config.MAX_PLACES} results')
         except Exception as ex:
             logger.error(f"Exception caught: {ex.__class__.__name__} exception: {ex}")
     else:
