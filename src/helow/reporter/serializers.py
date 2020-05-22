@@ -1,7 +1,9 @@
 """The serializer class for all endpoints."""
 from rest_framework import serializers
-from reporter.models import IncidentReport, Place, IncidentType
 from django.contrib.auth import get_user_model
+
+from reporter.models import IncidentReport, Place, IncidentType
+from config import Config as config
 
 
 class UserSerializer(serializers.Serializer):
@@ -69,7 +71,7 @@ class CreateIncidentReportSerializer(serializers.Serializer):
 
         # create a location for this incident
         location_data = validated_data.pop('location')
-        location = Place.objects.create(**location_data)
+        location = Place.objects.create(owner=config.REPORTER_LOCATION, **location_data)
 
         # create this incident
         return IncidentReport.objects.create(location=location, **validated_data)

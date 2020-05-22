@@ -1132,3 +1132,32 @@ DEBUG 2020-05-21 18:25:00,310: Starting new HTTPS connection (1): maps.googleapi
 DEBUG 2020-05-21 18:25:01,226: https://maps.googleapis.com:443 "GET /maps/api/place/nearbysearch/json?location=40.7117496%2C-74.00866669999999&radius=500&types=hospital&key=AIzaSyBr427Ow25KCsgHcHQe_J1V1L39nTouIfk HTTP/1.1" 200 5438
 DEBUG 2020-05-21 18:25:01,242: Get the first 5 results
 DEBUG 2020-05-21 18:25:25,822: Using selector: KqueueSelector
+INFO 2020-05-21 18:28:54,303: Looking up responders for incident with id: 19
+INFO 2020-05-21 18:28:54,310: Returning place type: hospital for incident of type: Pedestrian Knock Down
+INFO 2020-05-21 18:28:54,310: Call https://maps.googleapis.com/maps/api/place/nearbysearch/json with parameters: {'location': '40.7117496,-74.00866669999999', 'radius': 500, 'types': 'hospital', 'key': 'AIzaSyBr427Ow25KCsgHcHQe_J1V1L39nTouIfk'}
+DEBUG 2020-05-21 18:28:54,391: Starting new HTTPS connection (1): maps.googleapis.com:443
+DEBUG 2020-05-21 18:28:55,707: https://maps.googleapis.com:443 "GET /maps/api/place/nearbysearch/json?location=40.7117496%2C-74.00866669999999&radius=500&types=hospital&key=AIzaSyBr427Ow25KCsgHcHQe_J1V1L39nTouIfk HTTP/1.1" 200 5436
+DEBUG 2020-05-21 18:28:55,776: Get the first 5 results
+INFO 2020-05-21 18:29:20,950: Call to https://maps.googleapis.com/maps/api/place/details/json with parameters: {'placeid': 'ChIJC1O_WBhawokR3Q7yIbn6G5g', 'key': 'AIzaSyBr427Ow25KCsgHcHQe_J1V1L39nTouIfk'}
+DEBUG 2020-05-21 18:29:20,954: Starting new HTTPS connection (1): maps.googleapis.com:443
+DEBUG 2020-05-21 18:29:21,368: https://maps.googleapis.com:443 "GET /maps/api/place/details/json?placeid=ChIJC1O_WBhawokR3Q7yIbn6G5g&key=AIzaSyBr427Ow25KCsgHcHQe_J1V1L39nTouIfk HTTP/1.1" 200 None
+DEBUG 2020-05-21 18:29:21,375: Raw response: {'error_message': 'You have exceeded your daily request quota for this API. If you did not set a custom daily request quota, verify your project has an active billing account: http://g.co/dev/maps-no-account', 'html_attributions': [], 'status': 'OVER_QUERY_LIMIT'}
+DEBUG 2020-05-21 18:29:21,375: No data found for place with id: ChIJC1O_WBhawokR3Q7yIbn6G5g
+INFO 2020-05-21 18:29:52,589: Call to https://maps.googleapis.com/maps/api/place/details/json with parameters: {'placeid': 'ChIJC1O_WBhawokR3Q7yIbn6G5g', 'key': 'AIzaSyBr427Ow25KCsgHcHQe_J1V1L39nTouIfk'}
+DEBUG 2020-05-21 18:29:52,593: Starting new HTTPS connection (1): maps.googleapis.com:443
+DEBUG 2020-05-21 18:29:54,792: https://maps.googleapis.com:443 "GET /maps/api/place/details/json?placeid=ChIJC1O_WBhawokR3Q7yIbn6G5g&key=AIzaSyBr427Ow25KCsgHcHQe_J1V1L39nTouIfk HTTP/1.1" 200 None
+DEBUG 2020-05-21 18:29:54,795: Raw response: {'error_message': 'You have exceeded your daily request quota for this API. If you did not set a custom daily request quota, verify your project has an active billing account: http://g.co/dev/maps-no-account', 'html_attributions': [], 'status': 'OVER_QUERY_LIMIT'}
+DEBUG 2020-05-21 18:29:54,795: No data found for place with id: ChIJC1O_WBhawokR3Q7yIbn6G5g
+INFO 2020-05-21 18:30:00,011: Looking up responders for incident with id: 19
+INFO 2020-05-21 18:30:00,017: Returning place type: hospital for incident of type: Pedestrian Knock Down
+INFO 2020-05-21 18:30:00,017: Call https://maps.googleapis.com/maps/api/place/nearbysearch/json with parameters: {'location': '40.7117496,-74.00866669999999', 'radius': 500, 'types': 'hospital', 'key': 'AIzaSyBr427Ow25KCsgHcHQe_J1V1L39nTouIfk'}
+DEBUG 2020-05-21 18:30:00,022: Starting new HTTPS connection (1): maps.googleapis.com:443
+DEBUG 2020-05-21 18:30:00,590: https://maps.googleapis.com:443 "GET /maps/api/place/nearbysearch/json?location=40.7117496%2C-74.00866669999999&radius=500&types=hospital&key=AIzaSyBr427Ow25KCsgHcHQe_J1V1L39nTouIfk HTTP/1.1" 200 None
+DEBUG 2020-05-21 18:35:02,474: Using selector: KqueueSelector
+DEBUG 2020-05-22 15:52:03,300: Using selector: KqueueSelector
+DEBUG 2020-05-22 15:52:38,926: Using selector: KqueueSelector
+WARNING 2020-05-22 16:24:27,849: Not Found: /api/v1/incident/report/
+INFO 2020-05-22 16:25:58,861: /Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/helow/settings.py changed, reloading.
+DEBUG 2020-05-22 16:25:58,867: Using selector: KqueueSelector
+DEBUG 2020-05-22 16:28:39,561: Using selector: KqueueSelector
+DEBUG 2020-05-22 16:32:53,243: Using selector: KqueueSelector

@@ -1,14 +1,17 @@
 """Views for responder."""
-from rest_framework import viewsets, generics
+import json
+import requests
+
 from django.http import JsonResponse
-import json, requests
 from django.shortcuts import get_object_or_404
-from .models import Responder
-from .serializers import ResponderSerializer
+from rest_framework import viewsets, generics
+
+from config import Config
 from reporter.models import IncidentReport, Place
 from reporter.serializers import IncidentLocationSerializer
 from setup import logger
-from config import Config
+from .models import Responder
+from .serializers import ResponderSerializer
 
 
 class ResponderViewset(viewsets.ModelViewSet):
@@ -156,7 +159,7 @@ def get_location_data(place_id):
         response = json.loads(rsp.text)
         logger.debug(f'Raw response: {response}')
 
-        if 'result' in response and len(response.get('result')) is not 0:
+        if 'result' in response and len(response.get('result')) > 0:
             # parse only the result object
 
             response = response['result']
@@ -177,7 +180,9 @@ def get_location_data(place_id):
             location['vicinity'] = response['vicinity']
             location['url'] = response['url']
             location['website'] = response['website']
-        logger.debug(f'No data found for place with id: {place_id}')
+            location['owner'] = Config.RESPONDER_LOCATION
+        else:
+            logger.debug(f'No data found for place with id: {place_id}')
     except Exception as ex:
         logger.error(f"Exception caught: {ex.__class__.__name__}, message: {ex}")
 

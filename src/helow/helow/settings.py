@@ -47,8 +47,10 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
-# Application definition
+# posting to an endpoint without trailing slash
+APPEND_SLASH = False
 
+# Application definition
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -165,7 +167,7 @@ USE_TZ = True
 
 
 # All settings common to all environments
-STATIC_URL = '/static/'
+STATIC_URL = '/src/helow/helow/static/'
 PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
 STATIC_ROOT = os.path.join(PROJECT_ROOT, 'static')
 

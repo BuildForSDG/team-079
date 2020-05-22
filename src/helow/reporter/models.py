@@ -36,6 +36,7 @@ class Place(models.Model):
     vicinity = models.CharField(max_length=200, null=True)
     url = models.CharField(max_length=200, null=True)
     website = models.CharField(max_length=100, null=True)
+    owner = models.CharField(max_length=20, null=True)
 
     def __str__(self):
         """Returns the string representation of the `Place` object."""
