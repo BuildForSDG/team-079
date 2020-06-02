@@ -75,3 +75,43 @@ class CreateIncidentReportSerializer(serializers.Serializer):
 
         # create this incident
         return IncidentReport.objects.create(location=location, **validated_data)
+
+
+class ReportSerializer(serializers.Serializer):
+    """Model serializer for `IncidentReport`."""
+
+    business_status = serializers.CharField(max_length=20)
+    icon = serializers.CharField(max_length=200)
+    id = serializers.CharField(max_length=100)
+    name = serializers.CharField(max_length=200)
+    place_id = serializers.CharField(max_length=200)
+    rating = serializers.FloatField()
+    user_ratings_total = serializers.IntegerField()
+    vicinity = serializers.CharField(max_length=200)
+
+    def create(self, validated_data):
+        """Create and return a new `IncidentReport` instance, given the validated data."""
+        # get user object if user is not anonymous
+        user_data = validated_data.get('reported_by')
+        if user_data:
+            user = get_user_model().objects.get(**user_data)
+            validated_data['reported_by'] = user
+
+        # get the incident type object with the provided id
+        incident_type_data = validated_data.get('incident_type')
+        if incident_type_data:
+            incident_type = IncidentType.objects.get(id=incident_type_data.get('id'))
+
+            validated_data['incident_type'] = incident_type
+
+        # create a location for this incident
+        location_data = validated_data.pop('location')
+        location = Place.objects.create(owner=config.REPORTER_LOCATION, **location_data)
+
+        # create this incident
+        incident = IncidentReport.objects.create(location=location, **validated_data)
+
+        # call find_responders to scan for available responders
+        from django.shortcuts import redirect, reverse
+
+        return redirect(reverse('find_responder') + f'?incident={incident.id}')

@@ -1,14 +1,17 @@
 """View classes for reporter app."""
+from django.http import JsonResponse
 from rest_framework import generics, viewsets
 from reporter.models import IncidentReport, IncidentType
 from reporter import serializers
 from rest_framework.pagination import PageNumberPagination
 from django.contrib.auth import get_user_model
+from config import Config as config
+from setup import logger
 
 
 # Create your views here.
 class CreateIncidentReportView(generics.ListCreateAPIView):
-    serializer_class = serializers.CreateIncidentReportSerializer
+    serializer_class = serializers.ReportSerializer
 
     # return incidents in descending order
     def get_queryset(self):
@@ -53,3 +56,34 @@ class IncidentTypesViewset(viewsets.ModelViewSet):
 class UserViewset(viewsets.ModelViewSet):
     queryset = get_user_model().objects.all()
     serializer_class = serializers.UserSerializer
+
+
+def report_incident(request):
+    """Function to create new incident."""
+    import json
+    from reporter.models import Place
+
+    try:
+        # parse the request body
+        body = json.loads(request.body)
+
+        # get user
+        if not request.user.is_anonymous:
+            body['reported_by'] = request.user
+
+        # get incident type
+        body['incident_type'] = IncidentType.objects.get(id=body.get('incident_type'))
+
+        # get location
+        location = Place.objects.create(owner=config.REPORTER_LOCATION, **body.pop('location'))
+
+        # create incident
+        incident = IncidentReport.objects.create(location=location, **body)
+
+        # call find_responders to scan for available responders
+        from django.shortcuts import redirect, reverse
+
+        return redirect(reverse('find_responder') + f'?incident={incident.id}')
+    except (TypeError, ValueError):
+        logger.error(f"Error occurred while processing request {request}.")
+        return JsonResponse({"message": "Error occurred, please kindly validate input data"})

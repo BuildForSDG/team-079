@@ -1188,3 +1188,851 @@ DEBUG 2020-05-27 15:44:00,439: https://maps.googleapis.com:443 "GET /maps/api/pl
 DEBUG 2020-05-27 15:44:00,508: Raw response: {'html_attributions': [], 'result': {'address_components': [{'long_name': '1', 'short_name': '1', 'types': ['street_number']}, {'long_name': 'Police Plaza Path', 'short_name': 'Police Plaza Path', 'types': ['route']}, {'long_name': 'Manhattan', 'short_name': 'Manhattan', 'types': ['sublocality_level_1', 'sublocality', 'political']}, {'long_name': 'New York', 'short_name': 'New York', 'types': ['locality', 'political']}, {'long_name': 'New York County', 'short_name': 'New York County', 'types': ['administrative_area_level_2', 'political']}, {'long_name': 'New York', 'short_name': 'NY', 'types': ['administrative_area_level_1', 'political']}, {'long_name': 'United States', 'short_name': 'US', 'types': ['country', 'political']}, {'long_name': '10038', 'short_name': '10038', 'types': ['postal_code']}, {'long_name': '1403', 'short_name': '1403', 'types': ['postal_code_suffix']}], 'adr_address': '<span class="street-address">1 Police Plaza Path</span>, <span class="locality">New York</span>, <span class="region">NY</span> <span class="postal-code">10038-1403</span>, <span class="country-name">USA</span>', 'business_status': 'OPERATIONAL', 'formatted_address': '1 Police Plaza Path, New York, NY 10038, USA', 'formatted_phone_number': '(646) 610-5000', 'geometry': {'location': {'lat': 40.71211479999999, 'lng': -74.00189170000002}, 'viewport': {'northeast': {'lat': 40.71323703029149, 'lng': -74.0005102197085}, 'southwest': {'lat': 40.71053906970849, 'lng': -74.00320818029151}}}, 'icon': 'https://maps.gstatic.com/mapfiles/place_api/icons/police-71.png', 'id': '7e074eb81a4aeb91cf175d2b469ead6d4fa3e065', 'international_phone_number': '+1 646-610-5000', 'name': 'New York City Police Department', 'photos': [{'height': 3024, 'html_attributions': ['<a href="https://maps.google.com/maps/contrib/117790497272734776118">Daniel Scharpf</a>'], 'photo_reference': 'CmRaAAAAUtB_cqLE58XHOdFZWHWFHcNIy7vY5JYt64kuGmttjOt-f88NWtcgN-UO4YYFXmtSl7uoJdFisuT5OxBPTtjzonwuXTbLTgq19iJqar2RDQRZjbOEQIKbGfEKyWEgUwpdEhDD7OMTsrxzcYX0mQMUQ-0UGhRHO93IDXZQyAFja7rE1GSTG1FuIw', 'width': 4032}, {'height': 1156, 'html_attributions': ['<a href="https://maps.google.com/maps/contrib/105462986695288450976">Ian R. Gordon</a>'], 'photo_reference': 'CmRaAAAAhVVtLjjYsistzkQt9TrewD2eGvcbHYQekfK-37JXNBefLkiE259MzR5PkosleBiH428Vg_sZ1ceDsQYkq4ZuD77FOBq8zVNFVF3Iv5XZQROomoudHSQs-Ldfm44vu-SWEhAMqrPOkXpHDGKBzSFodbNWGhSN4K3iTVm3E_b7vaIU1CFHqOYOWQ', 'width': 2048}, {'height': 3456, 'html_attributions': ['<a href="https://maps.google.com/maps/contrib/108360297527369641917">Shantonur Islam</a>'], 'photo_reference': 'CmRaAAAAxjVJ6dEvTvXDqBAa_JNyQ65i0mUUB7Wr0MiZzHp47RAaoZhyxaRJmRyJcLVnN2wH_NqTXPCnIW1UMp3-NIUWMWiyX5NfRWpMJpTyxYZfd8UnGjwmb0rtCWstLCHCplVJEhCaL87RcFeQX3QlVl8M9pV3GhRdd46l7-4Xe4n1ZxGOjPCGKhVwpQ', 'width': 4608}, {'height': 1536, 'html_attributions': ['<a href="https://maps.google.com/maps/contrib/101184843987067427945">Ilia Mici</a>'], 'photo_reference': 'CmRaAAAAiuTw-L680x5rTpo_mfCAUhSphf6-kXNhx3pIWFUwxNqzoHde2I2gfI0mw1Lvi3fyOZH-3DYWjaIWdgUVJrtPPor4DVa7SxST_06xb6Tp8GwJ1Y0YA-TQNufaSht-EL93EhDFtpT45kLbnH1Igfj0vE6NGhT-RGYPw2UGI0AaU50EHV_soYn_oQ', 'width': 2048}, {'height': 745, 'html_attributions': ['<a href="https://maps.google.com/maps/contrib/116820343792475479128">Endercavegaming</a>'], 'photo_reference': 'CmRaAAAAjkmEk4RBZE_dfa95czMw9Xav8z9QxeZiI1z34JWLgfvJ7BkKriFeyw07jjiQsga8hE_qnK8xxI9O7DHJ_5LeJi-0eeau9Nr_hWWfB8QcJHxnIyA307wcMvTJZRPSUS_XEhBEDS7BevkeT-jpch63WUpYGhQNra76wKn2jDQpjh2RMtMULkr09g', 'width': 640}, {'height': 3000, 'html_attributions': ['<a href="https://maps.google.com/maps/contrib/115838526007994501602">Anthony Botta</a>'], 'photo_reference': 'CmRaAAAASxP6jaEcMNIFvTOkWs9jHmn-xZBwE_MYAQoeY0MEz1tEnHvpjwMvVbv-qsyGl-6NENuukLe4paSbNP5PnSpw9TGhi7yFkIjYyu_D8V4UB1K_J6QzpOv3Kfrl1MiBhL_QEhC0ctm89BgBcTCm3jr-wcpUGhTzBFbLg_Vy-4nDNOB3R9yQlX62IA', 'width': 4000}, {'height': 449, 'html_attributions': ['<a href="https://maps.google.com/maps/contrib/102230029088426259351">Jolene Williams</a>'], 'photo_reference': 'CmRaAAAARuf0gjvzgddsQpKQPjhXOp-h3km2iVe15BNB_UjH8Ib7K_boAxVuWr6fuBzDzOygbjpceWijUhKReM-KRomDTyawHbRA-fWTDd4a1t3rxYO-gQ2l6U0BNm8KTqgxM9yKEhCtrYP8tjF_2a6lSrhYVGHNGhQYbyy5UtMBSHNxuHy64LheVlW0Bw', 'width': 600}, {'height': 3216, 'html_attributions': ['<a href="https://maps.google.com/maps/contrib/116522566196014882453">Rade Spasovski</a>'], 'photo_reference': 'CmRaAAAABEIL5ujgiATkSb9Elf9xt-UGX6wAnMJn5ROPT7oxRYuJV6-lJLd4j1MhUbLFZ-T_9MHxY86vRSN8a__RaS5C72QN0nYksRrsYDKC2zyLAzZQDosujFMlx9UXzsY5dp3WEhBaX-B_Vjjd-9_bWrRhC45_GhQicOGjQv5kwcGR3PnmtNdhjFBEoQ', 'width': 4288}, {'height': 3120, 'html_attributions': ['<a href="https://maps.google.com/maps/contrib/103956515776472458237">Fitzgerald Hamblin Jr</a>'], 'photo_reference': 'CmRaAAAAJVj2XnHpJOtbb7GvGkJ_lVyzG3d4blPt1bx1cYiPN4KEd3F1pk3vXyuyavfe5Q1hcbER_PpmwQ5KeHqVUnaf5iv8PzvGZfBcSe0z2FmSqbv9d4forYHlg8SBB3siQITMEhAyrokTdAHLYQb95-njrHFTGhS2EIcGhTOQwy0WqWTDa2RwfMGlBA', 'width': 3120}, {'height': 1932, 'html_attributions': ['<a href="https://maps.google.com/maps/contrib/100115212358253443659">NYC</a>'], 'photo_reference': 'CmRaAAAA0kmGc_xwJLrX9w1G4FnQq1_Z6cfS6OhHSGxs4AJ3ulG0RMbs0gTer1E7Sf2xM4RxU-qvzAkxjBcRCk1ELHvTauLqMdgd2X4EyXJHFRGjvkFQg1PcCYIETJu6XdNFkeFjEhA8_nXO3YneCTs-5TQ2g1TUGhQJtytgOmT1ggLDpoy_el8QEzYz9A', 'width': 2576}], 'place_id': 'ChIJYcHoGyRawokR9rSZ9FTdFMk', 'plus_code': {'compound_code': 'PX6X+R6 New York, United States', 'global_code': '87G7PX6X+R6'}, 'rating': 4.1, 'reference': 'ChIJYcHoGyRawokR9rSZ9FTdFMk', 'reviews': [{'author_name': 'Fitzgerald Hamblin Jr', 'author_url': 'https://www.google.com/maps/contrib/103956515776472458237/reviews', 'language': 'en', 'profile_photo_url': 'https://lh4.ggpht.com/-O2Jml2ExfmA/AAAAAAAAAAI/AAAAAAAAAAA/c8jT9Ka6CH4/s128-c0x00000000-cc-rp-mo-ba6/photo.jpg', 'rating': 5, 'relative_time_description': '3 weeks ago', 'text': 'Very helpful within serving out general information about jointed community affairs', 'time': 1588301810}, {'author_name': 'Gloria Edwards', 'author_url': 'https://www.google.com/maps/contrib/100438313856440702285/reviews', 'language': 'en', 'profile_photo_url': 'https://lh4.ggpht.com/-hSYEsmURgns/AAAAAAAAAAI/AAAAAAAAAAA/bW6ncZdPvWk/s128-c0x00000000-cc-rp-mo/photo.jpg', 'rating': 5, 'relative_time_description': '4 weeks ago', 'text': "Thank you for all that you do to protect and serve your citizens.  You give with your whole heart and mind.  Police officers are truly a gift from God.  You are ministers of God, and we love you.  I have only been up North one time.  My friends and I went to New York City, and we felt safe.  We felt welcomed, too.  You officers are just the best.  Stay encouraged.  Keep your head up.\nYa'll better know that all of us love you.\nGloria in South Carolina", 'time': 1588102090}, {'author_name': 'Ayah Ibrahim', 'author_url': 'https://www.google.com/maps/contrib/114970966524198495832/reviews', 'language': 'en', 'profile_photo_url': 'https://lh6.ggpht.com/-NwFw3mEl8sw/AAAAAAAAAAI/AAAAAAAAAAA/73SfSR3yQnI/s128-c0x00000000-cc-rp-mo/photo.jpg', 'rating': 1, 'relative_time_description': '5 months ago', 'text': "Gave me a ticket for no stopping or standing, even though the sign permits it during Sunday's. Went to go see if any other car had it on their shield, turns out I was the only one. The whole block, on both sides, had no tickets. I wonder why, specifically my car with a Palestinian flag, was targeted. Isn't that weird. Hmmm🤔 Looks the cops are good for one thing, and one thing only: clicking their pens.", 'time': 1576432843}, {'author_name': 'honey D.L', 'author_url': 'https://www.google.com/maps/contrib/110794210311382944728/reviews', 'language': 'en', 'profile_photo_url': 'https://lh3.ggpht.com/-m_zyHJGZYKE/AAAAAAAAAAI/AAAAAAAAAAA/DcLCe9oGXu8/s128-c0x00000000-cc-rp-mo-ba3/photo.jpg', 'rating': 5, 'relative_time_description': '4 months ago', 'text': 'I went to get a clearance letter for my grand mother and I received the right information.\nThe lady at station 1 was very nice and polite and provided me all possible options in order for me to obtain what I need it.', 'time': 1579119192}, {'author_name': 'Luba B', 'author_url': 'https://www.google.com/maps/contrib/103708077588472556829/reviews', 'language': 'en', 'profile_photo_url': 'https://lh5.ggpht.com/-arGi58TWt9I/AAAAAAAAAAI/AAAAAAAAAAA/_feTNtu--cQ/s128-c0x00000000-cc-rp-mo/photo.jpg', 'rating': 1, 'relative_time_description': '6 months ago', 'text': "Did not let my bf eat a bagel they most likely beat out for free from the local bagel shop owner. Assumed I couldn't read English because bf didn't see some nonexistent sign.", 'time': 1574802993}], 'scope': 'GOOGLE', 'types': ['police', 'point_of_interest', 'establishment'], 'url': 'https://maps.google.com/?cid=14489449258108433654', 'user_ratings_total': 251, 'utc_offset': -240, 'vicinity': '1 Police Plaza Path, New York', 'website': 'http://www.nyc.gov/nypd'}, 'status': 'OK'}
 INFO 2020-05-27 15:44:00,508: Parse response: {'address_components': [{'long_name': '1', 'short_name': '1', 'types': ['street_number']}, {'long_name': 'Police Plaza Path', 'short_name': 'Police Plaza Path', 'types': ['route']}, {'long_name': 'Manhattan', 'short_name': 'Manhattan', 'types': ['sublocality_level_1', 'sublocality', 'political']}, {'long_name': 'New York', 'short_name': 'New York', 'types': ['locality', 'political']}, {'long_name': 'New York County', 'short_name': 'New York County', 'types': ['administrative_area_level_2', 'political']}, {'long_name': 'New York', 'short_name': 'NY', 'types': ['administrative_area_level_1', 'political']}, {'long_name': 'United States', 'short_name': 'US', 'types': ['country', 'political']}, {'long_name': '10038', 'short_name': '10038', 'types': ['postal_code']}, {'long_name': '1403', 'short_name': '1403', 'types': ['postal_code_suffix']}], 'adr_address': '<span class="street-address">1 Police Plaza Path</span>, <span class="locality">New York</span>, <span class="region">NY</span> <span class="postal-code">10038-1403</span>, <span class="country-name">USA</span>', 'business_status': 'OPERATIONAL', 'formatted_address': '1 Police Plaza Path, New York, NY 10038, USA', 'formatted_phone_number': '(646) 610-5000', 'geometry': {'location': {'lat': 40.71211479999999, 'lng': -74.00189170000002}, 'viewport': {'northeast': {'lat': 40.71323703029149, 'lng': -74.0005102197085}, 'southwest': {'lat': 40.71053906970849, 'lng': -74.00320818029151}}}, 'icon': 'https://maps.gstatic.com/mapfiles/place_api/icons/police-71.png', 'id': '7e074eb81a4aeb91cf175d2b469ead6d4fa3e065', 'international_phone_number': '+1 646-610-5000', 'name': 'New York City Police Department', 'photos': [{'height': 3024, 'html_attributions': ['<a href="https://maps.google.com/maps/contrib/117790497272734776118">Daniel Scharpf</a>'], 'photo_reference': 'CmRaAAAAUtB_cqLE58XHOdFZWHWFHcNIy7vY5JYt64kuGmttjOt-f88NWtcgN-UO4YYFXmtSl7uoJdFisuT5OxBPTtjzonwuXTbLTgq19iJqar2RDQRZjbOEQIKbGfEKyWEgUwpdEhDD7OMTsrxzcYX0mQMUQ-0UGhRHO93IDXZQyAFja7rE1GSTG1FuIw', 'width': 4032}, {'height': 1156, 'html_attributions': ['<a href="https://maps.google.com/maps/contrib/105462986695288450976">Ian R. Gordon</a>'], 'photo_reference': 'CmRaAAAAhVVtLjjYsistzkQt9TrewD2eGvcbHYQekfK-37JXNBefLkiE259MzR5PkosleBiH428Vg_sZ1ceDsQYkq4ZuD77FOBq8zVNFVF3Iv5XZQROomoudHSQs-Ldfm44vu-SWEhAMqrPOkXpHDGKBzSFodbNWGhSN4K3iTVm3E_b7vaIU1CFHqOYOWQ', 'width': 2048}, {'height': 3456, 'html_attributions': ['<a href="https://maps.google.com/maps/contrib/108360297527369641917">Shantonur Islam</a>'], 'photo_reference': 'CmRaAAAAxjVJ6dEvTvXDqBAa_JNyQ65i0mUUB7Wr0MiZzHp47RAaoZhyxaRJmRyJcLVnN2wH_NqTXPCnIW1UMp3-NIUWMWiyX5NfRWpMJpTyxYZfd8UnGjwmb0rtCWstLCHCplVJEhCaL87RcFeQX3QlVl8M9pV3GhRdd46l7-4Xe4n1ZxGOjPCGKhVwpQ', 'width': 4608}, {'height': 1536, 'html_attributions': ['<a href="https://maps.google.com/maps/contrib/101184843987067427945">Ilia Mici</a>'], 'photo_reference': 'CmRaAAAAiuTw-L680x5rTpo_mfCAUhSphf6-kXNhx3pIWFUwxNqzoHde2I2gfI0mw1Lvi3fyOZH-3DYWjaIWdgUVJrtPPor4DVa7SxST_06xb6Tp8GwJ1Y0YA-TQNufaSht-EL93EhDFtpT45kLbnH1Igfj0vE6NGhT-RGYPw2UGI0AaU50EHV_soYn_oQ', 'width': 2048}, {'height': 745, 'html_attributions': ['<a href="https://maps.google.com/maps/contrib/116820343792475479128">Endercavegaming</a>'], 'photo_reference': 'CmRaAAAAjkmEk4RBZE_dfa95czMw9Xav8z9QxeZiI1z34JWLgfvJ7BkKriFeyw07jjiQsga8hE_qnK8xxI9O7DHJ_5LeJi-0eeau9Nr_hWWfB8QcJHxnIyA307wcMvTJZRPSUS_XEhBEDS7BevkeT-jpch63WUpYGhQNra76wKn2jDQpjh2RMtMULkr09g', 'width': 640}, {'height': 3000, 'html_attributions': ['<a href="https://maps.google.com/maps/contrib/115838526007994501602">Anthony Botta</a>'], 'photo_reference': 'CmRaAAAASxP6jaEcMNIFvTOkWs9jHmn-xZBwE_MYAQoeY0MEz1tEnHvpjwMvVbv-qsyGl-6NENuukLe4paSbNP5PnSpw9TGhi7yFkIjYyu_D8V4UB1K_J6QzpOv3Kfrl1MiBhL_QEhC0ctm89BgBcTCm3jr-wcpUGhTzBFbLg_Vy-4nDNOB3R9yQlX62IA', 'width': 4000}, {'height': 449, 'html_attributions': ['<a href="https://maps.google.com/maps/contrib/102230029088426259351">Jolene Williams</a>'], 'photo_reference': 'CmRaAAAARuf0gjvzgddsQpKQPjhXOp-h3km2iVe15BNB_UjH8Ib7K_boAxVuWr6fuBzDzOygbjpceWijUhKReM-KRomDTyawHbRA-fWTDd4a1t3rxYO-gQ2l6U0BNm8KTqgxM9yKEhCtrYP8tjF_2a6lSrhYVGHNGhQYbyy5UtMBSHNxuHy64LheVlW0Bw', 'width': 600}, {'height': 3216, 'html_attributions': ['<a href="https://maps.google.com/maps/contrib/116522566196014882453">Rade Spasovski</a>'], 'photo_reference': 'CmRaAAAABEIL5ujgiATkSb9Elf9xt-UGX6wAnMJn5ROPT7oxRYuJV6-lJLd4j1MhUbLFZ-T_9MHxY86vRSN8a__RaS5C72QN0nYksRrsYDKC2zyLAzZQDosujFMlx9UXzsY5dp3WEhBaX-B_Vjjd-9_bWrRhC45_GhQicOGjQv5kwcGR3PnmtNdhjFBEoQ', 'width': 4288}, {'height': 3120, 'html_attributions': ['<a href="https://maps.google.com/maps/contrib/103956515776472458237">Fitzgerald Hamblin Jr</a>'], 'photo_reference': 'CmRaAAAAJVj2XnHpJOtbb7GvGkJ_lVyzG3d4blPt1bx1cYiPN4KEd3F1pk3vXyuyavfe5Q1hcbER_PpmwQ5KeHqVUnaf5iv8PzvGZfBcSe0z2FmSqbv9d4forYHlg8SBB3siQITMEhAyrokTdAHLYQb95-njrHFTGhS2EIcGhTOQwy0WqWTDa2RwfMGlBA', 'width': 3120}, {'height': 1932, 'html_attributions': ['<a href="https://maps.google.com/maps/contrib/100115212358253443659">NYC</a>'], 'photo_reference': 'CmRaAAAA0kmGc_xwJLrX9w1G4FnQq1_Z6cfS6OhHSGxs4AJ3ulG0RMbs0gTer1E7Sf2xM4RxU-qvzAkxjBcRCk1ELHvTauLqMdgd2X4EyXJHFRGjvkFQg1PcCYIETJu6XdNFkeFjEhA8_nXO3YneCTs-5TQ2g1TUGhQJtytgOmT1ggLDpoy_el8QEzYz9A', 'width': 2576}], 'place_id': 'ChIJYcHoGyRawokR9rSZ9FTdFMk', 'plus_code': {'compound_code': 'PX6X+R6 New York, United States', 'global_code': '87G7PX6X+R6'}, 'rating': 4.1, 'reference': 'ChIJYcHoGyRawokR9rSZ9FTdFMk', 'reviews': [{'author_name': 'Fitzgerald Hamblin Jr', 'author_url': 'https://www.google.com/maps/contrib/103956515776472458237/reviews', 'language': 'en', 'profile_photo_url': 'https://lh4.ggpht.com/-O2Jml2ExfmA/AAAAAAAAAAI/AAAAAAAAAAA/c8jT9Ka6CH4/s128-c0x00000000-cc-rp-mo-ba6/photo.jpg', 'rating': 5, 'relative_time_description': '3 weeks ago', 'text': 'Very helpful within serving out general information about jointed community affairs', 'time': 1588301810}, {'author_name': 'Gloria Edwards', 'author_url': 'https://www.google.com/maps/contrib/100438313856440702285/reviews', 'language': 'en', 'profile_photo_url': 'https://lh4.ggpht.com/-hSYEsmURgns/AAAAAAAAAAI/AAAAAAAAAAA/bW6ncZdPvWk/s128-c0x00000000-cc-rp-mo/photo.jpg', 'rating': 5, 'relative_time_description': '4 weeks ago', 'text': "Thank you for all that you do to protect and serve your citizens.  You give with your whole heart and mind.  Police officers are truly a gift from God.  You are ministers of God, and we love you.  I have only been up North one time.  My friends and I went to New York City, and we felt safe.  We felt welcomed, too.  You officers are just the best.  Stay encouraged.  Keep your head up.\nYa'll better know that all of us love you.\nGloria in South Carolina", 'time': 1588102090}, {'author_name': 'Ayah Ibrahim', 'author_url': 'https://www.google.com/maps/contrib/114970966524198495832/reviews', 'language': 'en', 'profile_photo_url': 'https://lh6.ggpht.com/-NwFw3mEl8sw/AAAAAAAAAAI/AAAAAAAAAAA/73SfSR3yQnI/s128-c0x00000000-cc-rp-mo/photo.jpg', 'rating': 1, 'relative_time_description': '5 months ago', 'text': "Gave me a ticket for no stopping or standing, even though the sign permits it during Sunday's. Went to go see if any other car had it on their shield, turns out I was the only one. The whole block, on both sides, had no tickets. I wonder why, specifically my car with a Palestinian flag, was targeted. Isn't that weird. Hmmm🤔 Looks the cops are good for one thing, and one thing only: clicking their pens.", 'time': 1576432843}, {'author_name': 'honey D.L', 'author_url': 'https://www.google.com/maps/contrib/110794210311382944728/reviews', 'language': 'en', 'profile_photo_url': 'https://lh3.ggpht.com/-m_zyHJGZYKE/AAAAAAAAAAI/AAAAAAAAAAA/DcLCe9oGXu8/s128-c0x00000000-cc-rp-mo-ba3/photo.jpg', 'rating': 5, 'relative_time_description': '4 months ago', 'text': 'I went to get a clearance letter for my grand mother and I received the right information.\nThe lady at station 1 was very nice and polite and provided me all possible options in order for me to obtain what I need it.', 'time': 1579119192}, {'author_name': 'Luba B', 'author_url': 'https://www.google.com/maps/contrib/103708077588472556829/reviews', 'language': 'en', 'profile_photo_url': 'https://lh5.ggpht.com/-arGi58TWt9I/AAAAAAAAAAI/AAAAAAAAAAA/_feTNtu--cQ/s128-c0x00000000-cc-rp-mo/photo.jpg', 'rating': 1, 'relative_time_description': '6 months ago', 'text': "Did not let my bf eat a bagel they most likely beat out for free from the local bagel shop owner. Assumed I couldn't read English because bf didn't see some nonexistent sign.", 'time': 1574802993}], 'scope': 'GOOGLE', 'types': ['police', 'point_of_interest', 'establishment'], 'url': 'https://maps.google.com/?cid=14489449258108433654', 'user_ratings_total': 251, 'utc_offset': -240, 'vicinity': '1 Police Plaza Path, New York', 'website': 'http://www.nyc.gov/nypd'}
 DEBUG 2020-05-27 16:10:56,927: Using selector: KqueueSelector
+INFO 2020-05-27 23:16:36,961: /Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/helow/settings.py changed, reloading.
+DEBUG 2020-05-27 23:16:36,964: Using selector: KqueueSelector
+ERROR 2020-05-27 23:17:32,001: Internal Server Error: /api/v1/responder/call/
+Traceback (most recent call last):
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py", line 208, in call_responder
+    client = Client(account_sid, auth_token)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/twilio/base/obsolete.py", line 20, in new_func
+    .format(func.__name__)
+twilio.base.obsolete.ObsoleteException: TwilioRestClient has been removed from this version of the library. Please refer to current documentation for guidance.
+INFO 2020-05-27 23:18:56,009: /Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py changed, reloading.
+DEBUG 2020-05-27 23:18:56,010: Using selector: KqueueSelector
+DEBUG 2020-05-27 23:19:03,025: Initialized Twilio rest client with Account_SID: AC4d00d14a8f0c3ae0bff3ec2353c6acfe and Auth_token: ec2aac4280cc136dc338137bef3fe0d7
+INFO 2020-05-27 23:19:03,143: POST Request: https://api.twilio.com/2010-04-01/Accounts/AC4d00d14a8f0c3ae0bff3ec2353c6acfe/Calls.json
+INFO 2020-05-27 23:19:03,143: PAYLOAD: {'To': '+2348160016793', 'From': '+12092314443', 'Url': './response.xml', 'Method': 'GET'}
+DEBUG 2020-05-27 23:19:03,145: Starting new HTTPS connection (1): api.twilio.com:443
+DEBUG 2020-05-27 23:19:04,319: https://api.twilio.com:443 "POST /2010-04-01/Accounts/AC4d00d14a8f0c3ae0bff3ec2353c6acfe/Calls.json HTTP/1.1" 400 140
+INFO 2020-05-27 23:19:04,319: POST Response: 400 {"code": 21205, "message": "Url is not a valid URL: ./response.xml", "more_info": "https://www.twilio.com/docs/errors/21205", "status": 400}
+ERROR 2020-05-27 23:19:04,373: Internal Server Error: /api/v1/responder/call/
+Traceback (most recent call last):
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py", line 215, in call_responder
+    method='GET'
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/twilio/rest/api/v2010/account/call/__init__.py", line 139, in create
+    payload = self._version.create(method='POST', uri=self._uri, data=data, )
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/twilio/base/version.py", line 210, in create
+    raise self.exception(method, uri, response, 'Unable to create record')
+twilio.base.exceptions.TwilioRestException: 
+[31m[49mHTTP Error[0m [37m[49mYour request was:[0m
+
+[36m[49mPOST /Accounts/AC4d00d14a8f0c3ae0bff3ec2353c6acfe/Calls.json[0m
+
+[37m[49mTwilio returned the following information:[0m
+
+[34m[49mUnable to create record: Url is not a valid URL: ./response.xml[0m
+
+[37m[49mMore information may be available here:[0m
+
+[34m[49mhttps://www.twilio.com/docs/errors/21205[0m
+
+
+INFO 2020-05-27 23:20:16,535: /Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py changed, reloading.
+DEBUG 2020-05-27 23:20:16,538: Using selector: KqueueSelector
+DEBUG 2020-05-27 23:20:23,016: Initialized Twilio rest client with Account_SID: AC4d00d14a8f0c3ae0bff3ec2353c6acfe and Auth_token: ec2aac4280cc136dc338137bef3fe0d7
+INFO 2020-05-27 23:20:23,185: POST Request: https://api.twilio.com/2010-04-01/Accounts/AC4d00d14a8f0c3ae0bff3ec2353c6acfe/Calls.json
+INFO 2020-05-27 23:20:23,185: PAYLOAD: {'To': '+2348160016793', 'From': '+12092314443', 'Url': 'http://demo.twilio.com/docs/voice.xml', 'Method': 'GET'}
+DEBUG 2020-05-27 23:20:23,187: Starting new HTTPS connection (1): api.twilio.com:443
+DEBUG 2020-05-27 23:20:24,398: https://api.twilio.com:443 "POST /2010-04-01/Accounts/AC4d00d14a8f0c3ae0bff3ec2353c6acfe/Calls.json HTTP/1.1" 400 275
+INFO 2020-05-27 23:20:24,399: POST Response: 400 {"code": 21215, "message": "Account not authorized to call +2348160016793. Perhaps you need to enable some international permissions: https://www.twilio.com/console/voice/calls/geo-permissions/low-risk", "more_info": "https://www.twilio.com/docs/errors/21215", "status": 400}
+ERROR 2020-05-27 23:20:24,455: Internal Server Error: /api/v1/responder/call/
+Traceback (most recent call last):
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py", line 215, in call_responder
+    method='GET'
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/twilio/rest/api/v2010/account/call/__init__.py", line 139, in create
+    payload = self._version.create(method='POST', uri=self._uri, data=data, )
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/twilio/base/version.py", line 210, in create
+    raise self.exception(method, uri, response, 'Unable to create record')
+twilio.base.exceptions.TwilioRestException: 
+[31m[49mHTTP Error[0m [37m[49mYour request was:[0m
+
+[36m[49mPOST /Accounts/AC4d00d14a8f0c3ae0bff3ec2353c6acfe/Calls.json[0m
+
+[37m[49mTwilio returned the following information:[0m
+
+[34m[49mUnable to create record: Account not authorized to call +2348160016793. Perhaps you need to enable some international permissions: https://www.twilio.com/console/voice/calls/geo-permissions/low-risk[0m
+
+[37m[49mMore information may be available here:[0m
+
+[34m[49mhttps://www.twilio.com/docs/errors/21215[0m
+
+
+INFO 2020-05-27 23:21:02,213: /Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py changed, reloading.
+DEBUG 2020-05-27 23:21:02,213: Using selector: KqueueSelector
+DEBUG 2020-05-27 23:24:39,142: Initialized Twilio rest client with Account_SID: AC4d00d14a8f0c3ae0bff3ec2353c6acfe and Auth_token: ec2aac4280cc136dc338137bef3fe0d7
+INFO 2020-05-27 23:24:39,256: POST Request: https://api.twilio.com/2010-04-01/Accounts/AC4d00d14a8f0c3ae0bff3ec2353c6acfe/Calls.json
+INFO 2020-05-27 23:24:39,256: PAYLOAD: {'To': '+2348160016793', 'From': '+12092314443', 'Url': 'http://demo.twilio.com/docs/voice.xml'}
+DEBUG 2020-05-27 23:24:39,258: Starting new HTTPS connection (1): api.twilio.com:443
+DEBUG 2020-05-27 23:24:40,572: https://api.twilio.com:443 "POST /2010-04-01/Accounts/AC4d00d14a8f0c3ae0bff3ec2353c6acfe/Calls.json HTTP/1.1" 201 1416
+INFO 2020-05-27 23:24:40,574: POST Response: 201 {"date_updated": null, "price_unit": "USD", "parent_call_sid": null, "caller_name": null, "duration": null, "from": "+12092314443", "to": "+2348160016793", "annotation": null, "answered_by": null, "sid": "CAc63d00987f7e0cb5343ee5ffca8c178c", "queue_time": "0", "price": null, "api_version": "2010-04-01", "status": "queued", "direction": "outbound-api", "start_time": null, "date_created": null, "from_formatted": "(209) 231-4443", "group_sid": null, "trunk_sid": null, "forwarded_from": null, "uri": "/2010-04-01/Accounts/AC4d00d14a8f0c3ae0bff3ec2353c6acfe/Calls/CAc63d00987f7e0cb5343ee5ffca8c178c.json", "account_sid": "AC4d00d14a8f0c3ae0bff3ec2353c6acfe", "end_time": null, "to_formatted": "+2348160016793", "phone_number_sid": "PN60b4a9f8b1e153499b4e155c0a6eeeb6", "subresource_uris": {"notifications": "/2010-04-01/Accounts/AC4d00d14a8f0c3ae0bff3ec2353c6acfe/Calls/CAc63d00987f7e0cb5343ee5ffca8c178c/Notifications.json", "recordings": "/2010-04-01/Accounts/AC4d00d14a8f0c3ae0bff3ec2353c6acfe/Calls/CAc63d00987f7e0cb5343ee5ffca8c178c/Recordings.json", "feedback": "/2010-04-01/Accounts/AC4d00d14a8f0c3ae0bff3ec2353c6acfe/Calls/CAc63d00987f7e0cb5343ee5ffca8c178c/Feedback.json", "payments": "/2010-04-01/Accounts/AC4d00d14a8f0c3ae0bff3ec2353c6acfe/Calls/CAc63d00987f7e0cb5343ee5ffca8c178c/Payments.json", "feedback_summaries": "/2010-04-01/Accounts/AC4d00d14a8f0c3ae0bff3ec2353c6acfe/Calls/FeedbackSummary.json"}}
+DEBUG 2020-05-27 23:24:40,575: Call with sid: CAc63d00987f7e0cb5343ee5ffca8c178c to responder with phone_number: +2348160016793 was made successfully
+DEBUG 2020-05-27 23:53:02,758: Initialized Twilio rest client with Account_SID: AC4d00d14a8f0c3ae0bff3ec2353c6acfe and Auth_token: ec2aac4280cc136dc338137bef3fe0d7
+INFO 2020-05-27 23:53:02,760: POST Request: https://api.twilio.com/2010-04-01/Accounts/AC4d00d14a8f0c3ae0bff3ec2353c6acfe/Calls.json
+INFO 2020-05-27 23:53:02,760: PAYLOAD: {'To': '+2348160016793', 'From': '+12092314443', 'Url': 'http://demo.twilio.com/docs/voice.xml'}
+DEBUG 2020-05-27 23:53:02,762: Starting new HTTPS connection (1): api.twilio.com:443
+DEBUG 2020-05-27 23:53:04,308: https://api.twilio.com:443 "POST /2010-04-01/Accounts/AC4d00d14a8f0c3ae0bff3ec2353c6acfe/Calls.json HTTP/1.1" 201 1416
+INFO 2020-05-27 23:53:04,309: POST Response: 201 {"date_updated": null, "price_unit": "USD", "parent_call_sid": null, "caller_name": null, "duration": null, "from": "+12092314443", "to": "+2348160016793", "annotation": null, "answered_by": null, "sid": "CA141b50717021673888e558dacb3298d5", "queue_time": "0", "price": null, "api_version": "2010-04-01", "status": "queued", "direction": "outbound-api", "start_time": null, "date_created": null, "from_formatted": "(209) 231-4443", "group_sid": null, "trunk_sid": null, "forwarded_from": null, "uri": "/2010-04-01/Accounts/AC4d00d14a8f0c3ae0bff3ec2353c6acfe/Calls/CA141b50717021673888e558dacb3298d5.json", "account_sid": "AC4d00d14a8f0c3ae0bff3ec2353c6acfe", "end_time": null, "to_formatted": "+2348160016793", "phone_number_sid": "PN60b4a9f8b1e153499b4e155c0a6eeeb6", "subresource_uris": {"notifications": "/2010-04-01/Accounts/AC4d00d14a8f0c3ae0bff3ec2353c6acfe/Calls/CA141b50717021673888e558dacb3298d5/Notifications.json", "recordings": "/2010-04-01/Accounts/AC4d00d14a8f0c3ae0bff3ec2353c6acfe/Calls/CA141b50717021673888e558dacb3298d5/Recordings.json", "feedback": "/2010-04-01/Accounts/AC4d00d14a8f0c3ae0bff3ec2353c6acfe/Calls/CA141b50717021673888e558dacb3298d5/Feedback.json", "payments": "/2010-04-01/Accounts/AC4d00d14a8f0c3ae0bff3ec2353c6acfe/Calls/CA141b50717021673888e558dacb3298d5/Payments.json", "feedback_summaries": "/2010-04-01/Accounts/AC4d00d14a8f0c3ae0bff3ec2353c6acfe/Calls/FeedbackSummary.json"}}
+DEBUG 2020-05-27 23:53:04,309: Call with sid: CA141b50717021673888e558dacb3298d5 to responder with phone_number: +2348160016793 was made successfully
+INFO 2020-05-28 00:06:39,489: /Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py changed, reloading.
+DEBUG 2020-05-28 00:06:39,492: Using selector: KqueueSelector
+INFO 2020-05-28 00:07:55,792: /Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py changed, reloading.
+DEBUG 2020-05-28 00:07:55,795: Using selector: KqueueSelector
+INFO 2020-05-28 00:08:21,189: /Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py changed, reloading.
+DEBUG 2020-05-28 00:08:21,190: Using selector: KqueueSelector
+INFO 2020-05-28 00:16:42,602: /Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py changed, reloading.
+DEBUG 2020-05-28 00:16:42,603: Using selector: KqueueSelector
+DEBUG 2020-06-01 15:33:12,303: Using selector: KqueueSelector
+DEBUG 2020-06-01 15:43:31,331: Using selector: KqueueSelector
+DEBUG 2020-06-01 15:43:44,518: Using selector: KqueueSelector
+DEBUG 2020-06-01 15:54:51,265: Using selector: KqueueSelector
+DEBUG 2020-06-01 15:55:20,240: Using selector: KqueueSelector
+DEBUG 2020-06-01 15:55:24,430: Using selector: KqueueSelector
+INFO 2020-06-01 16:23:27,394: /Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/reporter/serializers.py changed, reloading.
+DEBUG 2020-06-01 16:23:27,396: Using selector: KqueueSelector
+ERROR 2020-06-01 16:23:41,627: Internal Server Error: /api/v1/incident/report/
+Traceback (most recent call last):
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/rest_framework/generics.py", line 242, in post
+    return self.create(request, *args, **kwargs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/rest_framework/mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/rest_framework/mixins.py", line 24, in perform_create
+    serializer.save()
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/rest_framework/serializers.py", line 214, in save
+    '`create()` did not return an object instance.'
+AssertionError: `create()` did not return an object instance.
+INFO 2020-06-01 16:25:15,968: /Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/reporter/serializers.py changed, reloading.
+DEBUG 2020-06-01 16:25:15,968: Using selector: KqueueSelector
+ERROR 2020-06-01 16:25:32,420: Internal Server Error: /api/v1/incident/report/
+Traceback (most recent call last):
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/rest_framework/fields.py", line 454, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/rest_framework/fields.py", line 94, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'HttpResponseRedirect' object has no attribute 'title'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/rest_framework/generics.py", line 242, in post
+    return self.create(request, *args, **kwargs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/rest_framework/mixins.py", line 20, in create
+    headers = self.get_success_headers(serializer.data)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/rest_framework/serializers.py", line 562, in data
+    ret = super().data
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/rest_framework/serializers.py", line 260, in data
+    self._data = self.to_representation(self.instance)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/rest_framework/serializers.py", line 516, in to_representation
+    attribute = field.get_attribute(instance)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/rest_framework/fields.py", line 487, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `title` on serializer `CreateIncidentReportSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `HttpResponseRedirect` instance.
+Original exception text was: 'HttpResponseRedirect' object has no attribute 'title'.
+INFO 2020-06-01 16:38:10,361: /Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/reporter/serializers.py changed, reloading.
+DEBUG 2020-06-01 16:38:10,366: Using selector: KqueueSelector
+INFO 2020-06-01 16:48:36,746: /Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/reporter/serializers.py changed, reloading.
+DEBUG 2020-06-01 16:48:36,749: Using selector: KqueueSelector
+INFO 2020-06-01 16:49:15,006: /Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/reporter/serializers.py changed, reloading.
+DEBUG 2020-06-01 16:49:15,008: Using selector: KqueueSelector
+INFO 2020-06-01 16:53:53,850: /Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/reporter/serializers.py changed, reloading.
+DEBUG 2020-06-01 16:53:53,855: Using selector: KqueueSelector
+INFO 2020-06-01 16:54:09,988: /Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/reporter/serializers.py changed, reloading.
+DEBUG 2020-06-01 16:54:09,991: Using selector: KqueueSelector
+INFO 2020-06-01 16:54:15,916: /Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/reporter/serializers.py changed, reloading.
+DEBUG 2020-06-01 16:54:15,916: Using selector: KqueueSelector
+INFO 2020-06-01 16:54:45,407: /Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/reporter/serializers.py changed, reloading.
+DEBUG 2020-06-01 16:54:45,409: Using selector: KqueueSelector
+INFO 2020-06-01 16:55:17,291: /Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/reporter/serializers.py changed, reloading.
+DEBUG 2020-06-01 16:55:17,292: Using selector: KqueueSelector
+INFO 2020-06-01 16:56:20,591: /Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/reporter/serializers.py changed, reloading.
+DEBUG 2020-06-01 16:56:20,592: Using selector: KqueueSelector
+INFO 2020-06-01 16:56:48,346: /Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/reporter/serializers.py changed, reloading.
+DEBUG 2020-06-01 16:56:48,346: Using selector: KqueueSelector
+INFO 2020-06-01 16:57:58,385: /Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/reporter/views.py changed, reloading.
+DEBUG 2020-06-01 16:57:58,385: Using selector: KqueueSelector
+WARNING 2020-06-01 16:58:09,511: Bad Request: /api/v1/incident/report/
+INFO 2020-06-01 17:05:42,659: /Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/reporter/views.py changed, reloading.
+DEBUG 2020-06-01 17:05:42,660: Using selector: KqueueSelector
+INFO 2020-06-01 17:11:46,780: /Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/reporter/urls.py changed, reloading.
+DEBUG 2020-06-01 17:11:46,783: Using selector: KqueueSelector
+INFO 2020-06-01 17:12:00,089: Looking up responders for incident with id: 19
+INFO 2020-06-01 17:12:00,097: Returning place type: hospital for incident of type: Pedestrian Knock Down
+INFO 2020-06-01 17:12:00,097: Call https://maps.googleapis.com/maps/api/place/nearbysearch/json with parameters: {'location': '40.7117496,-74.00866669999999', 'radius': 500, 'types': 'hospital', 'key': 'AIzaSyBr427Ow25KCsgHcHQe_J1V1L39nTouIfk'}
+DEBUG 2020-06-01 17:12:00,163: Starting new HTTPS connection (1): maps.googleapis.com:443
+DEBUG 2020-06-01 17:12:01,121: https://maps.googleapis.com:443 "GET /maps/api/place/nearbysearch/json?location=40.7117496%2C-74.00866669999999&radius=500&types=hospital&key=AIzaSyBr427Ow25KCsgHcHQe_J1V1L39nTouIfk HTTP/1.1" 200 5422
+DEBUG 2020-06-01 17:12:01,165: Get the first 4 results
+INFO 2020-06-01 17:14:01,275: /Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/reporter/views.py changed, reloading.
+DEBUG 2020-06-01 17:14:01,276: Using selector: KqueueSelector
+INFO 2020-06-01 17:17:25,712: /Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/reporter/views.py changed, reloading.
+DEBUG 2020-06-01 17:17:25,714: Using selector: KqueueSelector
+ERROR 2020-06-01 17:17:31,975: Internal Server Error: /api/v1/incident/report/create
+Traceback (most recent call last):
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/reporter/views.py", line 63, in report_incident
+    content = body['content']
+KeyError: 'content'
+INFO 2020-06-01 17:18:02,154: /Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/reporter/views.py changed, reloading.
+DEBUG 2020-06-01 17:18:02,155: Using selector: KqueueSelector
+ERROR 2020-06-01 17:18:10,733: Internal Server Error: /api/v1/incident/report/create
+Traceback (most recent call last):
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/reporter/views.py", line 64, in report_incident
+    content = body['content']
+KeyError: 'content'
+INFO 2020-06-01 17:18:54,226: /Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/reporter/views.py changed, reloading.
+DEBUG 2020-06-01 17:18:54,227: Using selector: KqueueSelector
+INFO 2020-06-01 17:19:47,442: /Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/reporter/views.py changed, reloading.
+DEBUG 2020-06-01 17:19:47,443: Using selector: KqueueSelector
+INFO 2020-06-01 17:21:18,320: /Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/reporter/views.py changed, reloading.
+DEBUG 2020-06-01 17:21:18,320: Using selector: KqueueSelector
+INFO 2020-06-01 17:33:15,207: /Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/reporter/views.py changed, reloading.
+DEBUG 2020-06-01 17:33:15,210: Using selector: KqueueSelector
+INFO 2020-06-01 17:37:41,221: /Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/reporter/views.py changed, reloading.
+DEBUG 2020-06-01 17:37:41,222: Using selector: KqueueSelector
+ERROR 2020-06-01 17:37:49,007: Internal Server Error: /api/v1/incident/report/create
+Traceback (most recent call last):
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/reporter/views.py", line 69, in report_incident
+    if request.user.is_authenticated():
+TypeError: 'bool' object is not callable
+INFO 2020-06-01 17:39:24,882: /Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/reporter/views.py changed, reloading.
+DEBUG 2020-06-01 17:39:24,883: Using selector: KqueueSelector
+ERROR 2020-06-01 17:39:29,255: Internal Server Error: /api/v1/incident/report/create
+Traceback (most recent call last):
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/fields/__init__.py", line 1772, in get_prep_value
+    return int(value)
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'dict'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/reporter/views.py", line 76, in report_incident
+    incident_type = IncidentType.objects.get(id=body.get('incident_type'))
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/query.py", line 404, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/query.py", line 904, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/query.py", line 923, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1350, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1381, in _add_q
+    check_filterable=check_filterable,
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1311, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1165, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/lookups.py", line 22, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/lookups.py", line 72, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/fields/__init__.py", line 1776, in get_prep_value
+    ) from e
+TypeError: Field 'id' expected a number but got {'id': 1}.
+INFO 2020-06-01 17:40:08,819: Looking up responders for incident with id: 19
+INFO 2020-06-01 17:40:08,825: Returning place type: hospital for incident of type: Pedestrian Knock Down
+INFO 2020-06-01 17:40:08,825: Call https://maps.googleapis.com/maps/api/place/nearbysearch/json with parameters: {'location': '40.7117496,-74.00866669999999', 'radius': 500, 'types': 'hospital', 'key': 'AIzaSyBr427Ow25KCsgHcHQe_J1V1L39nTouIfk'}
+DEBUG 2020-06-01 17:40:09,787: Starting new HTTPS connection (1): maps.googleapis.com:443
+DEBUG 2020-06-01 17:40:10,632: https://maps.googleapis.com:443 "GET /maps/api/place/nearbysearch/json?location=40.7117496%2C-74.00866669999999&radius=500&types=hospital&key=AIzaSyBr427Ow25KCsgHcHQe_J1V1L39nTouIfk HTTP/1.1" 200 5430
+DEBUG 2020-06-01 17:40:10,640: Get the first 4 results
+INFO 2020-06-01 17:42:49,596: /Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/reporter/views.py changed, reloading.
+DEBUG 2020-06-01 17:42:49,597: Using selector: KqueueSelector
+INFO 2020-06-01 17:43:56,264: /Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/reporter/views.py changed, reloading.
+DEBUG 2020-06-01 17:43:56,266: Using selector: KqueueSelector
+ERROR 2020-06-01 17:44:02,003: Internal Server Error: /api/v1/incident/report/create
+Traceback (most recent call last):
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/reporter/views.py", line 71, in report_incident
+    if request.user.is_authenticated():
+TypeError: 'bool' object is not callable
+INFO 2020-06-01 17:45:00,713: /Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/reporter/views.py changed, reloading.
+DEBUG 2020-06-01 17:45:00,714: Using selector: KqueueSelector
+INFO 2020-06-01 17:46:43,086: /Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/reporter/views.py changed, reloading.
+DEBUG 2020-06-01 17:46:43,087: Using selector: KqueueSelector
+INFO 2020-06-01 17:50:41,528: /Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/reporter/views.py changed, reloading.
+DEBUG 2020-06-01 17:50:41,530: Using selector: KqueueSelector
+INFO 2020-06-01 17:56:37,590: /Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/reporter/views.py changed, reloading.
+DEBUG 2020-06-01 17:56:37,591: Using selector: KqueueSelector
+INFO 2020-06-01 17:56:56,172: Looking up responders for incident with id: 28
+INFO 2020-06-01 17:56:56,180: Returning place type: hospital for incident of type: Uncategorized
+INFO 2020-06-01 17:56:56,180: Call https://maps.googleapis.com/maps/api/place/nearbysearch/json with parameters: {'location': '36.77782295,-76.2315181468951', 'radius': 500, 'types': 'hospital', 'key': 'AIzaSyBr427Ow25KCsgHcHQe_J1V1L39nTouIfk'}
+DEBUG 2020-06-01 17:56:56,235: Starting new HTTPS connection (1): maps.googleapis.com:443
+DEBUG 2020-06-01 17:56:56,790: https://maps.googleapis.com:443 "GET /maps/api/place/nearbysearch/json?location=36.77782295%2C-76.2315181468951&radius=500&types=hospital&key=AIzaSyBr427Ow25KCsgHcHQe_J1V1L39nTouIfk HTTP/1.1" 200 83
+WARNING 2020-06-01 17:58:28,602: Not Found: /favicon.ico
+ERROR 2020-06-01 18:03:39,075: Error occurred while processing request <WSGIRequest: POST '/api/v1/incident/report/create'>.
+INFO 2020-06-01 18:05:22,661: /Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/reporter/views.py changed, reloading.
+DEBUG 2020-06-01 18:05:22,664: Using selector: KqueueSelector
+ERROR 2020-06-01 18:05:34,012: Internal Server Error: /api/v1/incident/report/create
+Traceback (most recent call last):
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/reporter/views.py", line 84, in report_incident
+    incident = IncidentReport.objects.create(location=location, **body)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/query.py", line 431, in create
+    obj = self.model(**kwargs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/base.py", line 482, in __init__
+    _setattr(self, field.name, rel_obj)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/fields/related_descriptors.py", line 219, in __set__
+    self.field.remote_field.model._meta.object_name,
+ValueError: Cannot assign "<SimpleLazyObject: <django.contrib.auth.models.AnonymousUser object at 0x10b64aa50>>": "IncidentReport.reported_by" must be a "User" instance.
+INFO 2020-06-01 18:08:29,602: /Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/reporter/views.py changed, reloading.
+DEBUG 2020-06-01 18:08:29,603: Using selector: KqueueSelector
+ERROR 2020-06-01 18:08:34,708: Internal Server Error: /api/v1/incident/report/create
+Traceback (most recent call last):
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/reporter/views.py", line 86, in report_incident
+    incident = IncidentReport.objects.create(location=location, **body)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/query.py", line 431, in create
+    obj = self.model(**kwargs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/base.py", line 482, in __init__
+    _setattr(self, field.name, rel_obj)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/fields/related_descriptors.py", line 219, in __set__
+    self.field.remote_field.model._meta.object_name,
+ValueError: Cannot assign "<SimpleLazyObject: <django.contrib.auth.models.AnonymousUser object at 0x104ce90d0>>": "IncidentReport.reported_by" must be a "User" instance.
+WARNING 2020-06-01 18:10:40,944: Forbidden (CSRF token missing or incorrect.): /api/v1/incident/report/create
+ERROR 2020-06-01 18:12:12,076: Internal Server Error: /api/v1/incident/report/create
+Traceback (most recent call last):
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/reporter/views.py", line 86, in report_incident
+    incident = IncidentReport.objects.create(location=location, **body)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/query.py", line 431, in create
+    obj = self.model(**kwargs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/base.py", line 482, in __init__
+    _setattr(self, field.name, rel_obj)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/fields/related_descriptors.py", line 219, in __set__
+    self.field.remote_field.model._meta.object_name,
+ValueError: Cannot assign "<SimpleLazyObject: <django.contrib.auth.models.AnonymousUser object at 0x104eb3c50>>": "IncidentReport.reported_by" must be a "User" instance.
+INFO 2020-06-01 18:17:02,101: /Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/reporter/views.py changed, reloading.
+DEBUG 2020-06-01 18:17:02,101: Using selector: KqueueSelector
+ERROR 2020-06-01 18:17:07,332: Internal Server Error: /api/v1/incident/report/create
+Traceback (most recent call last):
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/reporter/views.py", line 73, in report_incident
+    body['reported_by'] = get_user_model().objects.get(1)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/query.py", line 404, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/query.py", line 904, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/query.py", line 923, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1350, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1381, in _add_q
+    check_filterable=check_filterable,
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1247, in build_filter
+    arg, value = filter_expr
+TypeError: cannot unpack non-iterable int object
+INFO 2020-06-01 18:19:11,376: /Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/reporter/views.py changed, reloading.
+DEBUG 2020-06-01 18:19:11,376: Using selector: KqueueSelector
+ERROR 2020-06-01 18:19:15,916: Internal Server Error: /api/v1/incident/report/create
+Traceback (most recent call last):
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/reporter/views.py", line 73, in report_incident
+    body['reported_by'] = get_user_model().objects.get(1)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/query.py", line 404, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/query.py", line 904, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/query.py", line 923, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1350, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1381, in _add_q
+    check_filterable=check_filterable,
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1247, in build_filter
+    arg, value = filter_expr
+TypeError: cannot unpack non-iterable int object
+INFO 2020-06-01 18:20:10,596: /Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/reporter/views.py changed, reloading.
+DEBUG 2020-06-01 18:20:10,596: Using selector: KqueueSelector
+ERROR 2020-06-01 18:20:17,180: Internal Server Error: /api/v1/incident/report/create
+Traceback (most recent call last):
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/reporter/views.py", line 73, in report_incident
+    body['reported_by'] = get_user_model().objects.get(1)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/query.py", line 404, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/query.py", line 904, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/query.py", line 923, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1350, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1381, in _add_q
+    check_filterable=check_filterable,
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1247, in build_filter
+    arg, value = filter_expr
+TypeError: cannot unpack non-iterable int object
+INFO 2020-06-01 18:20:44,101: /Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/reporter/views.py changed, reloading.
+DEBUG 2020-06-01 18:20:44,101: Using selector: KqueueSelector
+ERROR 2020-06-01 18:20:47,917: Internal Server Error: /api/v1/incident/report/create
+Traceback (most recent call last):
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/reporter/views.py", line 74, in report_incident
+    body['reported_by'] = get_user_model().objects.get(1)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/query.py", line 404, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/query.py", line 904, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/query.py", line 923, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1350, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1381, in _add_q
+    check_filterable=check_filterable,
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1247, in build_filter
+    arg, value = filter_expr
+TypeError: cannot unpack non-iterable int object
+INFO 2020-06-01 18:21:37,044: /Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/reporter/views.py changed, reloading.
+DEBUG 2020-06-01 18:21:37,045: Using selector: KqueueSelector
+ERROR 2020-06-01 18:21:42,132: Internal Server Error: /api/v1/incident/report/create
+Traceback (most recent call last):
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/reporter/views.py", line 74, in report_incident
+    body['reported_by'] = get_user_model().objects.get(1)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/query.py", line 404, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/query.py", line 904, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/query.py", line 923, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1350, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1381, in _add_q
+    check_filterable=check_filterable,
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1247, in build_filter
+    arg, value = filter_expr
+TypeError: cannot unpack non-iterable int object
+INFO 2020-06-01 18:22:12,572: /Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/reporter/views.py changed, reloading.
+DEBUG 2020-06-01 18:22:12,573: Using selector: KqueueSelector
+ERROR 2020-06-01 18:22:17,272: Internal Server Error: /api/v1/incident/report/create
+Traceback (most recent call last):
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/reporter/views.py", line 72, in report_incident
+    print(get_user_model().objects.get(1))
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/query.py", line 404, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/query.py", line 904, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/query.py", line 923, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1350, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1381, in _add_q
+    check_filterable=check_filterable,
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1247, in build_filter
+    arg, value = filter_expr
+TypeError: cannot unpack non-iterable int object
+INFO 2020-06-01 18:24:14,174: /Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/reporter/views.py changed, reloading.
+DEBUG 2020-06-01 18:24:14,174: Using selector: KqueueSelector
+ERROR 2020-06-01 18:24:18,230: Internal Server Error: /api/v1/incident/report/create
+Traceback (most recent call last):
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/reporter/views.py", line 72, in report_incident
+    print(get_user_model().objects.get(1))
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/query.py", line 404, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/query.py", line 904, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/query.py", line 923, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1350, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1381, in _add_q
+    check_filterable=check_filterable,
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1247, in build_filter
+    arg, value = filter_expr
+TypeError: cannot unpack non-iterable int object
+INFO 2020-06-01 18:25:10,763: /Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/reporter/views.py changed, reloading.
+DEBUG 2020-06-01 18:25:10,763: Using selector: KqueueSelector
+ERROR 2020-06-01 18:25:14,696: Internal Server Error: /api/v1/incident/report/create
+Traceback (most recent call last):
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/reporter/views.py", line 72, in report_incident
+    user = User.objects.get(1)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/query.py", line 404, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/query.py", line 904, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/query.py", line 923, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1350, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1381, in _add_q
+    check_filterable=check_filterable,
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1247, in build_filter
+    arg, value = filter_expr
+TypeError: cannot unpack non-iterable int object
+INFO 2020-06-01 18:25:39,397: /Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/reporter/views.py changed, reloading.
+DEBUG 2020-06-01 18:25:39,397: Using selector: KqueueSelector
+ERROR 2020-06-01 18:25:44,680: Internal Server Error: /api/v1/incident/report/create
+Traceback (most recent call last):
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/reporter/views.py", line 72, in report_incident
+    user = User.objects.get(1)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/query.py", line 404, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/query.py", line 904, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/query.py", line 923, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1350, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1381, in _add_q
+    check_filterable=check_filterable,
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1247, in build_filter
+    arg, value = filter_expr
+TypeError: cannot unpack non-iterable int object
+INFO 2020-06-01 18:27:35,245: /Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/reporter/views.py changed, reloading.
+DEBUG 2020-06-01 18:27:35,245: Using selector: KqueueSelector
+ERROR 2020-06-01 18:27:40,711: Internal Server Error: /api/v1/incident/report/create
+Traceback (most recent call last):
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/reporter/views.py", line 72, in report_incident
+    user = User.objects.get(1)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/query.py", line 404, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/query.py", line 904, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/query.py", line 923, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1350, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1381, in _add_q
+    check_filterable=check_filterable,
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1247, in build_filter
+    arg, value = filter_expr
+TypeError: cannot unpack non-iterable int object
+ERROR 2020-06-02 11:25:00,278: Internal Server Error: /api/v1/incident/report/create
+Traceback (most recent call last):
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/reporter/views.py", line 72, in report_incident
+    user = User.objects.get(1)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/query.py", line 404, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/query.py", line 904, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/query.py", line 923, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1350, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1381, in _add_q
+    check_filterable=check_filterable,
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1247, in build_filter
+    arg, value = filter_expr
+TypeError: cannot unpack non-iterable int object
+INFO 2020-06-02 11:26:09,578: /Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/reporter/views.py changed, reloading.
+DEBUG 2020-06-02 11:26:09,582: Using selector: KqueueSelector
+ERROR 2020-06-02 11:26:15,165: Internal Server Error: /api/v1/incident/report/create
+Traceback (most recent call last):
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/reporter/views.py", line 73, in report_incident
+    user = User.objects.get(1)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/query.py", line 404, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/query.py", line 904, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/query.py", line 923, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1350, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1381, in _add_q
+    check_filterable=check_filterable,
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1247, in build_filter
+    arg, value = filter_expr
+TypeError: cannot unpack non-iterable int object
+INFO 2020-06-02 11:27:06,279: /Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/reporter/views.py changed, reloading.
+DEBUG 2020-06-02 11:27:06,280: Using selector: KqueueSelector
+ERROR 2020-06-02 11:27:10,881: Internal Server Error: /api/v1/incident/report/create
+Traceback (most recent call last):
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/reporter/views.py", line 88, in report_incident
+    incident = IncidentReport.objects.create(location=location, **body)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/query.py", line 431, in create
+    obj = self.model(**kwargs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/base.py", line 482, in __init__
+    _setattr(self, field.name, rel_obj)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/fields/related_descriptors.py", line 219, in __set__
+    self.field.remote_field.model._meta.object_name,
+ValueError: Cannot assign "{'id': 1}": "IncidentReport.reported_by" must be a "User" instance.
+INFO 2020-06-02 11:34:03,021: /Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/reporter/models.py changed, reloading.
+DEBUG 2020-06-02 11:34:03,021: Using selector: KqueueSelector
+ERROR 2020-06-02 11:34:11,902: Internal Server Error: /api/v1/incident/report/create
+Traceback (most recent call last):
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/reporter/views.py", line 81, in report_incident
+    incident = IncidentReport.objects.create(location=location, **body)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/query.py", line 431, in create
+    obj = self.model(**kwargs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/base.py", line 482, in __init__
+    _setattr(self, field.name, rel_obj)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/fields/related_descriptors.py", line 219, in __set__
+    self.field.remote_field.model._meta.object_name,
+ValueError: Cannot assign "{'id': 1}": "IncidentReport.reported_by" must be a "User" instance.
+INFO 2020-06-02 11:35:52,941: /Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/reporter/views.py changed, reloading.
+DEBUG 2020-06-02 11:35:52,942: Using selector: KqueueSelector
+ERROR 2020-06-02 11:36:22,811: Internal Server Error: /api/v1/incident/report/create
+Traceback (most recent call last):
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/reporter/views.py", line 81, in report_incident
+    incident = IncidentReport.objects.create(location=location, **body)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/query.py", line 431, in create
+    obj = self.model(**kwargs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/base.py", line 482, in __init__
+    _setattr(self, field.name, rel_obj)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/fields/related_descriptors.py", line 219, in __set__
+    self.field.remote_field.model._meta.object_name,
+ValueError: Cannot assign "{'id': 1}": "IncidentReport.reported_by" must be a "User" instance.
+INFO 2020-06-02 11:37:30,384: Looking up responders for incident with id: 29
+INFO 2020-06-02 11:37:30,388: Returning place type: hospital for incident of type: Uncategorized
+INFO 2020-06-02 11:37:30,388: Call https://maps.googleapis.com/maps/api/place/nearbysearch/json with parameters: {'location': '40.71211479999999,-74.00189170000002', 'radius': 500, 'types': 'hospital', 'key': 'AIzaSyBr427Ow25KCsgHcHQe_J1V1L39nTouIfk'}
+DEBUG 2020-06-02 11:37:30,415: Starting new HTTPS connection (1): maps.googleapis.com:443
+ERROR 2020-06-02 11:37:30,421: Exception caught: ConnectionError exception: HTTPSConnectionPool(host='maps.googleapis.com', port=443): Max retries exceeded with url: /maps/api/place/nearbysearch/json?location=40.71211479999999%2C-74.00189170000002&radius=500&types=hospital&key=AIzaSyBr427Ow25KCsgHcHQe_J1V1L39nTouIfk (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x10f5b4e10>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+INFO 2020-06-02 11:39:20,353: /Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/reporter/views.py changed, reloading.
+DEBUG 2020-06-02 11:39:20,354: Using selector: KqueueSelector
+INFO 2020-06-02 11:42:30,958: /Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/reporter/views.py changed, reloading.
+DEBUG 2020-06-02 11:42:30,964: Using selector: KqueueSelector
+INFO 2020-06-02 11:44:10,536: Looking up responders for incident with id: 30
+INFO 2020-06-02 11:44:10,544: Returning place type: hospital for incident of type: Uncategorized
+INFO 2020-06-02 11:44:10,544: Call https://maps.googleapis.com/maps/api/place/nearbysearch/json with parameters: {'location': '40.71211479999999,-74.00189170000002', 'radius': 500, 'types': 'hospital', 'key': 'AIzaSyBr427Ow25KCsgHcHQe_J1V1L39nTouIfk'}
+DEBUG 2020-06-02 11:44:10,664: Starting new HTTPS connection (1): maps.googleapis.com:443
+DEBUG 2020-06-02 11:44:11,416: https://maps.googleapis.com:443 "GET /maps/api/place/nearbysearch/json?location=40.71211479999999%2C-74.00189170000002&radius=500&types=hospital&key=AIzaSyBr427Ow25KCsgHcHQe_J1V1L39nTouIfk HTTP/1.1" 200 3811
+DEBUG 2020-06-02 11:44:11,421: Get the first 4 results
+DEBUG 2020-06-02 11:46:13,850: Initialized Twilio rest client with Account_SID: AC4d00d14a8f0c3ae0bff3ec2353c6acfe and Auth_token: ec2aac4280cc136dc338137bef3fe0d7
+INFO 2020-06-02 11:46:13,975: POST Request: https://api.twilio.com/2010-04-01/Accounts/AC4d00d14a8f0c3ae0bff3ec2353c6acfe/Calls.json
+INFO 2020-06-02 11:46:13,975: PAYLOAD: {'To': '+2348160016793', 'From': '+12092314443', 'Url': 'http://demo.twilio.com/docs/voice.xml'}
+DEBUG 2020-06-02 11:46:13,977: Starting new HTTPS connection (1): api.twilio.com:443
+DEBUG 2020-06-02 11:46:15,203: https://api.twilio.com:443 "POST /2010-04-01/Accounts/AC4d00d14a8f0c3ae0bff3ec2353c6acfe/Calls.json HTTP/1.1" 201 1416
+INFO 2020-06-02 11:46:15,204: POST Response: 201 {"date_updated": null, "price_unit": "USD", "parent_call_sid": null, "caller_name": null, "duration": null, "from": "+12092314443", "to": "+2348160016793", "annotation": null, "answered_by": null, "sid": "CAf46efcac9d15bd7320f67bde995bf22e", "queue_time": "0", "price": null, "api_version": "2010-04-01", "status": "queued", "direction": "outbound-api", "start_time": null, "date_created": null, "from_formatted": "(209) 231-4443", "group_sid": null, "trunk_sid": null, "forwarded_from": null, "uri": "/2010-04-01/Accounts/AC4d00d14a8f0c3ae0bff3ec2353c6acfe/Calls/CAf46efcac9d15bd7320f67bde995bf22e.json", "account_sid": "AC4d00d14a8f0c3ae0bff3ec2353c6acfe", "end_time": null, "to_formatted": "+2348160016793", "phone_number_sid": "PN60b4a9f8b1e153499b4e155c0a6eeeb6", "subresource_uris": {"notifications": "/2010-04-01/Accounts/AC4d00d14a8f0c3ae0bff3ec2353c6acfe/Calls/CAf46efcac9d15bd7320f67bde995bf22e/Notifications.json", "recordings": "/2010-04-01/Accounts/AC4d00d14a8f0c3ae0bff3ec2353c6acfe/Calls/CAf46efcac9d15bd7320f67bde995bf22e/Recordings.json", "feedback": "/2010-04-01/Accounts/AC4d00d14a8f0c3ae0bff3ec2353c6acfe/Calls/CAf46efcac9d15bd7320f67bde995bf22e/Feedback.json", "payments": "/2010-04-01/Accounts/AC4d00d14a8f0c3ae0bff3ec2353c6acfe/Calls/CAf46efcac9d15bd7320f67bde995bf22e/Payments.json", "feedback_summaries": "/2010-04-01/Accounts/AC4d00d14a8f0c3ae0bff3ec2353c6acfe/Calls/FeedbackSummary.json"}}
+DEBUG 2020-06-02 11:46:15,204: Call with sid: CAf46efcac9d15bd7320f67bde995bf22e to responder with phone_number: +2348160016793 was made successfully
+INFO 2020-06-02 11:48:27,361: Call to https://maps.googleapis.com/maps/api/place/details/json with parameters: {'placeid': 'ChIJaQO2KSFawokRBIZnaRnRBqE', 'key': 'AIzaSyBr427Ow25KCsgHcHQe_J1V1L39nTouIfk'}
+DEBUG 2020-06-02 11:48:27,407: Starting new HTTPS connection (1): maps.googleapis.com:443
+DEBUG 2020-06-02 11:48:28,337: https://maps.googleapis.com:443 "GET /maps/api/place/details/json?placeid=ChIJaQO2KSFawokRBIZnaRnRBqE&key=AIzaSyBr427Ow25KCsgHcHQe_J1V1L39nTouIfk HTTP/1.1" 200 944
+DEBUG 2020-06-02 11:48:28,341: Raw response: {'html_attributions': [], 'result': {'address_components': [{'long_name': '1', 'short_name': '1', 'types': ['street_number']}, {'long_name': 'Hogan Place', 'short_name': 'Hogan Pl', 'types': ['route']}, {'long_name': 'Manhattan', 'short_name': 'Manhattan', 'types': ['sublocality_level_1', 'sublocality', 'political']}, {'long_name': 'New York', 'short_name': 'New York', 'types': ['locality', 'political']}, {'long_name': 'New York County', 'short_name': 'New York County', 'types': ['administrative_area_level_2', 'political']}, {'long_name': 'New York', 'short_name': 'NY', 'types': ['administrative_area_level_1', 'political']}, {'long_name': 'United States', 'short_name': 'US', 'types': ['country', 'political']}, {'long_name': '10013', 'short_name': '10013', 'types': ['postal_code']}], 'adr_address': '<span class="street-address">1 Hogan Pl</span>, <span class="locality">New York</span>, <span class="region">NY</span> <span class="postal-code">10013</span>, <span class="country-name">USA</span>', 'business_status': 'OPERATIONAL', 'formatted_address': '1 Hogan Pl, New York, NY 10013, USA', 'formatted_phone_number': '(347) 625-3145', 'geometry': {'location': {'lat': 40.7155897, 'lng': -74.00115830000001}, 'viewport': {'northeast': {'lat': 40.7168979802915, 'lng': -73.9998441197085}, 'southwest': {'lat': 40.7142000197085, 'lng': -74.0025420802915}}}, 'icon': 'https://maps.gstatic.com/mapfiles/place_api/icons/doctor-71.png', 'id': 'bf1817a303bbf14da7eb0561517b89f2f4070ab5', 'international_phone_number': '+1 347-625-3145', 'name': 'Gasen Hospital', 'place_id': 'ChIJaQO2KSFawokRBIZnaRnRBqE', 'plus_code': {'compound_code': 'PX8X+6G New York, NY, United States', 'global_code': '87G7PX8X+6G'}, 'reference': 'ChIJaQO2KSFawokRBIZnaRnRBqE', 'scope': 'GOOGLE', 'types': ['hospital', 'health', 'point_of_interest', 'establishment'], 'url': 'https://maps.google.com/?cid=11603191397039441412', 'utc_offset': -240, 'vicinity': '1 Hogan Place, New York', 'website': 'http://44.com/'}, 'status': 'OK'}
+INFO 2020-06-02 11:48:28,341: Parse response: {'address_components': [{'long_name': '1', 'short_name': '1', 'types': ['street_number']}, {'long_name': 'Hogan Place', 'short_name': 'Hogan Pl', 'types': ['route']}, {'long_name': 'Manhattan', 'short_name': 'Manhattan', 'types': ['sublocality_level_1', 'sublocality', 'political']}, {'long_name': 'New York', 'short_name': 'New York', 'types': ['locality', 'political']}, {'long_name': 'New York County', 'short_name': 'New York County', 'types': ['administrative_area_level_2', 'political']}, {'long_name': 'New York', 'short_name': 'NY', 'types': ['administrative_area_level_1', 'political']}, {'long_name': 'United States', 'short_name': 'US', 'types': ['country', 'political']}, {'long_name': '10013', 'short_name': '10013', 'types': ['postal_code']}], 'adr_address': '<span class="street-address">1 Hogan Pl</span>, <span class="locality">New York</span>, <span class="region">NY</span> <span class="postal-code">10013</span>, <span class="country-name">USA</span>', 'business_status': 'OPERATIONAL', 'formatted_address': '1 Hogan Pl, New York, NY 10013, USA', 'formatted_phone_number': '(347) 625-3145', 'geometry': {'location': {'lat': 40.7155897, 'lng': -74.00115830000001}, 'viewport': {'northeast': {'lat': 40.7168979802915, 'lng': -73.9998441197085}, 'southwest': {'lat': 40.7142000197085, 'lng': -74.0025420802915}}}, 'icon': 'https://maps.gstatic.com/mapfiles/place_api/icons/doctor-71.png', 'id': 'bf1817a303bbf14da7eb0561517b89f2f4070ab5', 'international_phone_number': '+1 347-625-3145', 'name': 'Gasen Hospital', 'place_id': 'ChIJaQO2KSFawokRBIZnaRnRBqE', 'plus_code': {'compound_code': 'PX8X+6G New York, NY, United States', 'global_code': '87G7PX8X+6G'}, 'reference': 'ChIJaQO2KSFawokRBIZnaRnRBqE', 'scope': 'GOOGLE', 'types': ['hospital', 'health', 'point_of_interest', 'establishment'], 'url': 'https://maps.google.com/?cid=11603191397039441412', 'utc_offset': -240, 'vicinity': '1 Hogan Place, New York', 'website': 'http://44.com/'}
+ERROR 2020-06-02 11:48:28,343: Exception caught: KeyError, message: 'rating'
+ERROR 2020-06-02 11:48:28,401: Internal Server Error: /api/v1/responder/assign/19
+Traceback (most recent call last):
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/views.py", line 126, in assign_responder
+    "url": place_data["url"],
+KeyError: 'url'
+INFO 2020-06-02 11:49:07,805: Call to https://maps.googleapis.com/maps/api/place/details/json with parameters: {'placeid': 'ChIJYcHoGyRawokR9rSZ9FTdFMk', 'key': 'AIzaSyBr427Ow25KCsgHcHQe_J1V1L39nTouIfk'}
+DEBUG 2020-06-02 11:49:07,863: Starting new HTTPS connection (1): maps.googleapis.com:443
+DEBUG 2020-06-02 11:49:08,313: https://maps.googleapis.com:443 "GET /maps/api/place/details/json?placeid=ChIJYcHoGyRawokR9rSZ9FTdFMk&key=AIzaSyBr427Ow25KCsgHcHQe_J1V1L39nTouIfk HTTP/1.1" 200 4234
+DEBUG 2020-06-02 11:49:08,319: Raw response: {'html_attributions': [], 'result': {'address_components': [{'long_name': '1', 'short_name': '1', 'types': ['street_number']}, {'long_name': 'Police Plaza Path', 'short_name': 'Police Plaza Path', 'types': ['route']}, {'long_name': 'Manhattan', 'short_name': 'Manhattan', 'types': ['sublocality_level_1', 'sublocality', 'political']}, {'long_name': 'New York', 'short_name': 'New York', 'types': ['locality', 'political']}, {'long_name': 'New York County', 'short_name': 'New York County', 'types': ['administrative_area_level_2', 'political']}, {'long_name': 'New York', 'short_name': 'NY', 'types': ['administrative_area_level_1', 'political']}, {'long_name': 'United States', 'short_name': 'US', 'types': ['country', 'political']}, {'long_name': '10038', 'short_name': '10038', 'types': ['postal_code']}, {'long_name': '1403', 'short_name': '1403', 'types': ['postal_code_suffix']}], 'adr_address': '<span class="street-address">1 Police Plaza Path</span>, <span class="locality">New York</span>, <span class="region">NY</span> <span class="postal-code">10038-1403</span>, <span class="country-name">USA</span>', 'business_status': 'OPERATIONAL', 'formatted_address': '1 Police Plaza Path, New York, NY 10038, USA', 'formatted_phone_number': '(646) 610-5000', 'geometry': {'location': {'lat': 40.71211479999999, 'lng': -74.00189170000002}, 'viewport': {'northeast': {'lat': 40.71323703029149, 'lng': -74.0005102197085}, 'southwest': {'lat': 40.71053906970849, 'lng': -74.00320818029151}}}, 'icon': 'https://maps.gstatic.com/mapfiles/place_api/icons/police-71.png', 'id': '7e074eb81a4aeb91cf175d2b469ead6d4fa3e065', 'international_phone_number': '+1 646-610-5000', 'name': 'New York City Police Department', 'photos': [{'height': 3024, 'html_attributions': ['<a href="https://maps.google.com/maps/contrib/117790497272734776118">Daniel Scharpf</a>'], 'photo_reference': 'CmRaAAAAE3iq8lUnV9CQBdormF8zDPKXeygetY1vN1pkKwC-5QKTawY2_4wuNPWpCOFS1qrGt7itTCosAqmQVXt7dfev4WuP_K4s7YBwKJRV9SHQL5_QUR8I8SLXsdYc0Dy7uF9dEhD1IfqH4oK4i19ZGJT9BtUBGhSUYSNgr9tg-ttrqnkV2ByHHJSIbg', 'width': 4032}, {'height': 1156, 'html_attributions': ['<a href="https://maps.google.com/maps/contrib/105462986695288450976">Ian R. Gordon</a>'], 'photo_reference': 'CmRaAAAALZTpIDjtpBORQTERcXcWkxqaK6fQrFh-2c-uojdXUlP6H3Pv49twUswr-K5QgiZSwk-kElwiYR1Ib5XRZZVw2ShjxNJDwavHOI-4RorCwV5V60P_3KrrKCPlZWArPZShEhCo0gQ53TE1a5wsj2Gc65iEGhRHucYLIjXIysSoUpTuwtpWOmaYpg', 'width': 2048}, {'height': 3456, 'html_attributions': ['<a href="https://maps.google.com/maps/contrib/108360297527369641917">Shantonur Islam</a>'], 'photo_reference': 'CmRaAAAABtakWEGnllGr8taYjgvW67_uNI-Bo3_TbjXZ0GXfUGCE37-WANw-wQ98-Zvk1JkXRl_S8oLJVdZkqA-BlkvVQMfs2OHxtcX_lNpsymwOtTJXBhhxx_U3SrMNrfBcEpAAEhCxXwCBvxNLd8LBUd2S5ArvGhR0QxHQNTywLEq2fA5E9xMZsZSsew', 'width': 4608}, {'height': 1536, 'html_attributions': ['<a href="https://maps.google.com/maps/contrib/101184843987067427945">Ilia Mici</a>'], 'photo_reference': 'CmRaAAAAI4WwG5wev6gO7QmZJSKO8NFpVxDh2sxT3yYzFnqhMGKSVpHACQZHByxual4BPLUnsdOeKj6kerrjR-ljk4XLoJKW8YNSxNxOVB1mPITfexDxaUCi7AWhukwf2FfDL3iQEhD4ecU-7sChi9HgsOB91f7KGhTGbCoiDdx2VO9Rc2DxxfN2TP4qew', 'width': 2048}, {'height': 745, 'html_attributions': ['<a href="https://maps.google.com/maps/contrib/116820343792475479128">Endercavegaming</a>'], 'photo_reference': 'CmRaAAAAU8c455jXWY4usJH2Jm4mIJ5YbqMMsuAq1EZDUU83itVFqCRtDIYM6nz_vW5RI_o9pM3thd4113m5YbEJRX03Mkop8V3XUs8BPxP77cDccAUtHV3eSvbZbxa_T5P7Qfc7EhAboZ9FXdhvrENUIHHQNMnAGhTxZw5iELoZ8mSSHKdBsB2LUCRhgw', 'width': 640}, {'height': 578, 'html_attributions': ['<a href="https://maps.google.com/maps/contrib/116820343792475479128">Endercavegaming</a>'], 'photo_reference': 'CmRaAAAAK2aNml2K9KMe5NId2nScKBy35-HZNQwcWxP8UrweqBz8JY4WEm3h_i79VfTvsTgT1Py2Z5YGPqcL_Au4Nf17mYsRXDTDdLcUAzz6r1_vDrpBUi0Z62CC_r55Bt4yqGqaEhCGGFh6ObBitWCpHEhYkSEbGhTvE_yfggEhWNvOvLqlZspV31wOvw', 'width': 640}, {'height': 3000, 'html_attributions': ['<a href="https://maps.google.com/maps/contrib/115838526007994501602">Anthony Botta</a>'], 'photo_reference': 'CmRaAAAAwp--Y5C-v-6pM6gpCkdtk6ef837uYLwUZOFhfVeHwP1dsG0NN8WE_C-72SuClBZhyrLKoCLpUps-i9cywcrO2MEAuWFq7SOai-w3_1uYslek8-ZXFxM8JAOMqjg0W4xPEhAquNH2zljrV7PdO9DIysdiGhRFZzcyn_bDKY8SQprOEmnAucOEZg', 'width': 4000}, {'height': 4032, 'html_attributions': ['<a href="https://maps.google.com/maps/contrib/115353577630729468394">Mahdi Khan</a>'], 'photo_reference': 'CmRaAAAAp92GLiQEq1BHWlSWAPrtjicQsbYWtCD0qKcwZiCXREGQMVPaqHFFrjW_I4Xx-b0_MfxuVsOvXayXjdLiGknunp3vyc5unCyhQaZfTr87JLlt3r7co2AyM_8mrqPIv8jwEhAtQOLrVEzz5rLY8yUNqv_zGhSFU5_xPFnva-FkQ1RAiU8g7dUUag', 'width': 3024}, {'height': 449, 'html_attributions': ['<a href="https://maps.google.com/maps/contrib/102230029088426259351">Jolene Williams</a>'], 'photo_reference': 'CmRaAAAAbJZdSzjbdBZKGmR_n1FjPdL4n0X-d60CnkegZhfGA9oMp7Qvqos-yFK3Ys76DBsAdV4ng9cz35ieckSLe3m4WFQKdweOeOuC2NIKnQHttBBje0iEyWtbcplz3x5gdtKBEhDq_bNGPSiR9-0Yt_kRV_2pGhR26FbPYHhOtw4GCFQAKXTGf3Vv0w', 'width': 600}, {'height': 3216, 'html_attributions': ['<a href="https://maps.google.com/maps/contrib/116522566196014882453">Rade Spasovski</a>'], 'photo_reference': 'CmRaAAAAn2HMKLIuCgh0eofmQrdk8Ecdw2yd0aMn3Lao59bp894I6kfoH46ukzUT4jE4nuTYR3RLKRU8ihcp5A1Gd9DGfmi0C8-Aijoo7FsOJCJo1o2sGzfhrrrIkclTNjheO2N5EhAHaTkeWdoU-26F1-hV5Ii-GhR2G8zUhrlkfNX6TZv7ZbKYVp2rtg', 'width': 4288}], 'place_id': 'ChIJYcHoGyRawokR9rSZ9FTdFMk', 'plus_code': {'compound_code': 'PX6X+R6 New York, NY, United States', 'global_code': '87G7PX6X+R6'}, 'rating': 4.1, 'reference': 'ChIJYcHoGyRawokR9rSZ9FTdFMk', 'reviews': [{'author_name': 'Gloria Edwards', 'author_url': 'https://www.google.com/maps/contrib/100438313856440702285/reviews', 'language': 'en', 'profile_photo_url': 'https://lh4.ggpht.com/-hSYEsmURgns/AAAAAAAAAAI/AAAAAAAAAAA/bW6ncZdPvWk/s128-c0x00000000-cc-rp-mo/photo.jpg', 'rating': 5, 'relative_time_description': 'a month ago', 'text': "Thank you for all that you do to protect and serve your citizens.  You give with your whole heart and mind.  Police officers are truly a gift from God.  You are ministers of God, and we love you.  I have only been up North one time.  My friends and I went to New York City, and we felt safe.  We felt welcomed, too.  You officers are just the best.  Stay encouraged.  Keep your head up.\nYa'll better know that all of us love you.\nGloria in South Carolina", 'time': 1588102090}, {'author_name': 'Fitzgerald Hamblin Jr', 'author_url': 'https://www.google.com/maps/contrib/103956515776472458237/reviews', 'language': 'en', 'profile_photo_url': 'https://lh4.ggpht.com/-O2Jml2ExfmA/AAAAAAAAAAI/AAAAAAAAAAA/c8jT9Ka6CH4/s128-c0x00000000-cc-rp-mo-ba6/photo.jpg', 'rating': 5, 'relative_time_description': 'a month ago', 'text': 'Very helpful within serving out general information about jointed community affairs', 'time': 1588301810}, {'author_name': 'Ayah Ibrahim', 'author_url': 'https://www.google.com/maps/contrib/114970966524198495832/reviews', 'language': 'en', 'profile_photo_url': 'https://lh6.ggpht.com/-NwFw3mEl8sw/AAAAAAAAAAI/AAAAAAAAAAA/73SfSR3yQnI/s128-c0x00000000-cc-rp-mo/photo.jpg', 'rating': 1, 'relative_time_description': '5 months ago', 'text': "Gave me a ticket for no stopping or standing, even though the sign permits it during Sunday's. Went to go see if any other car had it on their shield, turns out I was the only one. The whole block, on both sides, had no tickets. I wonder why, specifically my car with a Palestinian flag, was targeted. Isn't that weird. Hmmm🤔 Looks the cops are good for one thing, and one thing only: clicking their pens.", 'time': 1576432843}, {'author_name': 'honey D.L', 'author_url': 'https://www.google.com/maps/contrib/110794210311382944728/reviews', 'language': 'en', 'profile_photo_url': 'https://lh3.ggpht.com/-m_zyHJGZYKE/AAAAAAAAAAI/AAAAAAAAAAA/DcLCe9oGXu8/s128-c0x00000000-cc-rp-mo-ba3/photo.jpg', 'rating': 5, 'relative_time_description': '4 months ago', 'text': 'I went to get a clearance letter for my grand mother and I received the right information.\nThe lady at station 1 was very nice and polite and provided me all possible options in order for me to obtain what I need it.', 'time': 1579119192}, {'author_name': 'Luba B', 'author_url': 'https://www.google.com/maps/contrib/103708077588472556829/reviews', 'language': 'en', 'profile_photo_url': 'https://lh5.ggpht.com/-arGi58TWt9I/AAAAAAAAAAI/AAAAAAAAAAA/_feTNtu--cQ/s128-c0x00000000-cc-rp-mo/photo.jpg', 'rating': 1, 'relative_time_description': '6 months ago', 'text': "Did not let my bf eat a bagel they most likely beat out for free from the local bagel shop owner. Assumed I couldn't read English because bf didn't see some nonexistent sign.", 'time': 1574802993}], 'scope': 'GOOGLE', 'types': ['police', 'point_of_interest', 'establishment'], 'url': 'https://maps.google.com/?cid=14489449258108433654', 'user_ratings_total': 250, 'utc_offset': -240, 'vicinity': '1 Police Plaza Path, New York', 'website': 'http://www.nyc.gov/nypd'}, 'status': 'OK'}
+INFO 2020-06-02 11:49:08,320: Parse response: {'address_components': [{'long_name': '1', 'short_name': '1', 'types': ['street_number']}, {'long_name': 'Police Plaza Path', 'short_name': 'Police Plaza Path', 'types': ['route']}, {'long_name': 'Manhattan', 'short_name': 'Manhattan', 'types': ['sublocality_level_1', 'sublocality', 'political']}, {'long_name': 'New York', 'short_name': 'New York', 'types': ['locality', 'political']}, {'long_name': 'New York County', 'short_name': 'New York County', 'types': ['administrative_area_level_2', 'political']}, {'long_name': 'New York', 'short_name': 'NY', 'types': ['administrative_area_level_1', 'political']}, {'long_name': 'United States', 'short_name': 'US', 'types': ['country', 'political']}, {'long_name': '10038', 'short_name': '10038', 'types': ['postal_code']}, {'long_name': '1403', 'short_name': '1403', 'types': ['postal_code_suffix']}], 'adr_address': '<span class="street-address">1 Police Plaza Path</span>, <span class="locality">New York</span>, <span class="region">NY</span> <span class="postal-code">10038-1403</span>, <span class="country-name">USA</span>', 'business_status': 'OPERATIONAL', 'formatted_address': '1 Police Plaza Path, New York, NY 10038, USA', 'formatted_phone_number': '(646) 610-5000', 'geometry': {'location': {'lat': 40.71211479999999, 'lng': -74.00189170000002}, 'viewport': {'northeast': {'lat': 40.71323703029149, 'lng': -74.0005102197085}, 'southwest': {'lat': 40.71053906970849, 'lng': -74.00320818029151}}}, 'icon': 'https://maps.gstatic.com/mapfiles/place_api/icons/police-71.png', 'id': '7e074eb81a4aeb91cf175d2b469ead6d4fa3e065', 'international_phone_number': '+1 646-610-5000', 'name': 'New York City Police Department', 'photos': [{'height': 3024, 'html_attributions': ['<a href="https://maps.google.com/maps/contrib/117790497272734776118">Daniel Scharpf</a>'], 'photo_reference': 'CmRaAAAAE3iq8lUnV9CQBdormF8zDPKXeygetY1vN1pkKwC-5QKTawY2_4wuNPWpCOFS1qrGt7itTCosAqmQVXt7dfev4WuP_K4s7YBwKJRV9SHQL5_QUR8I8SLXsdYc0Dy7uF9dEhD1IfqH4oK4i19ZGJT9BtUBGhSUYSNgr9tg-ttrqnkV2ByHHJSIbg', 'width': 4032}, {'height': 1156, 'html_attributions': ['<a href="https://maps.google.com/maps/contrib/105462986695288450976">Ian R. Gordon</a>'], 'photo_reference': 'CmRaAAAALZTpIDjtpBORQTERcXcWkxqaK6fQrFh-2c-uojdXUlP6H3Pv49twUswr-K5QgiZSwk-kElwiYR1Ib5XRZZVw2ShjxNJDwavHOI-4RorCwV5V60P_3KrrKCPlZWArPZShEhCo0gQ53TE1a5wsj2Gc65iEGhRHucYLIjXIysSoUpTuwtpWOmaYpg', 'width': 2048}, {'height': 3456, 'html_attributions': ['<a href="https://maps.google.com/maps/contrib/108360297527369641917">Shantonur Islam</a>'], 'photo_reference': 'CmRaAAAABtakWEGnllGr8taYjgvW67_uNI-Bo3_TbjXZ0GXfUGCE37-WANw-wQ98-Zvk1JkXRl_S8oLJVdZkqA-BlkvVQMfs2OHxtcX_lNpsymwOtTJXBhhxx_U3SrMNrfBcEpAAEhCxXwCBvxNLd8LBUd2S5ArvGhR0QxHQNTywLEq2fA5E9xMZsZSsew', 'width': 4608}, {'height': 1536, 'html_attributions': ['<a href="https://maps.google.com/maps/contrib/101184843987067427945">Ilia Mici</a>'], 'photo_reference': 'CmRaAAAAI4WwG5wev6gO7QmZJSKO8NFpVxDh2sxT3yYzFnqhMGKSVpHACQZHByxual4BPLUnsdOeKj6kerrjR-ljk4XLoJKW8YNSxNxOVB1mPITfexDxaUCi7AWhukwf2FfDL3iQEhD4ecU-7sChi9HgsOB91f7KGhTGbCoiDdx2VO9Rc2DxxfN2TP4qew', 'width': 2048}, {'height': 745, 'html_attributions': ['<a href="https://maps.google.com/maps/contrib/116820343792475479128">Endercavegaming</a>'], 'photo_reference': 'CmRaAAAAU8c455jXWY4usJH2Jm4mIJ5YbqMMsuAq1EZDUU83itVFqCRtDIYM6nz_vW5RI_o9pM3thd4113m5YbEJRX03Mkop8V3XUs8BPxP77cDccAUtHV3eSvbZbxa_T5P7Qfc7EhAboZ9FXdhvrENUIHHQNMnAGhTxZw5iELoZ8mSSHKdBsB2LUCRhgw', 'width': 640}, {'height': 578, 'html_attributions': ['<a href="https://maps.google.com/maps/contrib/116820343792475479128">Endercavegaming</a>'], 'photo_reference': 'CmRaAAAAK2aNml2K9KMe5NId2nScKBy35-HZNQwcWxP8UrweqBz8JY4WEm3h_i79VfTvsTgT1Py2Z5YGPqcL_Au4Nf17mYsRXDTDdLcUAzz6r1_vDrpBUi0Z62CC_r55Bt4yqGqaEhCGGFh6ObBitWCpHEhYkSEbGhTvE_yfggEhWNvOvLqlZspV31wOvw', 'width': 640}, {'height': 3000, 'html_attributions': ['<a href="https://maps.google.com/maps/contrib/115838526007994501602">Anthony Botta</a>'], 'photo_reference': 'CmRaAAAAwp--Y5C-v-6pM6gpCkdtk6ef837uYLwUZOFhfVeHwP1dsG0NN8WE_C-72SuClBZhyrLKoCLpUps-i9cywcrO2MEAuWFq7SOai-w3_1uYslek8-ZXFxM8JAOMqjg0W4xPEhAquNH2zljrV7PdO9DIysdiGhRFZzcyn_bDKY8SQprOEmnAucOEZg', 'width': 4000}, {'height': 4032, 'html_attributions': ['<a href="https://maps.google.com/maps/contrib/115353577630729468394">Mahdi Khan</a>'], 'photo_reference': 'CmRaAAAAp92GLiQEq1BHWlSWAPrtjicQsbYWtCD0qKcwZiCXREGQMVPaqHFFrjW_I4Xx-b0_MfxuVsOvXayXjdLiGknunp3vyc5unCyhQaZfTr87JLlt3r7co2AyM_8mrqPIv8jwEhAtQOLrVEzz5rLY8yUNqv_zGhSFU5_xPFnva-FkQ1RAiU8g7dUUag', 'width': 3024}, {'height': 449, 'html_attributions': ['<a href="https://maps.google.com/maps/contrib/102230029088426259351">Jolene Williams</a>'], 'photo_reference': 'CmRaAAAAbJZdSzjbdBZKGmR_n1FjPdL4n0X-d60CnkegZhfGA9oMp7Qvqos-yFK3Ys76DBsAdV4ng9cz35ieckSLe3m4WFQKdweOeOuC2NIKnQHttBBje0iEyWtbcplz3x5gdtKBEhDq_bNGPSiR9-0Yt_kRV_2pGhR26FbPYHhOtw4GCFQAKXTGf3Vv0w', 'width': 600}, {'height': 3216, 'html_attributions': ['<a href="https://maps.google.com/maps/contrib/116522566196014882453">Rade Spasovski</a>'], 'photo_reference': 'CmRaAAAAn2HMKLIuCgh0eofmQrdk8Ecdw2yd0aMn3Lao59bp894I6kfoH46ukzUT4jE4nuTYR3RLKRU8ihcp5A1Gd9DGfmi0C8-Aijoo7FsOJCJo1o2sGzfhrrrIkclTNjheO2N5EhAHaTkeWdoU-26F1-hV5Ii-GhR2G8zUhrlkfNX6TZv7ZbKYVp2rtg', 'width': 4288}], 'place_id': 'ChIJYcHoGyRawokR9rSZ9FTdFMk', 'plus_code': {'compound_code': 'PX6X+R6 New York, NY, United States', 'global_code': '87G7PX6X+R6'}, 'rating': 4.1, 'reference': 'ChIJYcHoGyRawokR9rSZ9FTdFMk', 'reviews': [{'author_name': 'Gloria Edwards', 'author_url': 'https://www.google.com/maps/contrib/100438313856440702285/reviews', 'language': 'en', 'profile_photo_url': 'https://lh4.ggpht.com/-hSYEsmURgns/AAAAAAAAAAI/AAAAAAAAAAA/bW6ncZdPvWk/s128-c0x00000000-cc-rp-mo/photo.jpg', 'rating': 5, 'relative_time_description': 'a month ago', 'text': "Thank you for all that you do to protect and serve your citizens.  You give with your whole heart and mind.  Police officers are truly a gift from God.  You are ministers of God, and we love you.  I have only been up North one time.  My friends and I went to New York City, and we felt safe.  We felt welcomed, too.  You officers are just the best.  Stay encouraged.  Keep your head up.\nYa'll better know that all of us love you.\nGloria in South Carolina", 'time': 1588102090}, {'author_name': 'Fitzgerald Hamblin Jr', 'author_url': 'https://www.google.com/maps/contrib/103956515776472458237/reviews', 'language': 'en', 'profile_photo_url': 'https://lh4.ggpht.com/-O2Jml2ExfmA/AAAAAAAAAAI/AAAAAAAAAAA/c8jT9Ka6CH4/s128-c0x00000000-cc-rp-mo-ba6/photo.jpg', 'rating': 5, 'relative_time_description': 'a month ago', 'text': 'Very helpful within serving out general information about jointed community affairs', 'time': 1588301810}, {'author_name': 'Ayah Ibrahim', 'author_url': 'https://www.google.com/maps/contrib/114970966524198495832/reviews', 'language': 'en', 'profile_photo_url': 'https://lh6.ggpht.com/-NwFw3mEl8sw/AAAAAAAAAAI/AAAAAAAAAAA/73SfSR3yQnI/s128-c0x00000000-cc-rp-mo/photo.jpg', 'rating': 1, 'relative_time_description': '5 months ago', 'text': "Gave me a ticket for no stopping or standing, even though the sign permits it during Sunday's. Went to go see if any other car had it on their shield, turns out I was the only one. The whole block, on both sides, had no tickets. I wonder why, specifically my car with a Palestinian flag, was targeted. Isn't that weird. Hmmm🤔 Looks the cops are good for one thing, and one thing only: clicking their pens.", 'time': 1576432843}, {'author_name': 'honey D.L', 'author_url': 'https://www.google.com/maps/contrib/110794210311382944728/reviews', 'language': 'en', 'profile_photo_url': 'https://lh3.ggpht.com/-m_zyHJGZYKE/AAAAAAAAAAI/AAAAAAAAAAA/DcLCe9oGXu8/s128-c0x00000000-cc-rp-mo-ba3/photo.jpg', 'rating': 5, 'relative_time_description': '4 months ago', 'text': 'I went to get a clearance letter for my grand mother and I received the right information.\nThe lady at station 1 was very nice and polite and provided me all possible options in order for me to obtain what I need it.', 'time': 1579119192}, {'author_name': 'Luba B', 'author_url': 'https://www.google.com/maps/contrib/103708077588472556829/reviews', 'language': 'en', 'profile_photo_url': 'https://lh5.ggpht.com/-arGi58TWt9I/AAAAAAAAAAI/AAAAAAAAAAA/_feTNtu--cQ/s128-c0x00000000-cc-rp-mo/photo.jpg', 'rating': 1, 'relative_time_description': '6 months ago', 'text': "Did not let my bf eat a bagel they most likely beat out for free from the local bagel shop owner. Assumed I couldn't read English because bf didn't see some nonexistent sign.", 'time': 1574802993}], 'scope': 'GOOGLE', 'types': ['police', 'point_of_interest', 'establishment'], 'url': 'https://maps.google.com/?cid=14489449258108433654', 'user_ratings_total': 250, 'utc_offset': -240, 'vicinity': '1 Police Plaza Path, New York', 'website': 'http://www.nyc.gov/nypd'}
+INFO 2020-06-02 11:57:00,209: /Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/reporter/views.py changed, reloading.
+DEBUG 2020-06-02 11:57:00,225: Using selector: KqueueSelector
+DEBUG 2020-06-02 12:09:58,178: Using selector: KqueueSelector

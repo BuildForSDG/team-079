@@ -136,7 +136,7 @@ def update_incident(pk, responder):
     # update incident
     incident = get_object_or_404(IncidentReport, pk=pk)
     incident.responder = responder
-    incident.is_status_open = False
+    incident.status = Config.STATUS_AWAIT
     incident.save()
 
 
@@ -187,3 +187,41 @@ def get_location_data(place_id):
         logger.error(f"Exception caught: {ex.__class__.__name__}, message: {ex}")
 
     return location
+
+
+def call_responder(request):
+    """This is the handler to call a responder.
+
+    :param
+        request (http get): http GET request from the client
+    :returns
+        response (json): json response from the server
+    """
+    from twilio.rest import Client
+    from twilio.twiml.voice_response import VoiceResponse, Gather
+
+    from_number = Config.FROM_NUMBER
+    to_number = Config.TO_NUMBER
+    account_sid = Config.ACCOUNT_SID
+    auth_token = Config.AUTH_TOKEN
+    src_path = 'http://demo.twilio.com/docs/voice.xml'
+
+    client = Client(account_sid, auth_token)
+    logger.debug(f"Initialized Twilio rest client with Account_SID: {account_sid} and Auth_token: {auth_token}")
+
+    response = VoiceResponse()
+    gather = Gather(action='/process_gather.php', method='GET')
+    gather.say('Please enter your account number,\nfollowed by the pound sign')
+    response.append(gather)
+    response.say('We didn\'t receive any input. Goodbye!')
+
+    call = client.calls.create(
+        url=src_path,
+        to=to_number,
+        from_=from_number
+    )
+
+    logger.debug(f"Call with sid: {call.sid} to responder with phone_number: {to_number} was made successfully")
+
+    return JsonResponse({"message": "HELp is On the Way!"})
+
