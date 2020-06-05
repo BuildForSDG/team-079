@@ -54,7 +54,7 @@ class IncidentReport(models.Model):
     reported_at = models.DateTimeField()
     reported_by = models.ForeignKey(get_user_model(), on_delete=models.CASCADE, default=config.ANONYMOUS_USER_ID)
     incident_type = models.ForeignKey(IncidentType, on_delete=models.CASCADE, default=config.UNCATEGORIZED_REPORT_ID)
-    responder = models.ForeignKey('responder.Responder', on_delete=models.CASCADE, null=True)
+    responder = models.ForeignKey('responder.Responder', on_delete=models.CASCADE, null=True, related_name='incidents')
     status = models.CharField(max_length=50, default=config.STATUS_PENDING)
 
     def __str__(self):

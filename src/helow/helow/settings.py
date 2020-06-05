@@ -72,6 +72,9 @@ INSTALLED_APPS = [
     'django.contrib.sites',
     'rest_auth.registration',
 
+    # manage background tasks
+    'background_task',
+
     'allauth.socialaccount',
     'allauth.socialaccount.providers.facebook',
     'allauth.socialaccount.providers.twitter',

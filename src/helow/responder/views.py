@@ -225,3 +225,30 @@ def call_responder(request):
 
     return JsonResponse({"message": "HELp is On the Way!"})
 
+
+def background_call(phone_number):
+    from twilio.rest import Client
+    from twilio.twiml.voice_response import VoiceResponse, Gather
+
+    from_number = Config.FROM_NUMBER
+    to_number = Config.TO_NUMBER
+    account_sid = Config.ACCOUNT_SID
+    auth_token = Config.AUTH_TOKEN
+    src_path = 'http://demo.twilio.com/docs/voice.xml'
+
+    client = Client(account_sid, auth_token)
+    logger.debug(f"Initialized Twilio rest client with Account_SID: {account_sid} and Auth_token: {auth_token}")
+
+    response = VoiceResponse()
+    gather = Gather(action='/process_gather.php', method='GET')
+    gather.say('Please enter your account number,\nfollowed by the pound sign')
+    response.append(gather)
+    response.say('We didn\'t receive any input. Goodbye!')
+
+    call = client.calls.create(
+        url=src_path,
+        to=to_number,
+        from_=from_number
+    )
+
+    logger.debug(f"Call with sid: {call.sid} to responder with phone_number: {to_number} was made successfully")
