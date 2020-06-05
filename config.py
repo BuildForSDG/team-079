@@ -22,7 +22,7 @@ class Config:
 
     # twilio setup
     ACCOUNT_SID = 'AC4d00d14a8f0c3ae0bff3ec2353c6acfe'
-    AUTH_TOKEN = 'ec2aac4280cc136dc338137bef3fe0d7'
+    AUTH_TOKEN = 'd30507cbd6fbdc2839f6b6798fb4de03'
     FROM_NUMBER = '+12092314443'
     TO_NUMBER = '+2348160016793'
 
