@@ -26,7 +26,7 @@ def increment_incident_type_frequency(sender, instance=None, created=False, **kw
         from responder.backgrounders import call_responders
 
         phone_number = instance.location.international_phone_number
-        logger.info(f"Responder: {instance.name} created and assigned to incident: {instance.incident}. Calling "
+        logger.info(f"Responder: {instance.name} created and assigned to incident: {instance.incidents}. Calling "
                     f"responder on: {phone_number}")
         background_call(phone_number)
         logger.info(f"Call to responder: {instance.name} was successful.")
