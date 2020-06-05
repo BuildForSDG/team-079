@@ -23,6 +23,8 @@ def increment_incident_type_frequency(sender, instance=None, created=False, **kw
     """An observer function that triggers a call to responder once created."""
     if created:
         from responder.views import background_call
+        from responder.backgrounders import call_responders
+
         phone_number = instance.location.international_phone_number
         logger.info(f"Responder: {instance.name} created and assigned to incident: {instance.incident}. Calling "
                     f"responder on: {phone_number}")

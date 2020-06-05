@@ -2132,3 +2132,56 @@ INFO 2020-06-04 23:55:10,428: Watching for file changes with StatReloader
 DEBUG 2020-06-05 00:01:57,828: Using selector: KqueueSelector
 DEBUG 2020-06-05 00:01:57,986: Using selector: KqueueSelector
 DEBUG 2020-06-05 00:05:02,379: Using selector: KqueueSelector
+INFO 2020-06-05 00:10:59,685: Watching for file changes with StatReloader
+INFO 2020-06-05 00:11:59,182: Looking up responders for incident with id: 31
+INFO 2020-06-05 00:11:59,200: Returning place type: hospital for incident of type: Uncategorized
+INFO 2020-06-05 00:11:59,200: Call https://maps.googleapis.com/maps/api/place/nearbysearch/json with parameters: {'location': '40.71211479999999,-74.00189170000002', 'radius': 500, 'types': 'hospital', 'key': 'AIzaSyBr427Ow25KCsgHcHQe_J1V1L39nTouIfk'}
+DEBUG 2020-06-05 00:11:59,257: Starting new HTTPS connection (1): maps.googleapis.com:443
+DEBUG 2020-06-05 00:12:00,150: https://maps.googleapis.com:443 "GET /maps/api/place/nearbysearch/json?location=40.71211479999999%2C-74.00189170000002&radius=500&types=hospital&key=AIzaSyBr427Ow25KCsgHcHQe_J1V1L39nTouIfk HTTP/1.1" 200 3811
+DEBUG 2020-06-05 00:12:00,153: Get the first 4 results
+WARNING 2020-06-05 00:12:37,944: Not Found: /api/v1/incident/report/create/
+INFO 2020-06-05 00:12:49,230: Looking up responders for incident with id: 32
+INFO 2020-06-05 00:12:49,236: Returning place type: hospital for incident of type: Uncategorized
+INFO 2020-06-05 00:12:49,236: Call https://maps.googleapis.com/maps/api/place/nearbysearch/json with parameters: {'location': '40.71211479999999,-74.00189170000002', 'radius': 500, 'types': 'hospital', 'key': 'AIzaSyBr427Ow25KCsgHcHQe_J1V1L39nTouIfk'}
+DEBUG 2020-06-05 00:12:49,288: Starting new HTTPS connection (1): maps.googleapis.com:443
+DEBUG 2020-06-05 00:12:50,045: https://maps.googleapis.com:443 "GET /maps/api/place/nearbysearch/json?location=40.71211479999999%2C-74.00189170000002&radius=500&types=hospital&key=AIzaSyBr427Ow25KCsgHcHQe_J1V1L39nTouIfk HTTP/1.1" 200 3807
+DEBUG 2020-06-05 00:12:50,049: Get the first 4 results
+INFO 2020-06-05 00:13:36,999: /Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/reporter/urls.py changed, reloading.
+DEBUG 2020-06-05 00:13:37,000: Using selector: KqueueSelector
+INFO 2020-06-05 00:13:38,079: Watching for file changes with StatReloader
+INFO 2020-06-05 00:13:51,103: Looking up responders for incident with id: 33
+INFO 2020-06-05 00:13:51,114: Returning place type: hospital for incident of type: Uncategorized
+INFO 2020-06-05 00:13:51,114: Call https://maps.googleapis.com/maps/api/place/nearbysearch/json with parameters: {'location': '40.71211479999999,-74.00189170000002', 'radius': 500, 'types': 'hospital', 'key': 'AIzaSyBr427Ow25KCsgHcHQe_J1V1L39nTouIfk'}
+DEBUG 2020-06-05 00:13:51,195: Starting new HTTPS connection (1): maps.googleapis.com:443
+DEBUG 2020-06-05 00:13:52,204: https://maps.googleapis.com:443 "GET /maps/api/place/nearbysearch/json?location=40.71211479999999%2C-74.00189170000002&radius=500&types=hospital&key=AIzaSyBr427Ow25KCsgHcHQe_J1V1L39nTouIfk HTTP/1.1" 200 3803
+DEBUG 2020-06-05 00:13:52,348: Get the first 4 results
+INFO 2020-06-05 00:26:32,505: /Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/models.py changed, reloading.
+DEBUG 2020-06-05 00:26:32,519: Using selector: KqueueSelector
+INFO 2020-06-05 00:26:33,695: Watching for file changes with StatReloader
+INFO 2020-06-05 00:40:18,668: /Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/helow/urls.py changed, reloading.
+DEBUG 2020-06-05 00:40:18,669: Using selector: KqueueSelector
+INFO 2020-06-05 00:40:19,856: Watching for file changes with StatReloader
+DEBUG 2020-06-05 00:41:08,834: Using selector: KqueueSelector
+DEBUG 2020-06-05 00:41:08,955: Using selector: KqueueSelector
+INFO 2020-06-05 00:41:13,072: Watching for file changes with StatReloader
+INFO 2020-06-05 00:44:36,559: /Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/helow/__init__.py changed, reloading.
+DEBUG 2020-06-05 00:44:36,560: Using selector: KqueueSelector
+DEBUG 2020-06-05 00:44:37,303: Using selector: KqueueSelector
+INFO 2020-06-05 00:45:46,481: Watching for file changes with StatReloader
+INFO 2020-06-05 00:47:01,674: /Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/helow/__init__.py changed, reloading.
+DEBUG 2020-06-05 00:47:01,674: Using selector: KqueueSelector
+INFO 2020-06-05 00:47:02,778: Watching for file changes with StatReloader
+INFO 2020-06-05 00:47:11,223: /Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/helow/urls.py changed, reloading.
+DEBUG 2020-06-05 00:47:11,223: Using selector: KqueueSelector
+INFO 2020-06-05 00:47:11,732: Watching for file changes with StatReloader
+INFO 2020-06-05 00:48:40,542: /Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/helow/urls.py changed, reloading.
+DEBUG 2020-06-05 00:48:40,544: Using selector: KqueueSelector
+INFO 2020-06-05 00:48:41,702: Watching for file changes with StatReloader
+INFO 2020-06-05 00:49:12,202: /Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/responder/backgrounders.py changed, reloading.
+DEBUG 2020-06-05 00:49:12,203: Using selector: KqueueSelector
+INFO 2020-06-05 00:49:13,197: Watching for file changes with StatReloader
+DEBUG 2020-06-05 00:49:13,431: Using selector: KqueueSelector
+INFO 2020-06-05 00:50:39,694: /Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/helow/urls.py changed, reloading.
+INFO 2020-06-05 00:50:40,814: Watching for file changes with StatReloader
+DEBUG 2020-06-05 00:50:43,139: Using selector: KqueueSelector
+DEBUG 2020-06-05 00:50:43,319: Using selector: KqueueSelector
