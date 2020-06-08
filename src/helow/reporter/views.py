@@ -11,12 +11,12 @@ from setup import logger
 
 # Create your views here.
 class CreateIncidentReportView(generics.ListCreateAPIView):
-    serializer_class = serializers.ReportSerializer
+    serializer_class = serializers.CreateIncidentReportSerializer
 
     # return incidents in descending order
     def get_queryset(self):
         queryset = IncidentReport.objects.all()
-        queryset = queryset.filter(is_status_open=True)
+        queryset = queryset.filter(status=config.STATUS_PENDING)
         return queryset.order_by('-id')
 
 
@@ -34,7 +34,7 @@ class IncidentListView(generics.ListAPIView):
         location = self.request.query_params.get('location')
         reported_date = self.request.query_params.get('reported_at')
         incident_type = self.request.query_params.get('incident_type')
-        status = self.request.query_params.get('is_status_open')
+        status = self.request.query_params.get('status')
         if status == 'true':
             queryset = queryset.filter(is_status_open=True)
         elif status == 'false':

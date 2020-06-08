@@ -2373,3 +2373,333 @@ DEBUG 2020-06-05 01:25:12,512: Call with sid: CA9b9ec56ee93b59b3889a384e2e3c7681
 INFO 2020-06-05 01:25:12,512: Call to responder: New York City Police Department was successful.
 DEBUG 2020-06-05 01:25:59,622: Using selector: KqueueSelector
 DEBUG 2020-06-05 01:25:59,804: Using selector: KqueueSelector
+INFO 2020-06-05 01:38:20,114: Watching for file changes with StatReloader
+INFO 2020-06-05 01:38:25,818: Looking up responders for incident with id: 34
+INFO 2020-06-05 01:38:25,825: Returning place type: hospital for incident of type: Uncategorized
+INFO 2020-06-05 01:38:25,826: Call https://maps.googleapis.com/maps/api/place/nearbysearch/json with parameters: {'location': '40.71211479999999,-74.00189170000002', 'radius': 500, 'types': 'hospital', 'key': 'AIzaSyBr427Ow25KCsgHcHQe_J1V1L39nTouIfk'}
+DEBUG 2020-06-05 01:38:25,868: Starting new HTTPS connection (1): maps.googleapis.com:443
+DEBUG 2020-06-05 01:38:26,779: https://maps.googleapis.com:443 "GET /maps/api/place/nearbysearch/json?location=40.71211479999999%2C-74.00189170000002&radius=500&types=hospital&key=AIzaSyBr427Ow25KCsgHcHQe_J1V1L39nTouIfk HTTP/1.1" 200 3805
+DEBUG 2020-06-05 01:38:26,783: Get the first 4 results
+INFO 2020-06-05 12:21:09,568: Looking up responders for incident with id: 35
+INFO 2020-06-05 12:21:09,576: Returning place type: hospital for incident of type: Uncategorized
+INFO 2020-06-05 12:21:09,576: Call https://maps.googleapis.com/maps/api/place/nearbysearch/json with parameters: {'location': '40.71211479999999,-74.00189170000002', 'radius': 500, 'types': 'hospital', 'key': 'AIzaSyBr427Ow25KCsgHcHQe_J1V1L39nTouIfk'}
+DEBUG 2020-06-05 12:21:09,693: Starting new HTTPS connection (1): maps.googleapis.com:443
+DEBUG 2020-06-05 12:21:10,414: https://maps.googleapis.com:443 "GET /maps/api/place/nearbysearch/json?location=40.71211479999999%2C-74.00189170000002&radius=500&types=hospital&key=AIzaSyBr427Ow25KCsgHcHQe_J1V1L39nTouIfk HTTP/1.1" 200 3812
+DEBUG 2020-06-05 12:21:10,421: Get the first 4 results
+WARNING 2020-06-05 12:26:01,430: Forbidden (CSRF token missing or incorrect.): /api/v1/incident/report/create/
+INFO 2020-06-05 12:39:04,164: Looking up responders for incident with id: 36
+INFO 2020-06-05 12:39:04,170: Returning place type: hospital for incident of type: Uncategorized
+INFO 2020-06-05 12:39:04,170: Call https://maps.googleapis.com/maps/api/place/nearbysearch/json with parameters: {'location': '40.71211479999999,-74.00189170000002', 'radius': 500, 'types': 'hospital', 'key': 'AIzaSyBr427Ow25KCsgHcHQe_J1V1L39nTouIfk'}
+DEBUG 2020-06-05 12:39:04,241: Starting new HTTPS connection (1): maps.googleapis.com:443
+DEBUG 2020-06-05 12:39:05,327: https://maps.googleapis.com:443 "GET /maps/api/place/nearbysearch/json?location=40.71211479999999%2C-74.00189170000002&radius=500&types=hospital&key=AIzaSyBr427Ow25KCsgHcHQe_J1V1L39nTouIfk HTTP/1.1" 200 3814
+DEBUG 2020-06-05 12:39:05,333: Get the first 4 results
+INFO 2020-06-05 12:39:45,845: Looking up responders for incident with id: 37
+INFO 2020-06-05 12:39:45,852: Returning place type: hospital for incident of type: Uncategorized
+INFO 2020-06-05 12:39:45,852: Call https://maps.googleapis.com/maps/api/place/nearbysearch/json with parameters: {'location': '40.71211479999999,-74.00189170000002', 'radius': 500, 'types': 'hospital', 'key': 'AIzaSyBr427Ow25KCsgHcHQe_J1V1L39nTouIfk'}
+DEBUG 2020-06-05 12:39:45,884: Starting new HTTPS connection (1): maps.googleapis.com:443
+DEBUG 2020-06-05 12:39:47,112: https://maps.googleapis.com:443 "GET /maps/api/place/nearbysearch/json?location=40.71211479999999%2C-74.00189170000002&radius=500&types=hospital&key=AIzaSyBr427Ow25KCsgHcHQe_J1V1L39nTouIfk HTTP/1.1" 200 3818
+DEBUG 2020-06-05 12:39:47,118: Get the first 4 results
+WARNING 2020-06-05 12:41:03,651: Forbidden (CSRF token missing or incorrect.): /api/v1/incident/report/create/
+INFO 2020-06-05 12:41:15,791: Looking up responders for incident with id: 38
+INFO 2020-06-05 12:41:15,798: Returning place type: hospital for incident of type: Uncategorized
+INFO 2020-06-05 12:41:15,798: Call https://maps.googleapis.com/maps/api/place/nearbysearch/json with parameters: {'location': '40.71211479999999,-74.00189170000002', 'radius': 500, 'types': 'hospital', 'key': 'AIzaSyBr427Ow25KCsgHcHQe_J1V1L39nTouIfk'}
+DEBUG 2020-06-05 12:41:15,870: Starting new HTTPS connection (1): maps.googleapis.com:443
+DEBUG 2020-06-05 12:41:16,531: https://maps.googleapis.com:443 "GET /maps/api/place/nearbysearch/json?location=40.71211479999999%2C-74.00189170000002&radius=500&types=hospital&key=AIzaSyBr427Ow25KCsgHcHQe_J1V1L39nTouIfk HTTP/1.1" 200 3814
+DEBUG 2020-06-05 12:41:16,550: Get the first 4 results
+WARNING 2020-06-05 12:44:10,966: Forbidden (CSRF token missing or incorrect.): /api/v1/incident/report/create/
+INFO 2020-06-05 12:44:13,815: Looking up responders for incident with id: 39
+INFO 2020-06-05 12:44:13,822: Returning place type: hospital for incident of type: Uncategorized
+INFO 2020-06-05 12:44:13,822: Call https://maps.googleapis.com/maps/api/place/nearbysearch/json with parameters: {'location': '40.71211479999999,-74.00189170000002', 'radius': 500, 'types': 'hospital', 'key': 'AIzaSyBr427Ow25KCsgHcHQe_J1V1L39nTouIfk'}
+DEBUG 2020-06-05 12:44:13,855: Starting new HTTPS connection (1): maps.googleapis.com:443
+DEBUG 2020-06-05 12:44:14,480: https://maps.googleapis.com:443 "GET /maps/api/place/nearbysearch/json?location=40.71211479999999%2C-74.00189170000002&radius=500&types=hospital&key=AIzaSyBr427Ow25KCsgHcHQe_J1V1L39nTouIfk HTTP/1.1" 200 3819
+DEBUG 2020-06-05 12:44:14,484: Get the first 4 results
+DEBUG 2020-06-05 15:26:12,213: Using selector: KqueueSelector
+DEBUG 2020-06-05 15:26:12,447: Using selector: KqueueSelector
+INFO 2020-06-08 13:14:31,296: Watching for file changes with StatReloader
+INFO 2020-06-08 13:14:50,629: Looking up responders for incident with id: 40
+INFO 2020-06-08 13:14:50,637: Returning place type: hospital for incident of type: Uncategorized
+INFO 2020-06-08 13:14:50,638: Call https://maps.googleapis.com/maps/api/place/nearbysearch/json with parameters: {'location': '40.71211479999999,-74.00189170000002', 'radius': 500, 'types': 'hospital', 'key': 'AIzaSyBr427Ow25KCsgHcHQe_J1V1L39nTouIfk'}
+DEBUG 2020-06-08 13:14:50,765: Starting new HTTPS connection (1): maps.googleapis.com:443
+DEBUG 2020-06-08 13:14:51,711: https://maps.googleapis.com:443 "GET /maps/api/place/nearbysearch/json?location=40.71211479999999%2C-74.00189170000002&radius=500&types=hospital&key=AIzaSyBr427Ow25KCsgHcHQe_J1V1L39nTouIfk HTTP/1.1" 200 3806
+DEBUG 2020-06-08 13:14:51,720: Get the first 4 results
+ERROR 2020-06-08 13:15:04,007: Internal Server Error: /api/v1/incident/report/
+Traceback (most recent call last):
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/rest_framework/generics.py", line 239, in get
+    return self.list(request, *args, **kwargs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/rest_framework/mixins.py", line 38, in list
+    queryset = self.filter_queryset(self.get_queryset())
+  File "/Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/reporter/views.py", line 19, in get_queryset
+    queryset = queryset.filter(is_status_open=True)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/query.py", line 904, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/query.py", line 923, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1350, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1381, in _add_q
+    check_filterable=check_filterable,
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1250, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1087, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1483, in names_to_path
+    "Choices are: %s" % (name, ", ".join(available)))
+django.core.exceptions.FieldError: Cannot resolve keyword 'is_status_open' into field. Choices are: description, id, incident_type, incident_type_id, location, location_id, reported_at, reported_by, reported_by_id, responder, responder_id, status, title
+INFO 2020-06-08 13:16:46,891: /Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/reporter/serializers.py changed, reloading.
+DEBUG 2020-06-08 13:16:46,897: Using selector: KqueueSelector
+INFO 2020-06-08 13:16:48,067: Watching for file changes with StatReloader
+INFO 2020-06-08 13:17:22,894: /Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/reporter/serializers.py changed, reloading.
+DEBUG 2020-06-08 13:17:22,894: Using selector: KqueueSelector
+INFO 2020-06-08 13:17:23,980: Watching for file changes with StatReloader
+ERROR 2020-06-08 13:17:28,237: Internal Server Error: /api/v1/incident/report/
+Traceback (most recent call last):
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/rest_framework/generics.py", line 239, in get
+    return self.list(request, *args, **kwargs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/rest_framework/mixins.py", line 38, in list
+    queryset = self.filter_queryset(self.get_queryset())
+  File "/Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/reporter/views.py", line 19, in get_queryset
+    queryset = queryset.filter(is_status_open=True)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/query.py", line 904, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/query.py", line 923, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1350, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1381, in _add_q
+    check_filterable=check_filterable,
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1250, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1087, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1483, in names_to_path
+    "Choices are: %s" % (name, ", ".join(available)))
+django.core.exceptions.FieldError: Cannot resolve keyword 'is_status_open' into field. Choices are: description, id, incident_type, incident_type_id, location, location_id, reported_at, reported_by, reported_by_id, responder, responder_id, status, title
+INFO 2020-06-08 13:19:46,385: /Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/reporter/views.py changed, reloading.
+DEBUG 2020-06-08 13:19:46,386: Using selector: KqueueSelector
+INFO 2020-06-08 13:19:47,428: Watching for file changes with StatReloader
+ERROR 2020-06-08 13:19:51,407: Internal Server Error: /api/v1/incident/report/
+Traceback (most recent call last):
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/rest_framework/fields.py", line 454, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/rest_framework/fields.py", line 94, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'IncidentReport' object has no attribute 'business_status'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/rest_framework/generics.py", line 239, in get
+    return self.list(request, *args, **kwargs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/rest_framework/mixins.py", line 43, in list
+    return self.get_paginated_response(serializer.data)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/rest_framework/serializers.py", line 760, in data
+    ret = super().data
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/rest_framework/serializers.py", line 260, in data
+    self._data = self.to_representation(self.instance)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/rest_framework/serializers.py", line 678, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/rest_framework/serializers.py", line 678, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/rest_framework/serializers.py", line 516, in to_representation
+    attribute = field.get_attribute(instance)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/rest_framework/fields.py", line 487, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `business_status` on serializer `ReportSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `IncidentReport` instance.
+Original exception text was: 'IncidentReport' object has no attribute 'business_status'.
+INFO 2020-06-08 13:22:04,093: /Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/reporter/serializers.py changed, reloading.
+DEBUG 2020-06-08 13:22:04,095: Using selector: KqueueSelector
+INFO 2020-06-08 13:22:05,159: Watching for file changes with StatReloader
+ERROR 2020-06-08 13:22:09,919: Internal Server Error: /api/v1/incident/report/
+Traceback (most recent call last):
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/rest_framework/fields.py", line 454, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/rest_framework/fields.py", line 94, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'IncidentReport' object has no attribute 'icon'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/rest_framework/generics.py", line 239, in get
+    return self.list(request, *args, **kwargs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/rest_framework/mixins.py", line 43, in list
+    return self.get_paginated_response(serializer.data)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/rest_framework/serializers.py", line 760, in data
+    ret = super().data
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/rest_framework/serializers.py", line 260, in data
+    self._data = self.to_representation(self.instance)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/rest_framework/serializers.py", line 678, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/rest_framework/serializers.py", line 678, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/rest_framework/serializers.py", line 516, in to_representation
+    attribute = field.get_attribute(instance)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/rest_framework/fields.py", line 487, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `icon` on serializer `ReportSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `IncidentReport` instance.
+Original exception text was: 'IncidentReport' object has no attribute 'icon'.
+INFO 2020-06-08 13:22:24,545: /Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/reporter/serializers.py changed, reloading.
+DEBUG 2020-06-08 13:22:24,546: Using selector: KqueueSelector
+INFO 2020-06-08 13:22:25,550: Watching for file changes with StatReloader
+ERROR 2020-06-08 13:22:30,082: Internal Server Error: /api/v1/incident/report/
+Traceback (most recent call last):
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/rest_framework/fields.py", line 454, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/rest_framework/fields.py", line 94, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'IncidentReport' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/rest_framework/generics.py", line 239, in get
+    return self.list(request, *args, **kwargs)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/rest_framework/mixins.py", line 43, in list
+    return self.get_paginated_response(serializer.data)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/rest_framework/serializers.py", line 760, in data
+    ret = super().data
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/rest_framework/serializers.py", line 260, in data
+    self._data = self.to_representation(self.instance)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/rest_framework/serializers.py", line 678, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/rest_framework/serializers.py", line 678, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/rest_framework/serializers.py", line 516, in to_representation
+    attribute = field.get_attribute(instance)
+  File "/Users/franklynogbonna/Library/Caches/pypoetry/virtualenvs/src-VrkBaAjr-py3.7/lib/python3.7/site-packages/rest_framework/fields.py", line 487, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `name` on serializer `ReportSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `IncidentReport` instance.
+Original exception text was: 'IncidentReport' object has no attribute 'name'.
+INFO 2020-06-08 13:22:59,457: /Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/reporter/serializers.py changed, reloading.
+DEBUG 2020-06-08 13:22:59,459: Using selector: KqueueSelector
+INFO 2020-06-08 13:23:00,477: Watching for file changes with StatReloader
+INFO 2020-06-08 13:25:38,258: /Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/reporter/views.py changed, reloading.
+DEBUG 2020-06-08 13:25:38,261: Using selector: KqueueSelector
+INFO 2020-06-08 13:25:39,349: Watching for file changes with StatReloader
+INFO 2020-06-08 13:26:46,785: Looking up responders for incident with id: 41
+INFO 2020-06-08 13:26:46,791: Returning place type: hospital for incident of type: Uncategorized
+INFO 2020-06-08 13:26:46,791: Call https://maps.googleapis.com/maps/api/place/nearbysearch/json with parameters: {'location': '40.71211479999999,-74.00189170000002', 'radius': 500, 'types': 'hospital', 'key': 'AIzaSyBr427Ow25KCsgHcHQe_J1V1L39nTouIfk'}
+DEBUG 2020-06-08 13:26:46,893: Starting new HTTPS connection (1): maps.googleapis.com:443
+DEBUG 2020-06-08 13:26:47,784: https://maps.googleapis.com:443 "GET /maps/api/place/nearbysearch/json?location=40.71211479999999%2C-74.00189170000002&radius=500&types=hospital&key=AIzaSyBr427Ow25KCsgHcHQe_J1V1L39nTouIfk HTTP/1.1" 200 3801
+DEBUG 2020-06-08 13:26:47,986: Get the first 4 results
+INFO 2020-06-08 13:29:25,553: Looking up responders for incident with id: 42
+INFO 2020-06-08 13:29:25,557: Returning place type: hospital for incident of type: Uncategorized
+INFO 2020-06-08 13:29:25,557: Call https://maps.googleapis.com/maps/api/place/nearbysearch/json with parameters: {'location': '40.71211479999999,-74.00189170000002', 'radius': 500, 'types': 'hospital', 'key': 'AIzaSyBr427Ow25KCsgHcHQe_J1V1L39nTouIfk'}
+DEBUG 2020-06-08 13:29:25,560: Starting new HTTPS connection (1): maps.googleapis.com:443
+DEBUG 2020-06-08 13:29:26,460: https://maps.googleapis.com:443 "GET /maps/api/place/nearbysearch/json?location=40.71211479999999%2C-74.00189170000002&radius=500&types=hospital&key=AIzaSyBr427Ow25KCsgHcHQe_J1V1L39nTouIfk HTTP/1.1" 200 3805
+DEBUG 2020-06-08 13:29:26,463: Get the first 4 results
+INFO 2020-06-08 13:39:57,890: Looking up responders for incident with id: 19
+INFO 2020-06-08 13:39:57,902: Returning place type: hospital for incident of type: Pedestrian Knock Down
+INFO 2020-06-08 13:39:57,902: Call https://maps.googleapis.com/maps/api/place/nearbysearch/json with parameters: {'location': '40.7117496,-74.00866669999999', 'radius': 500, 'types': 'hospital', 'key': 'AIzaSyBr427Ow25KCsgHcHQe_J1V1L39nTouIfk'}
+DEBUG 2020-06-08 13:39:58,001: Starting new HTTPS connection (1): maps.googleapis.com:443
+DEBUG 2020-06-08 13:39:59,219: https://maps.googleapis.com:443 "GET /maps/api/place/nearbysearch/json?location=40.7117496%2C-74.00866669999999&radius=500&types=hospital&key=AIzaSyBr427Ow25KCsgHcHQe_J1V1L39nTouIfk HTTP/1.1" 200 5425
+DEBUG 2020-06-08 13:39:59,250: Get the first 4 results
+INFO 2020-06-08 13:40:49,853: Call to https://maps.googleapis.com/maps/api/place/details/json with parameters: {'placeid': 'ChIJYcHoGyRawokR9rSZ9FTdFMk', 'key': 'AIzaSyBr427Ow25KCsgHcHQe_J1V1L39nTouIfk'}
+DEBUG 2020-06-08 13:40:49,859: Starting new HTTPS connection (1): maps.googleapis.com:443
+DEBUG 2020-06-08 13:40:50,497: https://maps.googleapis.com:443 "GET /maps/api/place/details/json?placeid=ChIJYcHoGyRawokR9rSZ9FTdFMk&key=AIzaSyBr427Ow25KCsgHcHQe_J1V1L39nTouIfk HTTP/1.1" 200 4132
+DEBUG 2020-06-08 13:40:50,504: Raw response: {'html_attributions': [], 'result': {'address_components': [{'long_name': '1', 'short_name': '1', 'types': ['street_number']}, {'long_name': 'Police Plaza Path', 'short_name': 'Police Plaza Path', 'types': ['route']}, {'long_name': 'Manhattan', 'short_name': 'Manhattan', 'types': ['sublocality_level_1', 'sublocality', 'political']}, {'long_name': 'New York', 'short_name': 'New York', 'types': ['locality', 'political']}, {'long_name': 'New York County', 'short_name': 'New York County', 'types': ['administrative_area_level_2', 'political']}, {'long_name': 'New York', 'short_name': 'NY', 'types': ['administrative_area_level_1', 'political']}, {'long_name': 'United States', 'short_name': 'US', 'types': ['country', 'political']}, {'long_name': '10038', 'short_name': '10038', 'types': ['postal_code']}, {'long_name': '1403', 'short_name': '1403', 'types': ['postal_code_suffix']}], 'adr_address': '<span class="street-address">1 Police Plaza Path</span>, <span class="locality">New York</span>, <span class="region">NY</span> <span class="postal-code">10038-1403</span>, <span class="country-name">USA</span>', 'business_status': 'OPERATIONAL', 'formatted_address': '1 Police Plaza Path, New York, NY 10038, USA', 'formatted_phone_number': '(646) 610-5000', 'geometry': {'location': {'lat': 40.71211479999999, 'lng': -74.00189170000002}, 'viewport': {'northeast': {'lat': 40.71323703029149, 'lng': -74.0005102197085}, 'southwest': {'lat': 40.71053906970849, 'lng': -74.00320818029151}}}, 'icon': 'https://maps.gstatic.com/mapfiles/place_api/icons/police-71.png', 'id': '7e074eb81a4aeb91cf175d2b469ead6d4fa3e065', 'international_phone_number': '+1 646-610-5000', 'name': 'New York City Police Department', 'photos': [{'height': 3024, 'html_attributions': ['<a href="https://maps.google.com/maps/contrib/117790497272734776118">Daniel Scharpf</a>'], 'photo_reference': 'CmRaAAAAlMAYmvxwTR40fiC3pKZOc2fTfAu9eS4ett4dZpcGPPT1YlhyyGDxf8h0rzXkg6Sj8VA9z4kM0lXJIOLPk9OMSUCpGpgOEE3OkxWVJezwkAieO5y7McodIPuSUN4YwInOEhBOepvfUIUJgysVdKj9R47xGhQp7jFZ9knv4b-eDD3pa2uUGgNp2A', 'width': 4032}, {'height': 1156, 'html_attributions': ['<a href="https://maps.google.com/maps/contrib/105462986695288450976">Ian R. Gordon</a>'], 'photo_reference': 'CmRaAAAAUm8WfsVJ1zq_UllMwJPp-nPgMtvR2M9P4NAsRVrqft-Bq4oEX5s74gpbM8rMqe3zM_1jfzd9E1w-OKM99HR7Iy1ideld5-N9Nzea0yJuD72ur__JOWHX35ZXedP-ubaoEhA1OnF3lsOICgRAmxQFCouZGhQtrRqo3xO3k-suNG-WUJLBRadtfA', 'width': 2048}, {'height': 3456, 'html_attributions': ['<a href="https://maps.google.com/maps/contrib/108360297527369641917">Shantonur Islam</a>'], 'photo_reference': 'CmRaAAAAiOibGCSyF7c1mDXTTLhDRUn1Vjkr420-OnlBHwfMNWlaSR9XmXzWnR7i5Qko4QQ88ZLOnjleZcJsBKnN6NEVCjpqFXAFoCSMIxHd3vTm7TMp2Q7gw9uVkATMDZ2EOSEbEhBHZNfpE2NqG3RJ5LATiMYyGhSi3ypzRTG-zDYYuqkEwbUP-57LqQ', 'width': 4608}, {'height': 1536, 'html_attributions': ['<a href="https://maps.google.com/maps/contrib/101184843987067427945">Ilia Mici</a>'], 'photo_reference': 'CmRaAAAAizW0T8Y94F7rEMPrd9P1OiHiRDzrGOw-XCU57F3WOwbzCQhkiQk8l3--ijTs1jMjXJPjtjQ06604SrxVX87lF28mIuxAQf2_GpM_qhEk_P14Q7hrj8gMR9Ra1H8u2kupEhCay-_KS_6bY9YGMOQXXOEKGhQUmpWIRQrz6B4w2ukNSqCyDvJNgg', 'width': 2048}, {'height': 745, 'html_attributions': ['<a href="https://maps.google.com/maps/contrib/116820343792475479128">Endercavegaming</a>'], 'photo_reference': 'CmRaAAAAxQSJU2x9n3rYcPgpz_j2naRjax8IfcBGLUjhz49ZwkrmAl2KSFWHLtkrVtKPVpVF7QvcF3BSDfGtzWTiq977-HJcOuR2NbmXDJGrWnQLKVam7KxaJbe3beLpUawSjqpqEhBBRujlu87BPfx1en3zwIxpGhSF039KH03spglxr8qjiPV0vZ8wHQ', 'width': 640}, {'height': 578, 'html_attributions': ['<a href="https://maps.google.com/maps/contrib/116820343792475479128">Endercavegaming</a>'], 'photo_reference': 'CmRaAAAAZumHIwkb7wuFA69PEkMlg-NyzxWaztwhNrzX3UElrTBIPnyca8FZqNxl0rCNULUwRSr08CQ977lDkcTzTw7mE-P9mHVhIPRrVw5D-sCbxftxsox8oLQzPBpQdCagDvgEEhBm0yBteiqCOpn5Z-8qVRThGhQ6gcI43avpPiRqFxqnddpL2FpHPg', 'width': 640}, {'height': 3000, 'html_attributions': ['<a href="https://maps.google.com/maps/contrib/115838526007994501602">Anthony Botta</a>'], 'photo_reference': 'CmRaAAAAQx2i1Aq4_jA3LiJK8fpjcTOp5VuN_T2-cytuJ9H5UdI73n6I902DvucU3YsCiRozWnnmwiEgd4EmQv94B3H58emv05LfSgH3sKGfOm8WyBg18K6Z54QQ7ELL4qsapGPTEhDoqnadGNADtT-kZf3Oq3kkGhT0Iu9-5LYZzhZ2rBSkK0Er6pFUaA', 'width': 4000}, {'height': 4032, 'html_attributions': ['<a href="https://maps.google.com/maps/contrib/115353577630729468394">Mahdi Khan</a>'], 'photo_reference': 'CmRaAAAALWvgq7GvUtsFoOwY1UdxSgI4lJZRZaKDrPqgZDo93ewLkR028ALJysyxZXhicoi8tWl6yGNEPN3REYt7sgaV802lNuM3ENM7JaE_z5_37byWeD67HjKYCl_k5fY26Ix1EhA5ot7HOT0iRIKBtAbCilhXGhSwItDDEy3Xh2hZi87Bp2UheUuG0A', 'width': 3024}, {'height': 449, 'html_attributions': ['<a href="https://maps.google.com/maps/contrib/102230029088426259351">Jolene Williams</a>'], 'photo_reference': 'CmRaAAAAs6pwaLb9MJYbr6HFDCVPsMoB1s-Fo74P8NgVkxD453dg9YUJpFRwrUs7qKD7eq7myW_3gh40VtoHIw88ZD4_GR2VTpyIbCm7t2g3NCzrUmH70PSvtqPHDdCzytjqBxFyEhCE1NFY_9u8ecW4nOeVuEm0GhREz16uueLytk8xgRpdXtoxijrYGA', 'width': 600}, {'height': 1080, 'html_attributions': ['<a href="https://maps.google.com/maps/contrib/100115212358253443659">NYC</a>'], 'photo_reference': 'CmRaAAAAYcsOIT4RF33UIQaG8rUWVKoIc16_EHOvAfjOD38J-vNzfUwOU-opTo5ISGl6gZNhXVpG0nUQZauI1v-hz8vjcaWeGKEDfepyoWOQIiPu05qEVFumgp6YmkO88dYZO_E8EhAsrp2sffu5qOk5m3WFDL_2GhTvrbas-VdAxjuS9NB-fWYKL_Lbmg', 'width': 2280}], 'place_id': 'ChIJYcHoGyRawokR9rSZ9FTdFMk', 'plus_code': {'compound_code': 'PX6X+R6 New York, NY, United States', 'global_code': '87G7PX6X+R6'}, 'rating': 4.1, 'reference': 'ChIJYcHoGyRawokR9rSZ9FTdFMk', 'reviews': [{'author_name': 'Gloria Edwards', 'author_url': 'https://www.google.com/maps/contrib/100438313856440702285/reviews', 'language': 'en', 'profile_photo_url': 'https://lh4.ggpht.com/-hSYEsmURgns/AAAAAAAAAAI/AAAAAAAAAAA/bW6ncZdPvWk/s128-c0x00000000-cc-rp-mo/photo.jpg', 'rating': 5, 'relative_time_description': 'a month ago', 'text': "Thank you for all that you do to protect and serve your citizens.  You give with your whole heart and mind.  Police officers are truly a gift from God.  You are ministers of God, and we love you.  I have only been up North one time.  My friends and I went to New York City, and we felt safe.  We felt welcomed, too.  You officers are just the best.  Stay encouraged.  Keep your head up.\nYa'll better know that all of us love you.\nGloria in South Carolina", 'time': 1588102090}, {'author_name': 'Ayah Ibrahim', 'author_url': 'https://www.google.com/maps/contrib/114970966524198495832/reviews', 'language': 'en', 'profile_photo_url': 'https://lh6.ggpht.com/-NwFw3mEl8sw/AAAAAAAAAAI/AAAAAAAAAAA/73SfSR3yQnI/s128-c0x00000000-cc-rp-mo/photo.jpg', 'rating': 1, 'relative_time_description': '5 months ago', 'text': "Gave me a ticket for no stopping or standing, even though the sign permits it during Sunday's. Went to go see if any other car had it on their shield, turns out I was the only one. The whole block, on both sides, had no tickets. I wonder why, specifically my car with a Palestinian flag, was targeted. Isn't that weird. Hmmm🤔 Looks the cops are good for one thing, and one thing only: clicking their pens.", 'time': 1576432843}, {'author_name': 'NYC', 'author_url': 'https://www.google.com/maps/contrib/100115212358253443659/reviews', 'language': 'en', 'profile_photo_url': 'https://lh4.ggpht.com/-qQMfzepPIfk/AAAAAAAAAAI/AAAAAAAAAAA/g2jBrRA1YE0/s128-c0x00000000-cc-rp-mo-ba5/photo.jpg', 'rating': 5, 'relative_time_description': '9 months ago', 'text': 'THANK YOU FOR YOUR SERVICE.', 'time': 1568036092}, {'author_name': 'Fitzgerald Hamblin Jr', 'author_url': 'https://www.google.com/maps/contrib/103956515776472458237/reviews', 'language': 'en', 'profile_photo_url': 'https://lh4.ggpht.com/-O2Jml2ExfmA/AAAAAAAAAAI/AAAAAAAAAAA/c8jT9Ka6CH4/s128-c0x00000000-cc-rp-mo/photo.jpg', 'rating': 5, 'relative_time_description': 'a month ago', 'text': 'Very helpful within serving out general information about jointed community affairs', 'time': 1588301810}, {'author_name': 'honey D.L', 'author_url': 'https://www.google.com/maps/contrib/110794210311382944728/reviews', 'language': 'en', 'profile_photo_url': 'https://lh3.ggpht.com/-m_zyHJGZYKE/AAAAAAAAAAI/AAAAAAAAAAA/DcLCe9oGXu8/s128-c0x00000000-cc-rp-mo-ba3/photo.jpg', 'rating': 5, 'relative_time_description': '4 months ago', 'text': 'I went to get a clearance letter for my grand mother and I received the right information.\nThe lady at station 1 was very nice and polite and provided me all possible options in order for me to obtain what I need it.', 'time': 1579119192}], 'scope': 'GOOGLE', 'types': ['police', 'point_of_interest', 'establishment'], 'url': 'https://maps.google.com/?cid=14489449258108433654', 'user_ratings_total': 249, 'utc_offset': -240, 'vicinity': '1 Police Plaza Path, New York', 'website': 'http://www.nyc.gov/nypd'}, 'status': 'OK'}
+INFO 2020-06-08 13:40:50,504: Parse response: {'address_components': [{'long_name': '1', 'short_name': '1', 'types': ['street_number']}, {'long_name': 'Police Plaza Path', 'short_name': 'Police Plaza Path', 'types': ['route']}, {'long_name': 'Manhattan', 'short_name': 'Manhattan', 'types': ['sublocality_level_1', 'sublocality', 'political']}, {'long_name': 'New York', 'short_name': 'New York', 'types': ['locality', 'political']}, {'long_name': 'New York County', 'short_name': 'New York County', 'types': ['administrative_area_level_2', 'political']}, {'long_name': 'New York', 'short_name': 'NY', 'types': ['administrative_area_level_1', 'political']}, {'long_name': 'United States', 'short_name': 'US', 'types': ['country', 'political']}, {'long_name': '10038', 'short_name': '10038', 'types': ['postal_code']}, {'long_name': '1403', 'short_name': '1403', 'types': ['postal_code_suffix']}], 'adr_address': '<span class="street-address">1 Police Plaza Path</span>, <span class="locality">New York</span>, <span class="region">NY</span> <span class="postal-code">10038-1403</span>, <span class="country-name">USA</span>', 'business_status': 'OPERATIONAL', 'formatted_address': '1 Police Plaza Path, New York, NY 10038, USA', 'formatted_phone_number': '(646) 610-5000', 'geometry': {'location': {'lat': 40.71211479999999, 'lng': -74.00189170000002}, 'viewport': {'northeast': {'lat': 40.71323703029149, 'lng': -74.0005102197085}, 'southwest': {'lat': 40.71053906970849, 'lng': -74.00320818029151}}}, 'icon': 'https://maps.gstatic.com/mapfiles/place_api/icons/police-71.png', 'id': '7e074eb81a4aeb91cf175d2b469ead6d4fa3e065', 'international_phone_number': '+1 646-610-5000', 'name': 'New York City Police Department', 'photos': [{'height': 3024, 'html_attributions': ['<a href="https://maps.google.com/maps/contrib/117790497272734776118">Daniel Scharpf</a>'], 'photo_reference': 'CmRaAAAAlMAYmvxwTR40fiC3pKZOc2fTfAu9eS4ett4dZpcGPPT1YlhyyGDxf8h0rzXkg6Sj8VA9z4kM0lXJIOLPk9OMSUCpGpgOEE3OkxWVJezwkAieO5y7McodIPuSUN4YwInOEhBOepvfUIUJgysVdKj9R47xGhQp7jFZ9knv4b-eDD3pa2uUGgNp2A', 'width': 4032}, {'height': 1156, 'html_attributions': ['<a href="https://maps.google.com/maps/contrib/105462986695288450976">Ian R. Gordon</a>'], 'photo_reference': 'CmRaAAAAUm8WfsVJ1zq_UllMwJPp-nPgMtvR2M9P4NAsRVrqft-Bq4oEX5s74gpbM8rMqe3zM_1jfzd9E1w-OKM99HR7Iy1ideld5-N9Nzea0yJuD72ur__JOWHX35ZXedP-ubaoEhA1OnF3lsOICgRAmxQFCouZGhQtrRqo3xO3k-suNG-WUJLBRadtfA', 'width': 2048}, {'height': 3456, 'html_attributions': ['<a href="https://maps.google.com/maps/contrib/108360297527369641917">Shantonur Islam</a>'], 'photo_reference': 'CmRaAAAAiOibGCSyF7c1mDXTTLhDRUn1Vjkr420-OnlBHwfMNWlaSR9XmXzWnR7i5Qko4QQ88ZLOnjleZcJsBKnN6NEVCjpqFXAFoCSMIxHd3vTm7TMp2Q7gw9uVkATMDZ2EOSEbEhBHZNfpE2NqG3RJ5LATiMYyGhSi3ypzRTG-zDYYuqkEwbUP-57LqQ', 'width': 4608}, {'height': 1536, 'html_attributions': ['<a href="https://maps.google.com/maps/contrib/101184843987067427945">Ilia Mici</a>'], 'photo_reference': 'CmRaAAAAizW0T8Y94F7rEMPrd9P1OiHiRDzrGOw-XCU57F3WOwbzCQhkiQk8l3--ijTs1jMjXJPjtjQ06604SrxVX87lF28mIuxAQf2_GpM_qhEk_P14Q7hrj8gMR9Ra1H8u2kupEhCay-_KS_6bY9YGMOQXXOEKGhQUmpWIRQrz6B4w2ukNSqCyDvJNgg', 'width': 2048}, {'height': 745, 'html_attributions': ['<a href="https://maps.google.com/maps/contrib/116820343792475479128">Endercavegaming</a>'], 'photo_reference': 'CmRaAAAAxQSJU2x9n3rYcPgpz_j2naRjax8IfcBGLUjhz49ZwkrmAl2KSFWHLtkrVtKPVpVF7QvcF3BSDfGtzWTiq977-HJcOuR2NbmXDJGrWnQLKVam7KxaJbe3beLpUawSjqpqEhBBRujlu87BPfx1en3zwIxpGhSF039KH03spglxr8qjiPV0vZ8wHQ', 'width': 640}, {'height': 578, 'html_attributions': ['<a href="https://maps.google.com/maps/contrib/116820343792475479128">Endercavegaming</a>'], 'photo_reference': 'CmRaAAAAZumHIwkb7wuFA69PEkMlg-NyzxWaztwhNrzX3UElrTBIPnyca8FZqNxl0rCNULUwRSr08CQ977lDkcTzTw7mE-P9mHVhIPRrVw5D-sCbxftxsox8oLQzPBpQdCagDvgEEhBm0yBteiqCOpn5Z-8qVRThGhQ6gcI43avpPiRqFxqnddpL2FpHPg', 'width': 640}, {'height': 3000, 'html_attributions': ['<a href="https://maps.google.com/maps/contrib/115838526007994501602">Anthony Botta</a>'], 'photo_reference': 'CmRaAAAAQx2i1Aq4_jA3LiJK8fpjcTOp5VuN_T2-cytuJ9H5UdI73n6I902DvucU3YsCiRozWnnmwiEgd4EmQv94B3H58emv05LfSgH3sKGfOm8WyBg18K6Z54QQ7ELL4qsapGPTEhDoqnadGNADtT-kZf3Oq3kkGhT0Iu9-5LYZzhZ2rBSkK0Er6pFUaA', 'width': 4000}, {'height': 4032, 'html_attributions': ['<a href="https://maps.google.com/maps/contrib/115353577630729468394">Mahdi Khan</a>'], 'photo_reference': 'CmRaAAAALWvgq7GvUtsFoOwY1UdxSgI4lJZRZaKDrPqgZDo93ewLkR028ALJysyxZXhicoi8tWl6yGNEPN3REYt7sgaV802lNuM3ENM7JaE_z5_37byWeD67HjKYCl_k5fY26Ix1EhA5ot7HOT0iRIKBtAbCilhXGhSwItDDEy3Xh2hZi87Bp2UheUuG0A', 'width': 3024}, {'height': 449, 'html_attributions': ['<a href="https://maps.google.com/maps/contrib/102230029088426259351">Jolene Williams</a>'], 'photo_reference': 'CmRaAAAAs6pwaLb9MJYbr6HFDCVPsMoB1s-Fo74P8NgVkxD453dg9YUJpFRwrUs7qKD7eq7myW_3gh40VtoHIw88ZD4_GR2VTpyIbCm7t2g3NCzrUmH70PSvtqPHDdCzytjqBxFyEhCE1NFY_9u8ecW4nOeVuEm0GhREz16uueLytk8xgRpdXtoxijrYGA', 'width': 600}, {'height': 1080, 'html_attributions': ['<a href="https://maps.google.com/maps/contrib/100115212358253443659">NYC</a>'], 'photo_reference': 'CmRaAAAAYcsOIT4RF33UIQaG8rUWVKoIc16_EHOvAfjOD38J-vNzfUwOU-opTo5ISGl6gZNhXVpG0nUQZauI1v-hz8vjcaWeGKEDfepyoWOQIiPu05qEVFumgp6YmkO88dYZO_E8EhAsrp2sffu5qOk5m3WFDL_2GhTvrbas-VdAxjuS9NB-fWYKL_Lbmg', 'width': 2280}], 'place_id': 'ChIJYcHoGyRawokR9rSZ9FTdFMk', 'plus_code': {'compound_code': 'PX6X+R6 New York, NY, United States', 'global_code': '87G7PX6X+R6'}, 'rating': 4.1, 'reference': 'ChIJYcHoGyRawokR9rSZ9FTdFMk', 'reviews': [{'author_name': 'Gloria Edwards', 'author_url': 'https://www.google.com/maps/contrib/100438313856440702285/reviews', 'language': 'en', 'profile_photo_url': 'https://lh4.ggpht.com/-hSYEsmURgns/AAAAAAAAAAI/AAAAAAAAAAA/bW6ncZdPvWk/s128-c0x00000000-cc-rp-mo/photo.jpg', 'rating': 5, 'relative_time_description': 'a month ago', 'text': "Thank you for all that you do to protect and serve your citizens.  You give with your whole heart and mind.  Police officers are truly a gift from God.  You are ministers of God, and we love you.  I have only been up North one time.  My friends and I went to New York City, and we felt safe.  We felt welcomed, too.  You officers are just the best.  Stay encouraged.  Keep your head up.\nYa'll better know that all of us love you.\nGloria in South Carolina", 'time': 1588102090}, {'author_name': 'Ayah Ibrahim', 'author_url': 'https://www.google.com/maps/contrib/114970966524198495832/reviews', 'language': 'en', 'profile_photo_url': 'https://lh6.ggpht.com/-NwFw3mEl8sw/AAAAAAAAAAI/AAAAAAAAAAA/73SfSR3yQnI/s128-c0x00000000-cc-rp-mo/photo.jpg', 'rating': 1, 'relative_time_description': '5 months ago', 'text': "Gave me a ticket for no stopping or standing, even though the sign permits it during Sunday's. Went to go see if any other car had it on their shield, turns out I was the only one. The whole block, on both sides, had no tickets. I wonder why, specifically my car with a Palestinian flag, was targeted. Isn't that weird. Hmmm🤔 Looks the cops are good for one thing, and one thing only: clicking their pens.", 'time': 1576432843}, {'author_name': 'NYC', 'author_url': 'https://www.google.com/maps/contrib/100115212358253443659/reviews', 'language': 'en', 'profile_photo_url': 'https://lh4.ggpht.com/-qQMfzepPIfk/AAAAAAAAAAI/AAAAAAAAAAA/g2jBrRA1YE0/s128-c0x00000000-cc-rp-mo-ba5/photo.jpg', 'rating': 5, 'relative_time_description': '9 months ago', 'text': 'THANK YOU FOR YOUR SERVICE.', 'time': 1568036092}, {'author_name': 'Fitzgerald Hamblin Jr', 'author_url': 'https://www.google.com/maps/contrib/103956515776472458237/reviews', 'language': 'en', 'profile_photo_url': 'https://lh4.ggpht.com/-O2Jml2ExfmA/AAAAAAAAAAI/AAAAAAAAAAA/c8jT9Ka6CH4/s128-c0x00000000-cc-rp-mo/photo.jpg', 'rating': 5, 'relative_time_description': 'a month ago', 'text': 'Very helpful within serving out general information about jointed community affairs', 'time': 1588301810}, {'author_name': 'honey D.L', 'author_url': 'https://www.google.com/maps/contrib/110794210311382944728/reviews', 'language': 'en', 'profile_photo_url': 'https://lh3.ggpht.com/-m_zyHJGZYKE/AAAAAAAAAAI/AAAAAAAAAAA/DcLCe9oGXu8/s128-c0x00000000-cc-rp-mo-ba3/photo.jpg', 'rating': 5, 'relative_time_description': '4 months ago', 'text': 'I went to get a clearance letter for my grand mother and I received the right information.\nThe lady at station 1 was very nice and polite and provided me all possible options in order for me to obtain what I need it.', 'time': 1579119192}], 'scope': 'GOOGLE', 'types': ['police', 'point_of_interest', 'establishment'], 'url': 'https://maps.google.com/?cid=14489449258108433654', 'user_ratings_total': 249, 'utc_offset': -240, 'vicinity': '1 Police Plaza Path, New York', 'website': 'http://www.nyc.gov/nypd'}
+INFO 2020-06-08 13:40:50,524: Responder: New York City Police Department created and assigned to incident: reporter.IncidentReport.None. Calling responder on: +1 646-610-5000
+DEBUG 2020-06-08 13:40:50,552: Initialized Twilio rest client with Account_SID: AC4d00d14a8f0c3ae0bff3ec2353c6acfe and Auth_token: d30507cbd6fbdc2839f6b6798fb4de03
+INFO 2020-06-08 13:40:50,650: POST Request: https://api.twilio.com/2010-04-01/Accounts/AC4d00d14a8f0c3ae0bff3ec2353c6acfe/Calls.json
+INFO 2020-06-08 13:40:50,650: PAYLOAD: {'To': '+2348160016793', 'From': '+12092314443', 'Url': 'http://demo.twilio.com/docs/voice.xml'}
+DEBUG 2020-06-08 13:40:50,651: Starting new HTTPS connection (1): api.twilio.com:443
+DEBUG 2020-06-08 13:40:51,765: https://api.twilio.com:443 "POST /2010-04-01/Accounts/AC4d00d14a8f0c3ae0bff3ec2353c6acfe/Calls.json HTTP/1.1" 201 1416
+INFO 2020-06-08 13:40:51,766: POST Response: 201 {"date_updated": null, "price_unit": "USD", "parent_call_sid": null, "caller_name": null, "duration": null, "from": "+12092314443", "to": "+2348160016793", "annotation": null, "answered_by": null, "sid": "CA31689fb481f2c4943c56a541783d3de6", "queue_time": "0", "price": null, "api_version": "2010-04-01", "status": "queued", "direction": "outbound-api", "start_time": null, "date_created": null, "from_formatted": "(209) 231-4443", "group_sid": null, "trunk_sid": null, "forwarded_from": null, "uri": "/2010-04-01/Accounts/AC4d00d14a8f0c3ae0bff3ec2353c6acfe/Calls/CA31689fb481f2c4943c56a541783d3de6.json", "account_sid": "AC4d00d14a8f0c3ae0bff3ec2353c6acfe", "end_time": null, "to_formatted": "+2348160016793", "phone_number_sid": "PN60b4a9f8b1e153499b4e155c0a6eeeb6", "subresource_uris": {"notifications": "/2010-04-01/Accounts/AC4d00d14a8f0c3ae0bff3ec2353c6acfe/Calls/CA31689fb481f2c4943c56a541783d3de6/Notifications.json", "recordings": "/2010-04-01/Accounts/AC4d00d14a8f0c3ae0bff3ec2353c6acfe/Calls/CA31689fb481f2c4943c56a541783d3de6/Recordings.json", "feedback": "/2010-04-01/Accounts/AC4d00d14a8f0c3ae0bff3ec2353c6acfe/Calls/CA31689fb481f2c4943c56a541783d3de6/Feedback.json", "payments": "/2010-04-01/Accounts/AC4d00d14a8f0c3ae0bff3ec2353c6acfe/Calls/CA31689fb481f2c4943c56a541783d3de6/Payments.json", "feedback_summaries": "/2010-04-01/Accounts/AC4d00d14a8f0c3ae0bff3ec2353c6acfe/Calls/FeedbackSummary.json"}}
+DEBUG 2020-06-08 13:40:51,766: Call with sid: CA31689fb481f2c4943c56a541783d3de6 to responder with phone_number: +2348160016793 was made successfully
+INFO 2020-06-08 13:40:51,766: Call to responder: New York City Police Department was successful.
+DEBUG 2020-06-08 13:43:12,516: Using selector: KqueueSelector
+DEBUG 2020-06-08 13:43:12,785: Using selector: KqueueSelector

@@ -51,7 +51,7 @@ class CreateIncidentReportSerializer(serializers.Serializer):
     reported_at = serializers.DateTimeField()
     incident_type = IncidentTypeSerializer()
     responder = se.ResponderSerializer(required=False)
-    is_status_open = serializers.BooleanField(required=False)
+    status = serializers.CharField(max_length=100, required=False)
     location = IncidentLocationSerializer()
 
     def create(self, validated_data):
