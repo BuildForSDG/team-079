@@ -136,7 +136,7 @@ def update_incident(pk, responder):
     # update incident
     incident = get_object_or_404(IncidentReport, pk=pk)
     incident.responder = responder
-    incident.status = Config.STATUS_AWAIT
+    incident.status = Config.INCIDENT_STATUS.get("STATUS_AWAIT")
     incident.save()
 
 
@@ -203,7 +203,7 @@ def call_responder(request):
     from_number = Config.FROM_NUMBER
     to_number = Config.TO_NUMBER
     account_sid = Config.ACCOUNT_SID
-    auth_token = Config.AUTH_TOKEN
+    auth_token = Config.TWILIO_AUTH
     src_path = 'http://demo.twilio.com/docs/voice.xml'
 
     client = Client(account_sid, auth_token)
@@ -233,7 +233,7 @@ def background_call(phone_number):
     from_number = Config.FROM_NUMBER
     to_number = Config.TO_NUMBER
     account_sid = Config.ACCOUNT_SID
-    auth_token = Config.AUTH_TOKEN
+    auth_token = Config.TWILIO_AUTH
     src_path = 'http://demo.twilio.com/docs/voice.xml'
 
     client = Client(account_sid, auth_token)

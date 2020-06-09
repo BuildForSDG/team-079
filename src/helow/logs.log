@@ -2703,3 +2703,9 @@ DEBUG 2020-06-08 13:40:51,766: Call with sid: CA31689fb481f2c4943c56a541783d3de6
 INFO 2020-06-08 13:40:51,766: Call to responder: New York City Police Department was successful.
 DEBUG 2020-06-08 13:43:12,516: Using selector: KqueueSelector
 DEBUG 2020-06-08 13:43:12,785: Using selector: KqueueSelector
+INFO 2020-06-09 13:34:04,520: Watching for file changes with StatReloader
+INFO 2020-06-09 14:48:11,426: /Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/reporter/views.py changed, reloading.
+DEBUG 2020-06-09 14:48:11,429: Using selector: KqueueSelector
+INFO 2020-06-09 14:50:36,806: Watching for file changes with StatReloader
+DEBUG 2020-06-09 14:52:13,831: Using selector: KqueueSelector
+DEBUG 2020-06-09 14:52:14,007: Using selector: KqueueSelector

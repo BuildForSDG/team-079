@@ -35,10 +35,8 @@ class IncidentListView(generics.ListAPIView):
         reported_date = self.request.query_params.get('reported_at')
         incident_type = self.request.query_params.get('incident_type')
         status = self.request.query_params.get('status')
-        if status == 'true':
-            queryset = queryset.filter(is_status_open=True)
-        elif status == 'false':
-            queryset = queryset.filter(is_status_open=False)
+        if status:
+            queryset = queryset.filter(status=config.INCIDENT_STATUS.get(status))
         elif location:
             queryset = queryset.filter(location__name=location)
         elif reported_date:

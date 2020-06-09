@@ -12,9 +12,11 @@ class Config:
     REPORTER_LOCATION = 'reporter'
 
     # different statuses for reported incidents
-    STATUS_PENDING = "PENDING"
-    STATUS_AWAIT = "AWAITING RESPONDER"
-    STATUS_RESOLVED = "RESOLVED"
+    INCIDENT_STATUS = {
+        "STATUS_PENDING": "PENDING",
+        "STATUS_AWAIT": "AWAITING RESPONDER",
+        "STATUS_RESOLVED": "RESOLVED"
+    }
 
     # incident report config params
     ANONYMOUS_USER_ID = 2
@@ -22,7 +24,7 @@ class Config:
 
     # twilio setup
     ACCOUNT_SID = 'AC4d00d14a8f0c3ae0bff3ec2353c6acfe'
-    AUTH_TOKEN = 'bd9e47b5d13ba276a0248c08be82c5ce'
+    TWILIO_AUTH = 'bd9e47b5d13ba276a0248c08be82c5ce'
     FROM_NUMBER = '+12092314443'
     TO_NUMBER = '+2348160016793'
 
