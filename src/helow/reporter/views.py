@@ -16,7 +16,7 @@ class CreateIncidentReportView(generics.ListCreateAPIView):
     # return incidents in descending order
     def get_queryset(self):
         queryset = IncidentReport.objects.all()
-        queryset = queryset.filter(status=config.STATUS_PENDING)
+        queryset = queryset.filter(status=config.INCIDENT_STATUS.get("STATUS_PENDING"))
         return queryset.order_by('-id')
 
 
