@@ -3,6 +3,7 @@ from django.db import models
 from django.contrib.auth import get_user_model
 from django.db.models.signals import post_save
 from django.dispatch import receiver
+from config import Config as config
 
 
 # Create your models here.
@@ -36,6 +37,7 @@ class Place(models.Model):
     vicinity = models.CharField(max_length=200, null=True)
     url = models.CharField(max_length=200, null=True)
     website = models.CharField(max_length=100, null=True)
+    owner = models.CharField(max_length=20, null=True)
 
     def __str__(self):
         """Returns the string representation of the `Place` object."""
@@ -50,10 +52,10 @@ class IncidentReport(models.Model):
     description = models.CharField(max_length=200, null=False)
     location = models.ForeignKey(Place, on_delete=models.CASCADE, related_name='incidents')
     reported_at = models.DateTimeField()
-    reported_by = models.ForeignKey(get_user_model(), on_delete=models.CASCADE, default=2)
-    incident_type = models.ForeignKey(IncidentType, on_delete=models.CASCADE, default=1)
-    responder = models.ForeignKey('responder.Responder', on_delete=models.CASCADE, null=True)
-    is_status_open = models.BooleanField(default=True)
+    reported_by = models.ForeignKey(get_user_model(), on_delete=models.CASCADE, default=config.ANONYMOUS_USER_ID)
+    incident_type = models.ForeignKey(IncidentType, on_delete=models.CASCADE, default=config.UNCATEGORIZED_REPORT_ID)
+    responder = models.ForeignKey('responder.Responder', on_delete=models.CASCADE, null=True, related_name='incidents')
+    status = models.CharField(max_length=50, default=config.INCIDENT_STATUS.get("STATUS_PENDING"))
 
     def __str__(self):
         """Returns the string representation of the `IncidentReport` object."""
@@ -67,4 +69,7 @@ def increment_incident_type_frequency(sender, instance=None, created=False, **kw
         incident_type = instance.incident_type
         incident_type.frequency = incident_type.frequency + 1
         incident_type.save()
+
+
+
 

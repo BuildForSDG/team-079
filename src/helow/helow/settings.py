@@ -45,10 +45,12 @@ SECRET_KEY = find_or_create_secret_key()
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*', ]
+ALLOWED_HOSTS = ['*',]
+
+# posting to an endpoint without trailing slash
+APPEND_SLASH = False
 
 # Application definition
-
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -69,6 +71,9 @@ INSTALLED_APPS = [
     'allauth.account',
     'django.contrib.sites',
     'rest_auth.registration',
+
+    # manage background tasks
+    'background_task',
 
     'allauth.socialaccount',
     'allauth.socialaccount.providers.facebook',
@@ -165,7 +170,7 @@ USE_TZ = True
 
 
 # All settings common to all environments
-STATIC_URL = '/static/'
+STATIC_URL = '/src/helow/helow/static/'
 PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
 STATIC_ROOT = os.path.join(PROJECT_ROOT, 'static')
 
@@ -184,10 +189,7 @@ REST_FRAMEWORK = {
 }
 
 # Django CORS Headers
-CORS_ORIGIN_WHITELIST = (
-    'http://localhost:3000',
-    'http://localhost:8000',
-)
+CORS_ORIGIN_ALLOW_ALL = True
 
 # django-allauth configs
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
