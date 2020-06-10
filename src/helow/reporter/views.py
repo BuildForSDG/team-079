@@ -1,5 +1,6 @@
 """View classes for reporter app."""
 from django.http import JsonResponse
+from django.views.decorators.csrf import csrf_exempt
 from rest_framework import generics, viewsets
 from reporter.models import IncidentReport, IncidentType
 from reporter import serializers
@@ -55,7 +56,7 @@ class UserViewset(viewsets.ModelViewSet):
     queryset = get_user_model().objects.all()
     serializer_class = serializers.UserSerializer
 
-
+@csrf_exempt
 def report_incident(request):
     """Function to create new incident."""
     import json

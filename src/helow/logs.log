@@ -2780,3 +2780,12 @@ INFO 2020-06-09 15:32:43,604: Returning place type:  for incident of type: Colli
 INFO 2020-06-09 15:32:43,604: Call https://maps.googleapis.com/maps/api/place/nearbysearch/json with parameters: {'location': '43.9,-45.2', 'radius': 500, 'types': '', 'key': 'AIzaSyBr427Ow25KCsgHcHQe_J1V1L39nTouIfk'}
 DEBUG 2020-06-09 15:32:43,607: Starting new HTTPS connection (1): maps.googleapis.com:443
 DEBUG 2020-06-09 15:32:44,033: https://maps.googleapis.com:443 "GET /maps/api/place/nearbysearch/json?location=43.9%2C-45.2&radius=500&types=&key=AIzaSyBr427Ow25KCsgHcHQe_J1V1L39nTouIfk HTTP/1.1" 200 83
+INFO 2020-06-10 10:08:18,440: Watching for file changes with StatReloader
+WARNING 2020-06-10 10:13:27,226: Not Found: /api/v1/incident/report/create
+WARNING 2020-06-10 10:15:32,520: Forbidden (CSRF cookie not set.): /api/v1/incident/report/create/
+INFO 2020-06-10 10:30:34,395: /Users/franklynogbonna/Documents/SDG/Team-079-Product/src/helow/reporter/views.py changed, reloading.
+DEBUG 2020-06-10 10:30:34,405: Using selector: KqueueSelector
+INFO 2020-06-10 10:30:35,721: Watching for file changes with StatReloader
+ERROR 2020-06-10 10:32:31,069: Error occurred while processing request <WSGIRequest: POST '/api/v1/incident/report/create/'>.
+DEBUG 2020-06-10 10:33:49,234: Using selector: KqueueSelector
+DEBUG 2020-06-10 10:33:49,421: Using selector: KqueueSelector
