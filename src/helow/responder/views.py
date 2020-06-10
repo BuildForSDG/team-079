@@ -86,6 +86,9 @@ def find_responders(request):
             if 'results' in rsp and len(rsp.get('results')) > 0:
                 # get the first MAX_PLACES results
                 rsp = rsp['results'][:Config.MAX_PLACES]
+                for rp in rsp:
+                    rp["incident_id"] = incident_id
+                    logger.debug(f"Append {incident_id} to location: {rp}")
                 logger.debug(f'Get the first {Config.MAX_PLACES} results')
         except Exception as ex:
             logger.error(f"Exception caught: {ex.__class__.__name__} exception: {ex}")
