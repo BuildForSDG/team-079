@@ -123,11 +123,11 @@ def assign_responder(request, pk):
 
         response = {
             "message": "HELp is On the Way",
-            "formatted_address": place_data["formatted_address"],
-            "formatted_phone_number": place_data["formatted_phone_number"],
-            "international_phone_number": place_data["international_phone_number"],
-            "url": place_data["url"],
-            "website": place_data["website"]
+            "formatted_address": place_data.get("formatted_address"),
+            "formatted_phone_number": place_data.get("formatted_phone_number"),
+            "international_phone_number": place_data.get("international_phone_number"),
+            "url": place_data.get("url"),
+            "website": place_data.get("website")
         }
     else:
         response = {"message": f"No place found for the id: {place_id}"}
@@ -168,21 +168,26 @@ def get_location_data(place_id):
             response = response['result']
             logger.info(f'Parse response: {response}')
 
-            location['map_name'] = response['name']
-            location['location_lat'] = response['geometry']['location']['lat']
-            location['location_lng'] = response['geometry']['location']['lng']
-            location['viewport_ne_lat'] = response['geometry']['viewport']['northeast']['lat']
-            location['viewport_ne_lng'] = response['geometry']['viewport']['northeast']['lng']
-            location['viewport_sw_lat'] = response['geometry']['viewport']['southwest']['lat']
-            location['viewport_sw_lng'] = response['geometry']['viewport']['southwest']['lng']
-            location['formatted_address'] = response['formatted_address']
-            location['formatted_phone_number'] = response['formatted_phone_number']
-            location['international_phone_number'] = response['international_phone_number']
-            location['place_id'] = response['place_id']
-            location['rating'] = response['rating']
-            location['vicinity'] = response['vicinity']
-            location['url'] = response['url']
-            location['website'] = response['website']
+            location['map_name'] = response.get("name")
+
+            geometry = response.get("geometry")
+            location['location_lat'] = geometry.get("location").get("lat")
+            location['location_lng'] = geometry.get("location").get("lng")
+
+            geometry_viewport = geometry.get("viewport")
+            location['viewport_ne_lat'] = geometry_viewport.get("northeast").get("lat")
+            location['viewport_ne_lng'] = geometry_viewport.get("northeast").get("lng")
+            location['viewport_sw_lat'] = geometry_viewport.get("southwest").get("lat")
+            location['viewport_sw_lng'] = geometry_viewport.get("southwest").get("lng")
+
+            location['formatted_address'] = response.get("formatted_address")
+            location['formatted_phone_number'] = response.get("formatted_phone_number")
+            location['international_phone_number'] = response.get("international_phone_number")
+            location['place_id'] = response.get("place_id")
+            location['rating'] = response.get("rating")
+            location['vicinity'] = response.get("vicinity")
+            location['url'] = response.get("url")
+            location['website'] = response.get("website")
             location['owner'] = Config.RESPONDER_LOCATION
         else:
             logger.debug(f'No data found for place with id: {place_id}')
